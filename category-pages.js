@@ -1,0 +1,9 @@
+'use strict';
+(() => {
+  const panels=[...document.querySelectorAll('main > [data-page]')],pages=new Set(panels.map(e=>e.dataset.page));
+  function resolve(hash){let id;try{id=decodeURIComponent(hash.replace(/^#/,''))}catch{return null}if(!id)return {page:'overview',target:document.getElementById('overview')};const el=document.getElementById(id),panel=el?.closest('[data-page]');return panel?{page:panel.dataset.page,target:el}:pages.has(id)?{page:id,target:panels.find(e=>e.dataset.page===id)}:null;}
+  function show(hash,scroll=true){const dest=resolve(hash)||resolve('#overview');panels.forEach(p=>p.hidden=p.dataset.page!==dest.page);document.querySelectorAll('[data-category-link]').forEach(a=>{const active=a.dataset.categoryLink===dest.page;a.classList.toggle('is-active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});document.title='濟州島・'+({overview:'兩人旅記',flights:'機票',car:'自駕',stays:'住宿',documents:'行前待辦',packing:'出遊清單',connectivity:'網路與App',places:'候選景點','udo-plan':'牛島','estimated-costs':'預估花費',timeline:'時間軸'}[dest.page]||'兩人旅記');document.dispatchEvent(new CustomEvent('jeju-category-change',{detail:{page:dest.page}}));if(scroll){const category=pages.has(hash.replace(/^#/,''));if(category)window.scrollTo({top:0,behavior:'instant'});else dest.target?.scrollIntoView({block:'start',behavior:'instant'});}}
+  document.addEventListener('click',e=>{const a=e.target.closest('a[href^="#"]');if(!a||e.defaultPrevented||e.ctrlKey||e.metaKey||e.shiftKey||e.altKey||e.button!==0)return;const hash=a.getAttribute('href');if(hash==='#'||!resolve(hash))return;e.preventDefault();if(location.hash!==hash)history.pushState(null,'',hash);show(hash);});
+  window.addEventListener('hashchange',()=>show(location.hash));window.addEventListener('popstate',()=>show(location.hash));
+  show(location.hash,false);
+})();

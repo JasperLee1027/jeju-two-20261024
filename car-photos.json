@@ -1,0 +1,80 @@
+[
+  {
+    "id": "morning",
+    "src": "assets/cars/morning.png",
+    "alt": "Kia Morning 綠灰色車廠透明底側面外觀示意，官網現售車款，實際租車年式待確認",
+    "caption": "Kia Morning 綠灰色車廠透明底側面外觀示意，官網現售車款，實際租車年式待確認",
+    "sourcePage": "https://www.kia.com/kr/vehicles/morning/gallery",
+    "sourceName": "Kia官網",
+    "originalImage": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/represent/krja305/morning_s_a2g.png",
+    "dimensions": [
+      1000,
+      442
+    ]
+  },
+  {
+    "id": "ray",
+    "src": "assets/cars/ray.png",
+    "alt": "Kia Ray 白色箱型小車，車廠透明底側面外觀示意，實際租車年式待確認",
+    "caption": "Kia Ray 白色箱型小車，車廠透明底側面外觀示意，實際租車年式待確認",
+    "sourcePage": "https://www.kia.com/kr/vehicles/ray/gallery",
+    "sourceName": "Kia官網",
+    "originalImage": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/represent/krtm311/ray_s_ud.png",
+    "dimensions": [
+      1000,
+      442
+    ]
+  },
+  {
+    "id": "casper",
+    "src": "assets/cars/casper.jpg",
+    "alt": "Hyundai Casper 汽油版，濟州닷컴標示 Casper 2025，外觀示意；實際租車年式待確認",
+    "caption": "Hyundai Casper 汽油版，濟州닷컴標示 Casper 2025，外觀示意；實際租車年式待確認",
+    "sourcePage": "https://www.jeju.com/rentcar/compact",
+    "sourceName": "Jeju.com租車平台",
+    "originalImage": "https://jtns1.jeju.com/images/upload/contents/rc/1698_rc_con.jpg",
+    "dimensions": [
+      574,
+      428
+    ]
+  },
+  {
+    "id": "k3",
+    "src": "assets/cars/k3.webp",
+    "alt": "Kia 韓國 All-new K3 第二代 2018 年起車款外觀示意；非海外新 K3/Rio，實際租車年式待確認",
+    "caption": "Kia 韓國 All-new K3 第二代 2018 年起車款外觀示意；非海外新 K3/Rio，實際租車年式待確認",
+    "sourcePage": "https://worldwide.kia.com/ko/brand/our-brand/heritage/vehicles/all-new-k3/",
+    "sourceName": "Kia官網",
+    "originalImage": "https://worldwide.kia.com/ko/brand/our-brand/heritage/desktop/images/vehicle/all-new-k3/360/kia-brandweb-movement-all-new-k3-360-1920x1080-08.webp",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "id": "avante",
+    "src": "assets/cars/avante.png",
+    "alt": "Hyundai Avante CN7 小改款官方前側外觀示意（新加坡 Hybrid 車型），用於比較外觀，非承諾油電配車；實際韓國汽油車年式與配色待確認",
+    "caption": "Hyundai Avante CN7 小改款官方前側外觀示意（新加坡 Hybrid 車型），用於比較外觀，非承諾油電配車；實際韓國汽油車年式與配色待確認",
+    "sourcePage": "https://hyundai.com.sg/vehicles/avante/gallery/",
+    "sourceName": "Hyundai官網",
+    "originalImage": "https://hyundai.com.sg/_nuxt/image/678794.png",
+    "dimensions": [
+      678,
+      314
+    ]
+  },
+  {
+    "id": "mini-convertible",
+    "src": "assets/cars/mini-convertible.png",
+    "alt": "MINI Cooper Convertible，濟州닷컴標示 2026 年式敞篷示意，黃綠色、頂篷已收起，畫面為 S 款；實際 C/S、年式與配色依租車公司",
+    "caption": "MINI Cooper Convertible，濟州닷컴標示 2026 年式敞篷示意，黃綠色、頂篷已收起，畫面為 S 款；實際 C/S、年式與配色依租車公司",
+    "sourcePage": "https://www.jeju.com/rentcar/import",
+    "sourceName": "Jeju.com租車平台",
+    "originalImage": "https://jtns1.jeju.com/images/upload/contents/rc/1838_rc_con.png",
+    "dimensions": [
+      574,
+      428
+    ]
+  }
+]
