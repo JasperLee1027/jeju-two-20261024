@@ -10,6 +10,8 @@
 
 公開 GitHub 儲存庫啟用 **Settings → Pages → Deploy from a branch → main / (root)** 後，推送到 `main` 便會自動重新發布。網站的預期網址為 `https://jasperlee1027.github.io/jeju-two-20261024/`；上線前請以 GitHub Pages 設定畫面顯示的網址為準。現有的 `chatgpt.site` 版本是舊站，兩者不會自動同步。
 
+部署驗證：Codex Cloud 可推送 main，GitHub Pages 會在推送後自動重新建置。
+
 ## 編輯注意
 
 - 網站以 hash 分頁，例如 `#car`、`#places`。資源使用相對路徑，部署在 GitHub Pages 專案子路徑仍可讀取。
