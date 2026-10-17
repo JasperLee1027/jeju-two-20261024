@@ -1342,6 +1342,1859 @@
       ],
       "plusCode": "8Q587C77+24X",
       "address": "46 Saekdal-ro 61beon-gil, Seogwipo-si"
+    },
+    {
+      "id": 53,
+      "name": "姊妹麵條・本店",
+      "original": "자매국수",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。本次只核對到 1 間相符門市；官方頁現址為 항골남길 46，舊麵街／老衡店不重複標記。官方頁舊座標與現址不符，採 Kakao 現址店點。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.4985772,
+        126.45914434
+      ],
+      "address": "제주특별자치도 제주시 항골남길 46",
+      "verificationUrl": "https://map.kakao.com/link/map/21455793",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%9E%90%EB%A7%A4%EA%B5%AD%EC%88%98%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%ED%95%AD%EA%B3%A8%EB%82%A8%EA%B8%B8%2046",
+      "branchGroup": "jamae",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_200000000012575",
+          "label": "VisitJeju 店家資料 ↗"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "海女包飯・本店",
+      "original": "해녀김밥 본점",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。本次只核對到咸德本店；排除 해녀할망국수 等不同店家。現址 함덕로 40 與 VisitJeju 相符，座標採 Kakao 店點，避免官方頁舊點。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.54239583,
+        126.6711332
+      ],
+      "address": "제주특별자치도 제주시 조천읍 함덕로 40",
+      "verificationUrl": "https://map.kakao.com/link/map/1412534993",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%95%B4%EB%85%80%EA%B9%80%EB%B0%A5%20%EB%B3%B8%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%A1%B0%EC%B2%9C%EC%9D%8D%20%ED%95%A8%EB%8D%95%EB%A1%9C%2040",
+      "branchGroup": "haenyeo",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_200000000012606",
+          "label": "VisitJeju 店家資料 ↗"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "城山春粥・刀切麵・城山店",
+      "original": "성산봄죽칼국수 성산점",
+      "category": "food",
+      "area": "east",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Kakao 現有店點為城山店、童話村店。VisitKorea 舊頁的新山里／環海長城路地址互相矛盾，未另當成第 3 間現行分店。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.47168274,
+        126.91710847
+      ],
+      "address": "제주특별자치도 서귀포시 성산읍 해맞이해안로 2725",
+      "verificationUrl": "https://map.kakao.com/link/map/338007220",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%84%B1%EC%82%B0%EB%B4%84%EC%A3%BD%EC%B9%BC%EA%B5%AD%EC%88%98%20%EC%84%B1%EC%82%B0%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%84%B1%EC%82%B0%EC%9D%8D%20%ED%95%B4%EB%A7%9E%EC%9D%B4%ED%95%B4%EC%95%88%EB%A1%9C%202725",
+      "branchGroup": "seongsan",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": []
+    },
+    {
+      "id": 56,
+      "name": "城山春粥・刀切麵・童話村店",
+      "original": "성산봄죽칼국수 동화마을",
+      "category": "food",
+      "area": "east",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Kakao 現有店點為城山店、童話村店。VisitKorea 舊頁的新山里／環海長城路地址互相矛盾，未另當成第 3 間現行分店。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.43701482,
+        126.73297965
+      ],
+      "address": "제주특별자치도 제주시 구좌읍 번영로 1980",
+      "verificationUrl": "https://map.kakao.com/link/map/796382378",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%84%B1%EC%82%B0%EB%B4%84%EC%A3%BD%EC%B9%BC%EA%B5%AD%EC%88%98%20%EB%8F%99%ED%99%94%EB%A7%88%EC%9D%84%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EA%B5%AC%EC%A2%8C%EC%9D%8D%20%EB%B2%88%EC%98%81%EB%A1%9C%201980",
+      "branchGroup": "seongsan",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": []
+    },
+    {
+      "id": 57,
+      "name": "夢炭 Mongtan・濟州舊左店",
+      "original": "몽탄 제주구좌점",
+      "category": "food",
+      "area": "east",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。列舊左、涯月 2 店，排除獨立停車場。依中文「夢炭」推定為 Mongtan；原推薦的 꿈탄 拼字與品牌正字不同，推薦辨識仍保留此註記。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.55339241,
+        126.71509366
+      ],
+      "address": "제주특별자치도 제주시 구좌읍 동복로 83",
+      "verificationUrl": "https://map.kakao.com/link/map/824420819",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%AA%BD%ED%83%84%20%EC%A0%9C%EC%A3%BC%EA%B5%AC%EC%A2%8C%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EA%B5%AC%EC%A2%8C%EC%9D%8D%20%EB%8F%99%EB%B3%B5%EB%A1%9C%2083",
+      "branchGroup": "mongtan",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.catchtable.net/discovery/koreas-10-famous-grilled-beef-restaurants-in-jeju.html",
+          "label": "CATCHTABLE 濟州店介紹 ↗"
+        }
+      ],
+      "identityStatus": "inferred-not-independently-verified"
+    },
+    {
+      "id": 58,
+      "name": "夢炭 Mongtan・濟州涯月店",
+      "original": "몽탄 제주애월점",
+      "category": "food",
+      "area": "west",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。列舊左、涯月 2 店，排除獨立停車場。依中文「夢炭」推定為 Mongtan；原推薦的 꿈탄 拼字與品牌正字不同，推薦辨識仍保留此註記。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.46334259,
+        126.30947377
+      ],
+      "address": "제주특별자치도 제주시 애월읍 애월북서길 56-4",
+      "verificationUrl": "https://map.kakao.com/link/map/1509960966",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%AA%BD%ED%83%84%20%EC%A0%9C%EC%A3%BC%EC%95%A0%EC%9B%94%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%95%A0%EC%9B%94%EC%9D%8D%20%EC%95%A0%EC%9B%94%EB%B6%81%EC%84%9C%EA%B8%B8%2056-4",
+      "branchGroup": "mongtan",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [],
+      "identityStatus": "inferred-not-independently-verified"
+    },
+    {
+      "id": 59,
+      "name": "Object 選物店・濟州店",
+      "original": "오브젝트 제주점",
+      "category": "shopping",
+      "area": "east",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。品牌官網 STORE 與供貨商均列東福里濟州店，Kakao 地址為 동복로 87；不再把舊先屹地址當第 2 間分店。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.55342355,
+        126.71569658
+      ],
+      "address": "제주특별자치도 제주시 구좌읍 동복로 87",
+      "verificationUrl": "https://map.kakao.com/link/map/306324529",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8%20%EC%A0%9C%EC%A3%BC%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EA%B5%AC%EC%A2%8C%EC%9D%8D%20%EB%8F%99%EB%B3%B5%EB%A1%9C%2087",
+      "branchGroup": "object",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://insideobject.com/store.html",
+          "label": "Object 官網 STORE ↗"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "大創 Daiso・濟州東門市場店",
+      "original": "다이소 제주동문시장점",
+      "category": "shopping",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Kakao 地圖 3 頁共 38 筆結果，排除停車場、充電站與不同品牌後為 28 間門市；逐一核對大創官網店名及地址。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "門市店名、地址與座標由大創官網取得，Kakao 店點交叉核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.5128644912115,
+        126.526511001839
+      ],
+      "address": "제주특별자치도 제주시 관덕로 68 (일도일동)1~4층",
+      "verificationUrl": "https://map.kakao.com/link/map/21853025",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EC%A0%9C%EC%A3%BC%EB%8F%99%EB%AC%B8%EC%8B%9C%EC%9E%A5%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EA%B4%80%EB%8D%95%EB%A1%9C%2068%20%28%EC%9D%BC%EB%8F%84%EC%9D%BC%EB%8F%99%291~4%EC%B8%B5",
+      "branchGroup": "daiso",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.daiso.co.kr/cs/shop?name_address=%EC%A0%9C%EC%A3%BC%EB%8F%99%EB%AC%B8%EC%8B%9C%EC%9E%A5%EC%A0%90",
+          "label": "大創官網門市資料 ↗"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "大創 Daiso・濟州蓮洞店",
+      "original": "다이소 제주연동점",
+      "category": "shopping",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Kakao 地圖 3 頁共 38 筆結果，排除停車場、充電站與不同品牌後為 28 間門市；逐一核對大創官網店名及地址。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "門市店名、地址與座標由大創官網取得，Kakao 店點交叉核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.4879334270823,
+        126.496865932105
+      ],
+      "address": "제주특별자치도 제주시 신대로 105 (연동)B1~3층",
+      "verificationUrl": "https://map.kakao.com/link/map/1049875490",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EC%A0%9C%EC%A3%BC%EC%97%B0%EB%8F%99%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%8B%A0%EB%8C%80%EB%A1%9C%20105%20%28%EC%97%B0%EB%8F%99%29B1~3%EC%B8%B5",
+      "branchGroup": "daiso",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.daiso.co.kr/cs/shop?name_address=%EC%A0%9C%EC%A3%BC%EC%97%B0%EB%8F%99%EC%A0%90",
+          "label": "大創官網門市資料 ↗"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "大創 Daiso・濟州市廳店",
+      "original": "다이소 제주시청점",
+      "category": "shopping",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Kakao 地圖 3 頁共 38 筆結果，排除停車場、充電站與不同品牌後為 28 間門市；逐一核對大創官網店名及地址。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "門市店名、地址與座標由大創官網取得，Kakao 店點交叉核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.5006307636064,
+        126.529460110128
+      ],
+      "address": "제주특별자치도 제주시 중앙로 213 (이도이동)1~7층",
+      "verificationUrl": "https://map.kakao.com/link/map/715420730",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%EC%B2%AD%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%A4%91%EC%95%99%EB%A1%9C%20213%20%28%EC%9D%B4%EB%8F%84%EC%9D%B4%EB%8F%99%291~7%EC%B8%B5",
+      "branchGroup": "daiso",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.daiso.co.kr/cs/shop?name_address=%EC%A0%9C%EC%A3%BC%EC%8B%9C%EC%B2%AD%EC%A0%90",
+          "label": "大創官網門市資料 ↗"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "大創 Daiso・西歸浦店",
+      "original": "다이소 서귀포점",
+      "category": "shopping",
+      "area": "south",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Kakao 地圖 3 頁共 38 筆結果，排除停車場、充電站與不同品牌後為 28 間門市；逐一核對大創官網店名及地址。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "門市店名、地址與座標由大創官網取得，Kakao 店點交叉核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.2532597648282,
+        126.569431284401
+      ],
+      "address": "제주특별자치도 서귀포시 동홍서로 49 (동홍동)1~2층",
+      "verificationUrl": "https://map.kakao.com/link/map/11793118",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EB%8F%99%ED%99%8D%EC%84%9C%EB%A1%9C%2049%20%28%EB%8F%99%ED%99%8D%EB%8F%99%291~2%EC%B8%B5",
+      "branchGroup": "daiso",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.daiso.co.kr/cs/shop?name_address=%EC%84%9C%EA%B7%80%ED%8F%AC%EC%A0%90",
+          "label": "大創官網門市資料 ↗"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "大創 Daiso・濟州蓮洞本店",
+      "original": "다이소 제주연동본점",
+      "category": "shopping",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Kakao 地圖 3 頁共 38 筆結果，排除停車場、充電站與不同品牌後為 28 間門市；逐一核對大創官網店名及地址。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "門市店名、地址與座標由大創官網取得，Kakao 店點交叉核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.4935070425069,
+        126.486790323496
+      ],
+      "address": "제주특별자치도 제주시 일주서로 7864 (연동)1~2층",
+      "verificationUrl": "https://map.kakao.com/link/map/600573863",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EC%A0%9C%EC%A3%BC%EC%97%B0%EB%8F%99%EB%B3%B8%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%9D%BC%EC%A3%BC%EC%84%9C%EB%A1%9C%207864%20%28%EC%97%B0%EB%8F%99%291~2%EC%B8%B5",
+      "branchGroup": "daiso",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.daiso.co.kr/cs/shop?name_address=%EC%A0%9C%EC%A3%BC%EC%97%B0%EB%8F%99%EB%B3%B8%EC%A0%90",
+          "label": "大創官網門市資料 ↗"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "大創 Daiso・濟州三陽店",
+      "original": "다이소 제주삼양점",
+      "category": "shopping",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Kakao 地圖 3 頁共 38 筆結果，排除停車場、充電站與不同品牌後為 28 間門市；逐一核對大創官網店名及地址。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "門市店名、地址與座標由大創官網取得，Kakao 店點交叉核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.5213496981897,
+        126.589985529169
+      ],
+      "address": "제주특별자치도 제주시 일주동로 422 (삼양이동)B1~3층",
+      "verificationUrl": "https://map.kakao.com/link/map/1942753820",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EC%A0%9C%EC%A3%BC%EC%82%BC%EC%96%91%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%9D%BC%EC%A3%BC%EB%8F%99%EB%A1%9C%20422%20%28%EC%82%BC%EC%96%91%EC%9D%B4%EB%8F%99%29B1~3%EC%B8%B5",
+      "branchGroup": "daiso",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.daiso.co.kr/cs/shop?name_address=%EC%A0%9C%EC%A3%BC%EC%82%BC%EC%96%91%EC%A0%90",
+          "label": "大創官網門市資料 ↗"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "大創 Daiso・濟州老衡店",
+      "original": "다이소 제주노형점",
+      "category": "shopping",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Kakao 地圖 3 頁共 38 筆結果，排除停車場、充電站與不同品牌後為 28 間門市；逐一核對大創官網店名及地址。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "門市店名、地址與座標由大創官網取得，Kakao 店點交叉核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.4834509185512,
+        126.4802473266
+      ],
+      "address": "제주특별자치도 제주시 1100로 3325 (노형동)1~4층",
+      "verificationUrl": "https://map.kakao.com/link/map/2026482526",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EC%A0%9C%EC%A3%BC%EB%85%B8%ED%98%95%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%201100%EB%A1%9C%203325%20%28%EB%85%B8%ED%98%95%EB%8F%99%291~4%EC%B8%B5",
+      "branchGroup": "daiso",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.daiso.co.kr/cs/shop?name_address=%EC%A0%9C%EC%A3%BC%EB%85%B8%ED%98%95%EC%A0%90",
+          "label": "大創官網門市資料 ↗"
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "大創 Daiso・濟州道南店",
+      "original": "다이소 제주도남점",
+      "category": "shopping",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Kakao 地圖 3 頁共 38 筆結果，排除停車場、充電站與不同品牌後為 28 間門市；逐一核對大創官網店名及地址。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "門市店名、地址與座標由大創官網取得，Kakao 店點交叉核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.479814478159,
+        126.526567474103
+      ],
+      "address": "제주특별자치도 제주시 연북로 424 (도남동)1층",
+      "verificationUrl": "https://map.kakao.com/link/map/450475134",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EC%A0%9C%EC%A3%BC%EB%8F%84%EB%82%A8%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%97%B0%EB%B6%81%EB%A1%9C%20424%20%28%EB%8F%84%EB%82%A8%EB%8F%99%291%EC%B8%B5",
+      "branchGroup": "daiso",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.daiso.co.kr/cs/shop?name_address=%EC%A0%9C%EC%A3%BC%EB%8F%84%EB%82%A8%EC%A0%90",
+          "label": "大創官網門市資料 ↗"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "name": "大創 Daiso・濟州下貴店",
+      "original": "다이소 제주하귀점",
+      "category": "shopping",
+      "area": "west",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Kakao 地圖 3 頁共 38 筆結果，排除停車場、充電站與不同品牌後為 28 間門市；逐一核對大創官網店名及地址。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "門市店名、地址與座標由大創官網取得，Kakao 店點交叉核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.4842093466505,
+        126.408648557804
+      ],
+      "address": "제주특별자치도 제주시 애월읍 하귀로 121 1~2층",
+      "verificationUrl": "https://map.kakao.com/link/map/481720330",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EC%A0%9C%EC%A3%BC%ED%95%98%EA%B7%80%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%95%A0%EC%9B%94%EC%9D%8D%20%ED%95%98%EA%B7%80%EB%A1%9C%20121%201~2%EC%B8%B5",
+      "branchGroup": "daiso",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.daiso.co.kr/cs/shop?name_address=%EC%A0%9C%EC%A3%BC%ED%95%98%EA%B7%80%EC%A0%90",
+          "label": "大創官網門市資料 ↗"
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "大創 Daiso・西歸浦中門店",
+      "original": "다이소 서귀포중문점",
+      "category": "shopping",
+      "area": "south",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Kakao 地圖 3 頁共 38 筆結果，排除停車場、充電站與不同品牌後為 28 間門市；逐一核對大創官網店名及地址。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "門市店名、地址與座標由大創官網取得，Kakao 店點交叉核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.258908011594,
+        126.404480914504
+      ],
+      "address": "제주특별자치도 서귀포시 일주서로 996 (색달동)1~3층",
+      "verificationUrl": "https://map.kakao.com/link/map/1243225265",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%A4%91%EB%AC%B8%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%9D%BC%EC%A3%BC%EC%84%9C%EB%A1%9C%20996%20%28%EC%83%89%EB%8B%AC%EB%8F%99%291~3%EC%B8%B5",
+      "branchGroup": "daiso",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.daiso.co.kr/cs/shop?name_address=%EC%84%9C%EA%B7%80%ED%8F%AC%EC%A4%91%EB%AC%B8%EC%A0%90",
+          "label": "大創官網門市資料 ↗"
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "name": "大創 Daiso・西歸浦革新城市店",
+      "original": "다이소 서귀포혁신도시점",
+      "category": "shopping",
+      "area": "south",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Kakao 地圖 3 頁共 38 筆結果，排除停車場、充電站與不同品牌後為 28 間門市；逐一核對大創官網店名及地址。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "門市店名、地址與座標由大創官網取得，Kakao 店點交叉核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.2476645007288,
+        126.514905694781
+      ],
+      "address": "제주특별자치도 서귀포시 일주동로 9153 (법환동)B1~2층",
+      "verificationUrl": "https://map.kakao.com/link/map/919159662",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EC%84%9C%EA%B7%80%ED%8F%AC%ED%98%81%EC%8B%A0%EB%8F%84%EC%8B%9C%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%9D%BC%EC%A3%BC%EB%8F%99%EB%A1%9C%209153%20%28%EB%B2%95%ED%99%98%EB%8F%99%29B1~2%EC%B8%B5",
+      "branchGroup": "daiso",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.daiso.co.kr/cs/shop?name_address=%EC%84%9C%EA%B7%80%ED%8F%AC%ED%98%81%EC%8B%A0%EB%8F%84%EC%8B%9C%EC%A0%90",
+          "label": "大創官網門市資料 ↗"
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "name": "大創 Daiso・濟州咸德店",
+      "original": "다이소 제주함덕점",
+      "category": "shopping",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Kakao 地圖 3 頁共 38 筆結果，排除停車場、充電站與不同品牌後為 28 間門市；逐一核對大創官網店名及地址。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "門市店名、地址與座標由大創官網取得，Kakao 店點交叉核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.5368388693223,
+        126.667658372328
+      ],
+      "address": "제주특별자치도 제주시 조천읍 일주동로 1186 1~2층",
+      "verificationUrl": "https://map.kakao.com/link/map/2120455686",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EC%A0%9C%EC%A3%BC%ED%95%A8%EB%8D%95%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%A1%B0%EC%B2%9C%EC%9D%8D%20%EC%9D%BC%EC%A3%BC%EB%8F%99%EB%A1%9C%201186%201~2%EC%B8%B5",
+      "branchGroup": "daiso",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.daiso.co.kr/cs/shop?name_address=%EC%A0%9C%EC%A3%BC%ED%95%A8%EB%8D%95%EC%A0%90",
+          "label": "大創官網門市資料 ↗"
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "name": "大創 Daiso・濟州禾北店",
+      "original": "다이소 제주화북점",
+      "category": "shopping",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Kakao 地圖 3 頁共 38 筆結果，排除停車場、充電站與不同品牌後為 28 間門市；逐一核對大創官網店名及地址。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "門市店名、地址與座標由大創官網取得，Kakao 店點交叉核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.519780746096,
+        126.572307593664
+      ],
+      "address": "제주특별자치도 제주시 일주동로 254 (화북일동)1층",
+      "verificationUrl": "https://map.kakao.com/link/map/17106438",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EC%A0%9C%EC%A3%BC%ED%99%94%EB%B6%81%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%9D%BC%EC%A3%BC%EB%8F%99%EB%A1%9C%20254%20%28%ED%99%94%EB%B6%81%EC%9D%BC%EB%8F%99%291%EC%B8%B5",
+      "branchGroup": "daiso",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.daiso.co.kr/cs/shop?name_address=%EC%A0%9C%EC%A3%BC%ED%99%94%EB%B6%81%EC%A0%90",
+          "label": "大創官網門市資料 ↗"
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "name": "大創 Daiso・西歸浦摹瑟浦店",
+      "original": "다이소 서귀포모슬포점",
+      "category": "shopping",
+      "area": "south",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Kakao 地圖 3 頁共 38 筆結果，排除停車場、充電站與不同品牌後為 28 間門市；逐一核對大創官網店名及地址。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "門市店名、地址與座標由大創官網取得，Kakao 店點交叉核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.2296707322133,
+        126.249949765186
+      ],
+      "address": "제주특별자치도 서귀포시 대정읍 일주서로 2624 1~3층",
+      "verificationUrl": "https://map.kakao.com/link/map/297739990",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EC%84%9C%EA%B7%80%ED%8F%AC%EB%AA%A8%EC%8A%AC%ED%8F%AC%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EB%8C%80%EC%A0%95%EC%9D%8D%20%EC%9D%BC%EC%A3%BC%EC%84%9C%EB%A1%9C%202624%201~3%EC%B8%B5",
+      "branchGroup": "daiso",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.daiso.co.kr/cs/shop?name_address=%EC%84%9C%EA%B7%80%ED%8F%AC%EB%AA%A8%EC%8A%AC%ED%8F%AC%EC%A0%90",
+          "label": "大創官網門市資料 ↗"
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "大創 Daiso・濟州涯月店",
+      "original": "다이소 제주애월점",
+      "category": "shopping",
+      "area": "west",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Kakao 地圖 3 頁共 38 筆結果，排除停車場、充電站與不同品牌後為 28 間門市；逐一核對大創官網店名及地址。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "門市店名、地址與座標由大創官網取得，Kakao 店點交叉核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.4608564762545,
+        126.320472435386
+      ],
+      "address": "제주특별자치도 제주시 애월읍 애원로 38 1~4층",
+      "verificationUrl": "https://map.kakao.com/link/map/1570314336",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EC%A0%9C%EC%A3%BC%EC%95%A0%EC%9B%94%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%95%A0%EC%9B%94%EC%9D%8D%20%EC%95%A0%EC%9B%90%EB%A1%9C%2038%201~4%EC%B8%B5",
+      "branchGroup": "daiso",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.daiso.co.kr/cs/shop?name_address=%EC%A0%9C%EC%A3%BC%EC%95%A0%EC%9B%94%EC%A0%90",
+          "label": "大創官網門市資料 ↗"
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "name": "大創 Daiso・濟州細花店",
+      "original": "다이소 제주세화점",
+      "category": "shopping",
+      "area": "east",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Kakao 地圖 3 頁共 38 筆結果，排除停車場、充電站與不同品牌後為 28 間門市；逐一核對大創官網店名及地址。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "門市店名、地址與座標由大創官網取得，Kakao 店點交叉核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.5222789628322,
+        126.853051234536
+      ],
+      "address": "제주특별자치도 제주시 구좌읍 일주동로 3126 [*미고시]1~2층",
+      "verificationUrl": "https://map.kakao.com/link/map/1405805470",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EC%A0%9C%EC%A3%BC%EC%84%B8%ED%99%94%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EA%B5%AC%EC%A2%8C%EC%9D%8D%20%EC%9D%BC%EC%A3%BC%EB%8F%99%EB%A1%9C%203126%20%5B%2A%EB%AF%B8%EA%B3%A0%EC%8B%9C%5D1~2%EC%B8%B5",
+      "branchGroup": "daiso",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.daiso.co.kr/cs/shop?name_address=%EC%A0%9C%EC%A3%BC%EC%84%B8%ED%99%94%EC%A0%90",
+          "label": "大創官網門市資料 ↗"
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "name": "大創 Daiso・濟州翰林店",
+      "original": "다이소 제주한림점",
+      "category": "shopping",
+      "area": "west",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Kakao 地圖 3 頁共 38 筆結果，排除停車場、充電站與不同品牌後為 28 間門市；逐一核對大創官網店名及地址。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "門市店名、地址與座標由大創官網取得，Kakao 店點交叉核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.4099820213239,
+        126.263811792124
+      ],
+      "address": "제주특별자치도 제주시 한림읍 한림상로 101 2층",
+      "verificationUrl": "https://map.kakao.com/link/map/1391015809",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EC%A0%9C%EC%A3%BC%ED%95%9C%EB%A6%BC%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%ED%95%9C%EB%A6%BC%EC%9D%8D%20%ED%95%9C%EB%A6%BC%EC%83%81%EB%A1%9C%20101%202%EC%B8%B5",
+      "branchGroup": "daiso",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.daiso.co.kr/cs/shop?name_address=%EC%A0%9C%EC%A3%BC%ED%95%9C%EB%A6%BC%EC%A0%90",
+          "label": "大創官網門市資料 ↗"
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "name": "大創 Daiso・濟州一徒店",
+      "original": "다이소 제주일도점",
+      "category": "shopping",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Kakao 地圖 3 頁共 38 筆結果，排除停車場、充電站與不同品牌後為 28 間門市；逐一核對大創官網店名及地址。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "門市店名、地址與座標由大創官網取得，Kakao 店點交叉核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.5042252423383,
+        126.542096059768
+      ],
+      "address": "제주특별자치도 제주시 고마로 115 (일도이동)1층",
+      "verificationUrl": "https://map.kakao.com/link/map/688948878",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EC%A0%9C%EC%A3%BC%EC%9D%BC%EB%8F%84%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EA%B3%A0%EB%A7%88%EB%A1%9C%20115%20%28%EC%9D%BC%EB%8F%84%EC%9D%B4%EB%8F%99%291%EC%B8%B5",
+      "branchGroup": "daiso",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.daiso.co.kr/cs/shop?name_address=%EC%A0%9C%EC%A3%BC%EC%9D%BC%EB%8F%84%EC%A0%90",
+          "label": "大創官網門市資料 ↗"
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "name": "大創 Daiso・濟州本店",
+      "original": "다이소 제주본점",
+      "category": "shopping",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Kakao 地圖 3 頁共 38 筆結果，排除停車場、充電站與不同品牌後為 28 間門市；逐一核對大創官網店名及地址。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "門市店名、地址與座標由大創官網取得，Kakao 店點交叉核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.5037591551603,
+        126.552045062557
+      ],
+      "address": "제주특별자치도 제주시 남광로 220 (건입동)1~3층",
+      "verificationUrl": "https://map.kakao.com/link/map/11793177",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EC%A0%9C%EC%A3%BC%EB%B3%B8%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EB%82%A8%EA%B4%91%EB%A1%9C%20220%20%28%EA%B1%B4%EC%9E%85%EB%8F%99%291~3%EC%B8%B5",
+      "branchGroup": "daiso",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.daiso.co.kr/cs/shop?name_address=%EC%A0%9C%EC%A3%BC%EB%B3%B8%EC%A0%90",
+          "label": "大創官網門市資料 ↗"
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "name": "大創 Daiso・濟州龍潭海岸路店",
+      "original": "다이소 제주용담해안도로점",
+      "category": "shopping",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Kakao 地圖 3 頁共 38 筆結果，排除停車場、充電站與不同品牌後為 28 間門市；逐一核對大創官網店名及地址。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "門市店名、地址與座標由大創官網取得，Kakao 店點交叉核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.5194738203287,
+        126.493386636591
+      ],
+      "address": "제주특별자치도 제주시 서해안로 510 (용담삼동)1~2층",
+      "verificationUrl": "https://map.kakao.com/link/map/1900227887",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EC%A0%9C%EC%A3%BC%EC%9A%A9%EB%8B%B4%ED%95%B4%EC%95%88%EB%8F%84%EB%A1%9C%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%84%9C%ED%95%B4%EC%95%88%EB%A1%9C%20510%20%28%EC%9A%A9%EB%8B%B4%EC%82%BC%EB%8F%99%291~2%EC%B8%B5",
+      "branchGroup": "daiso",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.daiso.co.kr/cs/shop?name_address=%EC%A0%9C%EC%A3%BC%EC%9A%A9%EB%8B%B4%ED%95%B4%EC%95%88%EB%8F%84%EB%A1%9C%EC%A0%90",
+          "label": "大創官網門市資料 ↗"
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "name": "大創 Daiso・西歸浦東廣店",
+      "original": "다이소 서귀포동광점",
+      "category": "shopping",
+      "area": "south",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Kakao 地圖 3 頁共 38 筆結果，排除停車場、充電站與不同品牌後為 28 間門市；逐一核對大創官網店名及地址。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "門市店名、地址與座標由大創官網取得，Kakao 店點交叉核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.3102240075145,
+        126.335684617973
+      ],
+      "address": "제주특별자치도 서귀포시 안덕면 신화역사로 447 1~2층",
+      "verificationUrl": "https://map.kakao.com/link/map/889242560",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EC%84%9C%EA%B7%80%ED%8F%AC%EB%8F%99%EA%B4%91%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%95%88%EB%8D%95%EB%A9%B4%20%EC%8B%A0%ED%99%94%EC%97%AD%EC%82%AC%EB%A1%9C%20447%201~2%EC%B8%B5",
+      "branchGroup": "daiso",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.daiso.co.kr/cs/shop?name_address=%EC%84%9C%EA%B7%80%ED%8F%AC%EB%8F%99%EA%B4%91%EC%A0%90",
+          "label": "大創官網門市資料 ↗"
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "name": "大創 Daiso・西歸浦表善店",
+      "original": "다이소 서귀포표선점",
+      "category": "shopping",
+      "area": "south",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Kakao 地圖 3 頁共 38 筆結果，排除停車場、充電站與不同品牌後為 28 間門市；逐一核對大創官網店名及地址。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "門市店名、地址與座標由大創官網取得，Kakao 店點交叉核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.3268715917934,
+        126.829432650476
+      ],
+      "address": "제주특별자치도 서귀포시 표선면 표선중앙로58번길 22 1~2층",
+      "verificationUrl": "https://map.kakao.com/link/map/396828672",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EC%84%9C%EA%B7%80%ED%8F%AC%ED%91%9C%EC%84%A0%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%ED%91%9C%EC%84%A0%EB%A9%B4%20%ED%91%9C%EC%84%A0%EC%A4%91%EC%95%99%EB%A1%9C58%EB%B2%88%EA%B8%B8%2022%201~2%EC%B8%B5",
+      "branchGroup": "daiso",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.daiso.co.kr/cs/shop?name_address=%EC%84%9C%EA%B7%80%ED%8F%AC%ED%91%9C%EC%84%A0%EC%A0%90",
+          "label": "大創官網門市資料 ↗"
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "name": "大創 Daiso・西歸浦南元店",
+      "original": "다이소 서귀포남원점",
+      "category": "shopping",
+      "area": "south",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Kakao 地圖 3 頁共 38 筆結果，排除停車場、充電站與不同品牌後為 28 間門市；逐一核對大創官網店名及地址。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "門市店名、地址與座標由大創官網取得，Kakao 店點交叉核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.2822557682753,
+        126.713868247245
+      ],
+      "address": "제주특별자치도 서귀포시 남원읍 일주동로 7173 1~2층",
+      "verificationUrl": "https://map.kakao.com/link/map/1960538700",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EC%84%9C%EA%B7%80%ED%8F%AC%EB%82%A8%EC%9B%90%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EB%82%A8%EC%9B%90%EC%9D%8D%20%EC%9D%BC%EC%A3%BC%EB%8F%99%EB%A1%9C%207173%201~2%EC%B8%B5",
+      "branchGroup": "daiso",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.daiso.co.kr/cs/shop?name_address=%EC%84%9C%EA%B7%80%ED%8F%AC%EB%82%A8%EC%9B%90%EC%A0%90",
+          "label": "大創官網門市資料 ↗"
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "name": "大創 Daiso・濟州奉蓋店",
+      "original": "다이소 제주봉개점",
+      "category": "shopping",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Kakao 地圖 3 頁共 38 筆結果，排除停車場、充電站與不同品牌後為 28 間門市；逐一核對大創官網店名及地址。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "門市店名、地址與座標由大創官網取得，Kakao 店點交叉核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.4886870576472,
+        126.596984368925
+      ],
+      "address": "제주특별자치도 제주시 번영로 526 (봉개동)1층",
+      "verificationUrl": "https://map.kakao.com/link/map/539080358",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EC%A0%9C%EC%A3%BC%EB%B4%89%EA%B0%9C%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EB%B2%88%EC%98%81%EB%A1%9C%20526%20%28%EB%B4%89%EA%B0%9C%EB%8F%99%291%EC%B8%B5",
+      "branchGroup": "daiso",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.daiso.co.kr/cs/shop?name_address=%EC%A0%9C%EC%A3%BC%EB%B4%89%EA%B0%9C%EC%A0%90",
+          "label": "大創官網門市資料 ↗"
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "name": "大創 Daiso・Hanaro 超市朝天店",
+      "original": "다이소 하나로마트조천점",
+      "category": "shopping",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Kakao 地圖 3 頁共 38 筆結果，排除停車場、充電站與不同品牌後為 28 間門市；逐一核對大創官網店名及地址。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "門市店名、地址與座標由大創官網取得，Kakao 店點交叉核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.5280850196902,
+        126.644286163576
+      ],
+      "address": "제주특별자치도 제주시 조천읍 조천우회로 325 2층",
+      "verificationUrl": "https://map.kakao.com/link/map/1389234122",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%ED%95%98%EB%82%98%EB%A1%9C%EB%A7%88%ED%8A%B8%EC%A1%B0%EC%B2%9C%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%A1%B0%EC%B2%9C%EC%9D%8D%20%EC%A1%B0%EC%B2%9C%EC%9A%B0%ED%9A%8C%EB%A1%9C%20325%202%EC%B8%B5",
+      "branchGroup": "daiso",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.daiso.co.kr/cs/shop?name_address=%ED%95%98%EB%82%98%EB%A1%9C%EB%A7%88%ED%8A%B8%EC%A1%B0%EC%B2%9C%EC%A0%90",
+          "label": "大創官網門市資料 ↗"
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "name": "大創 Daiso・Hanaro 超市老衡店",
+      "original": "다이소 하나로마트노형점",
+      "category": "shopping",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Kakao 地圖 3 頁共 38 筆結果，排除停車場、充電站與不同品牌後為 28 間門市；逐一核對大創官網店名及地址。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "門市店名、地址與座標由大創官網取得，Kakao 店點交叉核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.4876047228034,
+        126.46735621044
+      ],
+      "address": "제주특별자치도 제주시 월광로 77 (노형동)2층",
+      "verificationUrl": "https://map.kakao.com/link/map/698166744",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%ED%95%98%EB%82%98%EB%A1%9C%EB%A7%88%ED%8A%B8%EB%85%B8%ED%98%95%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%9B%94%EA%B4%91%EB%A1%9C%2077%20%28%EB%85%B8%ED%98%95%EB%8F%99%292%EC%B8%B5",
+      "branchGroup": "daiso",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.daiso.co.kr/cs/shop?name_address=%ED%95%98%EB%82%98%EB%A1%9C%EB%A7%88%ED%8A%B8%EB%85%B8%ED%98%95%EC%A0%90",
+          "label": "大創官網門市資料 ↗"
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "name": "大創 Daiso・Homeplus 西歸浦店",
+      "original": "다이소 홈플러스서귀포점",
+      "category": "shopping",
+      "area": "south",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Kakao 地圖 3 頁共 38 筆結果，排除停車場、充電站與不同品牌後為 28 間門市；逐一核對大創官網店名及地址。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "門市店名、地址與座標由大創官網取得，Kakao 店點交叉核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.2604859888121,
+        126.559934556059
+      ],
+      "address": "제주특별자치도 서귀포시 중앙로 180 (동홍동)1층",
+      "verificationUrl": "https://map.kakao.com/link/map/1489515954",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%84%9C%EA%B7%80%ED%8F%AC%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%A4%91%EC%95%99%EB%A1%9C%20180%20%28%EB%8F%99%ED%99%8D%EB%8F%99%291%EC%B8%B5",
+      "branchGroup": "daiso",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.daiso.co.kr/cs/shop?name_address=%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%84%9C%EA%B7%80%ED%8F%AC%EC%A0%90",
+          "label": "大創官網門市資料 ↗"
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "name": "大創 Daiso・樂天超市濟州店",
+      "original": "다이소 롯데마트제주점",
+      "category": "shopping",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Kakao 地圖 3 頁共 38 筆結果，排除停車場、充電站與不同品牌後為 28 間門市；逐一核對大創官網店名及地址。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "門市店名、地址與座標由大創官網取得，Kakao 店點交叉核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.4824421892687,
+        126.481834000763
+      ],
+      "address": "제주특별자치도 제주시 연북로 1 (노형동)2층",
+      "verificationUrl": "https://map.kakao.com/link/map/13031508",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EB%A1%AF%EB%8D%B0%EB%A7%88%ED%8A%B8%EC%A0%9C%EC%A3%BC%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%97%B0%EB%B6%81%EB%A1%9C%201%20%28%EB%85%B8%ED%98%95%EB%8F%99%292%EC%B8%B5",
+      "branchGroup": "daiso",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://www.daiso.co.kr/cs/shop?name_address=%EB%A1%AF%EB%8D%B0%EB%A7%88%ED%8A%B8%EC%A0%9C%EC%A3%BC%EC%A0%90",
+          "label": "大創官網門市資料 ↗"
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "name": "明浩大蒜牛排骨・本店",
+      "original": "명호마농갈비 본점",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。依本次 Kakao 地圖查詢結果列出濟州本島店點，排除名稱相近的其他品牌及停車場；不是即時營業保證。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.48858863,
+        126.49485238
+      ],
+      "address": "제주특별자치도 제주시 신대로12길 15",
+      "verificationUrl": "https://map.kakao.com/link/map/673097455",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%AA%85%ED%98%B8%EB%A7%88%EB%86%8D%EA%B0%88%EB%B9%84%20%EB%B3%B8%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%8B%A0%EB%8C%80%EB%A1%9C12%EA%B8%B8%2015",
+      "branchGroup": "myungho",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": []
+    },
+    {
+      "id": 89,
+      "name": "明浩大蒜牛排骨・中門店",
+      "original": "명호마농갈비 중문점",
+      "category": "food",
+      "area": "south",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。依本次 Kakao 地圖查詢結果列出濟州本島店點，排除名稱相近的其他品牌及停車場；不是即時營業保證。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.24625224,
+        126.42901515
+      ],
+      "address": "제주특별자치도 서귀포시 중문관광로 289",
+      "verificationUrl": "https://map.kakao.com/link/map/948083949",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%AA%85%ED%98%B8%EB%A7%88%EB%86%8D%EA%B0%88%EB%B9%84%20%EC%A4%91%EB%AC%B8%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%A4%91%EB%AC%B8%EA%B4%80%EA%B4%91%EB%A1%9C%20289",
+      "branchGroup": "myungho",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": []
+    },
+    {
+      "id": 90,
+      "name": "三姓穴海鮮湯・本店",
+      "original": "살아있는삼성혈해물탕 본점",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。依本次 Kakao 地圖查詢結果列出濟州本島店點，排除名稱相近的其他品牌及停車場；不是即時營業保證。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.48797717,
+        126.49969793
+      ],
+      "address": "제주특별자치도 제주시 선덕로5길 20",
+      "verificationUrl": "https://map.kakao.com/link/map/7919123",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%82%B4%EC%95%84%EC%9E%88%EB%8A%94%EC%82%BC%EC%84%B1%ED%98%88%ED%95%B4%EB%AC%BC%ED%83%95%20%EB%B3%B8%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%84%A0%EB%8D%95%EB%A1%9C5%EA%B8%B8%2020",
+      "branchGroup": "samseong",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": []
+    },
+    {
+      "id": 91,
+      "name": "三姓穴海鮮湯・1 號店",
+      "original": "삼성혈해물탕 1호점",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。依本次 Kakao 地圖查詢結果列出濟州本島店點，排除名稱相近的其他品牌及停車場；不是即時營業保證。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.50390557,
+        126.46537035
+      ],
+      "address": "제주특별자치도 제주시 도두항서7길 23",
+      "verificationUrl": "https://map.kakao.com/link/map/26927065",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%82%BC%EC%84%B1%ED%98%88%ED%95%B4%EB%AC%BC%ED%83%95%201%ED%98%B8%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EB%8F%84%EB%91%90%ED%95%AD%EC%84%9C7%EA%B8%B8%2023",
+      "branchGroup": "samseong",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": []
+    },
+    {
+      "id": 92,
+      "name": "三姓穴海鮮湯・西歸浦店",
+      "original": "삼성혈해물탕 서귀포점",
+      "category": "food",
+      "area": "south",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。依本次 Kakao 地圖查詢結果列出濟州本島店點，排除名稱相近的其他品牌及停車場；不是即時營業保證。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.24880795,
+        126.51423794
+      ],
+      "address": "제주특별자치도 서귀포시 서호남로32번길 31-1",
+      "verificationUrl": "https://map.kakao.com/link/map/1469852906",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%82%BC%EC%84%B1%ED%98%88%ED%95%B4%EB%AC%BC%ED%83%95%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%84%9C%ED%98%B8%EB%82%A8%EB%A1%9C32%EB%B2%88%EA%B8%B8%2031-1",
+      "branchGroup": "samseong",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": []
+    },
+    {
+      "id": 93,
+      "name": "Puradak 炸雞・濟州蓮洞店",
+      "original": "푸라닭치킨 제주연동점",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Puradak 官網濟州地區 2 頁共 21 店；19 店與 Kakao 店點相符，另 2 店僅標官網地址所在建物，營業與門市位置待確認。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.49190944,
+        126.48788397
+      ],
+      "address": "제주특별자치도 제주시 성신로1길 23",
+      "verificationUrl": "https://map.kakao.com/link/map/129589401",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%91%B8%EB%9D%BC%EB%8B%AD%EC%B9%98%ED%82%A8%20%EC%A0%9C%EC%A3%BC%EC%97%B0%EB%8F%99%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%84%B1%EC%8B%A0%EB%A1%9C1%EA%B8%B8%2023",
+      "branchGroup": "puradak",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://puradakchicken.com/startup/store.asp",
+          "label": "Puradak 官網門市列表 ↗"
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "name": "Puradak 炸雞・濟州西歸店",
+      "original": "푸라닭치킨 제주서귀점",
+      "category": "food",
+      "area": "south",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Puradak 官網濟州地區 2 頁共 21 店；19 店與 Kakao 店點相符，另 2 店僅標官網地址所在建物，營業與門市位置待確認。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.25611755,
+        126.57219491
+      ],
+      "address": "제주특별자치도 서귀포시 동홍중앙로 62",
+      "verificationUrl": "https://map.kakao.com/link/map/418188373",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%91%B8%EB%9D%BC%EB%8B%AD%EC%B9%98%ED%82%A8%20%EC%A0%9C%EC%A3%BC%EC%84%9C%EA%B7%80%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EB%8F%99%ED%99%8D%EC%A4%91%EC%95%99%EB%A1%9C%2062",
+      "branchGroup": "puradak",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://puradakchicken.com/startup/store.asp",
+          "label": "Puradak 官網門市列表 ↗"
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "name": "Puradak 炸雞・濟州我羅店",
+      "original": "푸라닭치킨 제주아라점",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Puradak 官網濟州地區 2 頁共 21 店；19 店與 Kakao 店點相符，另 2 店僅標官網地址所在建物，營業與門市位置待確認。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.47257626,
+        126.54981706
+      ],
+      "address": "제주특별자치도 제주시 인다13길 39",
+      "verificationUrl": "https://map.kakao.com/link/map/1396600039",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%91%B8%EB%9D%BC%EB%8B%AD%EC%B9%98%ED%82%A8%20%EC%A0%9C%EC%A3%BC%EC%95%84%EB%9D%BC%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%9D%B8%EB%8B%A413%EA%B8%B8%2039",
+      "branchGroup": "puradak",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://puradakchicken.com/startup/store.asp",
+          "label": "Puradak 官網門市列表 ↗"
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "name": "Puradak 炸雞・濟州涯月下貴店",
+      "original": "푸라닭치킨 제주애월하귀점",
+      "category": "food",
+      "area": "west",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Puradak 官網濟州地區 2 頁共 21 店；19 店與 Kakao 店點相符，另 2 店僅標官網地址所在建物，營業與門市位置待確認。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.48134314,
+        126.4048124
+      ],
+      "address": "제주특별자치도 제주시 애월읍 하귀로 74",
+      "verificationUrl": "https://map.kakao.com/link/map/1995335691",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%91%B8%EB%9D%BC%EB%8B%AD%EC%B9%98%ED%82%A8%20%EC%A0%9C%EC%A3%BC%EC%95%A0%EC%9B%94%ED%95%98%EA%B7%80%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%95%A0%EC%9B%94%EC%9D%8D%20%ED%95%98%EA%B7%80%EB%A1%9C%2074",
+      "branchGroup": "puradak",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://puradakchicken.com/startup/store.asp",
+          "label": "Puradak 官網門市列表 ↗"
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "name": "Puradak 炸雞・濟州健入店",
+      "original": "푸라닭치킨 제주건입점",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Puradak 官網濟州地區 2 頁共 21 店；19 店與 Kakao 店點相符，另 2 店僅標官網地址所在建物，營業與門市位置待確認。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.51351967,
+        126.53498118
+      ],
+      "address": "제주특별자치도 제주시 동문로 80",
+      "verificationUrl": "https://map.kakao.com/link/map/1538877588",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%91%B8%EB%9D%BC%EB%8B%AD%EC%B9%98%ED%82%A8%20%EC%A0%9C%EC%A3%BC%EA%B1%B4%EC%9E%85%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EB%8F%99%EB%AC%B8%EB%A1%9C%2080",
+      "branchGroup": "puradak",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://puradakchicken.com/startup/store.asp",
+          "label": "Puradak 官網門市列表 ↗"
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "name": "Puradak 炸雞・濟州 Samhwa 店",
+      "original": "푸라닭치킨 제주삼화점",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Puradak 官網濟州地區 2 頁共 21 店；19 店與 Kakao 店點相符，另 2 店僅標官網地址所在建物，營業與門市位置待確認。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.51481553,
+        126.57575123
+      ],
+      "address": "제주특별자치도 제주시 화삼로1길 18",
+      "verificationUrl": "https://map.kakao.com/link/map/703254694",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%91%B8%EB%9D%BC%EB%8B%AD%EC%B9%98%ED%82%A8%20%EC%A0%9C%EC%A3%BC%EC%82%BC%ED%99%94%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%ED%99%94%EC%82%BC%EB%A1%9C1%EA%B8%B8%2018",
+      "branchGroup": "puradak",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://puradakchicken.com/startup/store.asp",
+          "label": "Puradak 官網門市列表 ↗"
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "name": "Puradak 炸雞・中門店",
+      "original": "푸라닭치킨 중문점",
+      "category": "food",
+      "area": "south",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Puradak 官網濟州地區 2 頁共 21 店；19 店與 Kakao 店點相符，另 2 店僅標官網地址所在建物，營業與門市位置待確認。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.25252316,
+        126.42337708
+      ],
+      "address": "제주특별자치도 서귀포시 중문로 8",
+      "verificationUrl": "https://map.kakao.com/link/map/1312191381",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%91%B8%EB%9D%BC%EB%8B%AD%EC%B9%98%ED%82%A8%20%EC%A4%91%EB%AC%B8%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%A4%91%EB%AC%B8%EB%A1%9C%208",
+      "branchGroup": "puradak",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://puradakchicken.com/startup/store.asp",
+          "label": "Puradak 官網門市列表 ↗"
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "name": "Puradak 炸雞・濟州二徒店",
+      "original": "푸라닭치킨 제주이도점",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Puradak 官網濟州地區 2 頁共 21 店；19 店與 Kakao 店點相符，另 2 店僅標官網地址所在建物，營業與門市位置待確認。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.48701578,
+        126.53288697
+      ],
+      "address": "제주특별자치도 제주시 도남로 167",
+      "verificationUrl": "https://map.kakao.com/link/map/27512394",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%91%B8%EB%9D%BC%EB%8B%AD%EC%B9%98%ED%82%A8%20%EC%A0%9C%EC%A3%BC%EC%9D%B4%EB%8F%84%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EB%8F%84%EB%82%A8%EB%A1%9C%20167",
+      "branchGroup": "puradak",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://puradakchicken.com/startup/store.asp",
+          "label": "Puradak 官網門市列表 ↗"
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "name": "Puradak 炸雞・濟州大學店",
+      "original": "푸라닭치킨 제주대점",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Puradak 官網濟州地區 2 頁共 21 店；19 店與 Kakao 店點相符，另 2 店僅標官網地址所在建物，營業與門市位置待確認。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.44888751,
+        126.55906312
+      ],
+      "address": "제주특별자치도 제주시 산천단동3길 13",
+      "verificationUrl": "https://map.kakao.com/link/map/1502959810",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%91%B8%EB%9D%BC%EB%8B%AD%EC%B9%98%ED%82%A8%20%EC%A0%9C%EC%A3%BC%EB%8C%80%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%82%B0%EC%B2%9C%EB%8B%A8%EB%8F%993%EA%B8%B8%2013",
+      "branchGroup": "puradak",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://puradakchicken.com/startup/store.asp",
+          "label": "Puradak 官網門市列表 ↗"
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "name": "Puradak 炸雞・濟州大靜店",
+      "original": "푸라닭치킨 제주대정점",
+      "category": "food",
+      "area": "south",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Puradak 官網濟州地區 2 頁共 21 店；19 店與 Kakao 店點相符，另 2 店僅標官網地址所在建物，營業與門市位置待確認。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.21832253,
+        126.25178369
+      ],
+      "address": "제주특별자치도 서귀포시 대정읍 하모항구로6번길 26",
+      "verificationUrl": "https://map.kakao.com/link/map/1675891675",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%91%B8%EB%9D%BC%EB%8B%AD%EC%B9%98%ED%82%A8%20%EC%A0%9C%EC%A3%BC%EB%8C%80%EC%A0%95%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EB%8C%80%EC%A0%95%EC%9D%8D%20%ED%95%98%EB%AA%A8%ED%95%AD%EA%B5%AC%EB%A1%9C6%EB%B2%88%EA%B8%B8%2026",
+      "branchGroup": "puradak",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://puradakchicken.com/startup/store.asp",
+          "label": "Puradak 官網門市列表 ↗"
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Puradak 炸雞・濟州一徒店",
+      "original": "푸라닭치킨 제주일도점",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Puradak 官網濟州地區 2 頁共 21 店；19 店與 Kakao 店點相符，另 2 店僅標官網地址所在建物，營業與門市位置待確認。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.50197414,
+        126.53842427
+      ],
+      "address": "제주특별자치도 제주시 청귤로1길 38",
+      "verificationUrl": "https://map.kakao.com/link/map/235462486",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%91%B8%EB%9D%BC%EB%8B%AD%EC%B9%98%ED%82%A8%20%EC%A0%9C%EC%A3%BC%EC%9D%BC%EB%8F%84%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%B2%AD%EA%B7%A4%EB%A1%9C1%EA%B8%B8%2038",
+      "branchGroup": "puradak",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://puradakchicken.com/startup/store.asp",
+          "label": "Puradak 官網門市列表 ↗"
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "name": "Puradak 炸雞・濟州表善店",
+      "original": "푸라닭치킨 제주표선점",
+      "category": "food",
+      "area": "south",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Puradak 官網濟州地區 2 頁共 21 店；19 店與 Kakao 店點相符，另 2 店僅標官網地址所在建物，營業與門市位置待確認。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.32529508,
+        126.83632486
+      ],
+      "address": "제주특별자치도 서귀포시 표선면 표선백사로 111",
+      "verificationUrl": "https://map.kakao.com/link/map/1783329283",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%91%B8%EB%9D%BC%EB%8B%AD%EC%B9%98%ED%82%A8%20%EC%A0%9C%EC%A3%BC%ED%91%9C%EC%84%A0%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%ED%91%9C%EC%84%A0%EB%A9%B4%20%ED%91%9C%EC%84%A0%EB%B0%B1%EC%82%AC%EB%A1%9C%20111",
+      "branchGroup": "puradak",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://puradakchicken.com/startup/store.asp",
+          "label": "Puradak 官網門市列表 ↗"
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "name": "Puradak 炸雞・濟州吾羅店",
+      "original": "푸라닭치킨 제주오라점",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Puradak 官網濟州地區 2 頁共 21 店；19 店與 Kakao 店點相符，另 2 店僅標官網地址所在建物，營業與門市位置待確認。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.48975273,
+        126.5020173
+      ],
+      "address": "제주특별자치도 제주시 연오로 39",
+      "verificationUrl": "https://map.kakao.com/link/map/421024321",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%91%B8%EB%9D%BC%EB%8B%AD%EC%B9%98%ED%82%A8%20%EC%A0%9C%EC%A3%BC%EC%98%A4%EB%9D%BC%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%97%B0%EC%98%A4%EB%A1%9C%2039",
+      "branchGroup": "puradak",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://puradakchicken.com/startup/store.asp",
+          "label": "Puradak 官網門市列表 ↗"
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "name": "Puradak 炸雞・濟州江汀店",
+      "original": "푸라닭치킨 제주강정점",
+      "category": "food",
+      "area": "south",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Puradak 官網濟州地區 2 頁共 21 店；19 店與 Kakao 店點相符，另 2 店僅標官網地址所在建物，營業與門市位置待確認。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.23442128,
+        126.48830651
+      ],
+      "address": "제주특별자치도 서귀포시 이어도로 679",
+      "verificationUrl": "https://map.kakao.com/link/map/517325825",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%91%B8%EB%9D%BC%EB%8B%AD%EC%B9%98%ED%82%A8%20%EC%A0%9C%EC%A3%BC%EA%B0%95%EC%A0%95%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%9D%B4%EC%96%B4%EB%8F%84%EB%A1%9C%20679",
+      "branchGroup": "puradak",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://puradakchicken.com/startup/store.asp",
+          "label": "Puradak 官網門市列表 ↗"
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "name": "Puradak 炸雞・濟州翰林挾才店",
+      "original": "푸라닭치킨 제주한림협재점",
+      "category": "food",
+      "area": "west",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Puradak 官網濟州地區 2 頁共 21 店；19 店與 Kakao 店點相符，另 2 店僅標官網地址所在建物，營業與門市位置待確認。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.41433935,
+        126.26655893
+      ],
+      "address": "제주특별자치도 제주시 한림읍 명랑로 16-1",
+      "verificationUrl": "https://map.kakao.com/link/map/1777197694",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%91%B8%EB%9D%BC%EB%8B%AD%EC%B9%98%ED%82%A8%20%EC%A0%9C%EC%A3%BC%ED%95%9C%EB%A6%BC%ED%98%91%EC%9E%AC%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%ED%95%9C%EB%A6%BC%EC%9D%8D%20%EB%AA%85%EB%9E%91%EB%A1%9C%2016-1",
+      "branchGroup": "puradak",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://puradakchicken.com/startup/store.asp",
+          "label": "Puradak 官網門市列表 ↗"
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "name": "Puradak 炸雞・濟州漢拏大學店",
+      "original": "푸라닭치킨 제주한라대점",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Puradak 官網濟州地區 2 頁共 21 店；19 店與 Kakao 店點相符，另 2 店僅標官網地址所在建物，營業與門市位置待確認。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.47614965,
+        126.47774105
+      ],
+      "address": "제주특별자치도 제주시 한라대학로 70",
+      "verificationUrl": "https://map.kakao.com/link/map/896442009",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%91%B8%EB%9D%BC%EB%8B%AD%EC%B9%98%ED%82%A8%20%EC%A0%9C%EC%A3%BC%ED%95%9C%EB%9D%BC%EB%8C%80%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%ED%95%9C%EB%9D%BC%EB%8C%80%ED%95%99%EB%A1%9C%2070",
+      "branchGroup": "puradak",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://puradakchicken.com/startup/store.asp",
+          "label": "Puradak 官網門市列表 ↗"
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "name": "Puradak 炸雞・濟州英語教育城店",
+      "original": "푸라닭치킨 제주영어교육도시점",
+      "category": "food",
+      "area": "south",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Puradak 官網濟州地區 2 頁共 21 店；19 店與 Kakao 店點相符，另 2 店僅標官網地址所在建物，營業與門市位置待確認。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.28117015,
+        126.27847348
+      ],
+      "address": "제주특별자치도 서귀포시 대정읍 글로벌에듀로 370",
+      "verificationUrl": "https://map.kakao.com/link/map/797342585",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%91%B8%EB%9D%BC%EB%8B%AD%EC%B9%98%ED%82%A8%20%EC%A0%9C%EC%A3%BC%EC%98%81%EC%96%B4%EA%B5%90%EC%9C%A1%EB%8F%84%EC%8B%9C%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EB%8C%80%EC%A0%95%EC%9D%8D%20%EA%B8%80%EB%A1%9C%EB%B2%8C%EC%97%90%EB%93%80%EB%A1%9C%20370",
+      "branchGroup": "puradak",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://puradakchicken.com/startup/store.asp",
+          "label": "Puradak 官網門市列表 ↗"
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "name": "Puradak 炸雞・濟州外都店",
+      "original": "푸라닭치킨 제주외도점",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Puradak 官網濟州地區 2 頁共 21 店；19 店與 Kakao 店點相符，另 2 店僅標官網地址所在建物，營業與門市位置待確認。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.49341298,
+        126.433536
+      ],
+      "address": "제주특별자치도 제주시 일주서로 7360",
+      "verificationUrl": "https://map.kakao.com/link/map/1544519857",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%91%B8%EB%9D%BC%EB%8B%AD%EC%B9%98%ED%82%A8%20%EC%A0%9C%EC%A3%BC%EC%99%B8%EB%8F%84%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%9D%BC%EC%A3%BC%EC%84%9C%EB%A1%9C%207360",
+      "branchGroup": "puradak",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://puradakchicken.com/startup/store.asp",
+          "label": "Puradak 官網門市列表 ↗"
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "name": "Puradak 炸雞・濟州咸德店",
+      "original": "푸라닭치킨 제주함덕점",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
+      "note": "2026-10-17 核對。Puradak 官網濟州地區 2 頁共 21 店；19 店與 Kakao 店點相符，另 2 店僅標官網地址所在建物，營業與門市位置待確認。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.53948668,
+        126.67022584
+      ],
+      "address": "제주특별자치도 제주시 조천읍 함덕18길 19",
+      "verificationUrl": "https://map.kakao.com/link/map/1487594814",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%91%B8%EB%9D%BC%EB%8B%AD%EC%B9%98%ED%82%A8%20%EC%A0%9C%EC%A3%BC%ED%95%A8%EB%8D%95%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%A1%B0%EC%B2%9C%EC%9D%8D%20%ED%95%A8%EB%8D%9518%EA%B8%B8%2019",
+      "branchGroup": "puradak",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://puradakchicken.com/startup/store.asp",
+          "label": "Puradak 官網門市列表 ↗"
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "name": "Puradak 炸雞・新濟州店（營業待確認）",
+      "original": "푸라닭 신제주점",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "官網仍列此分店；先標官網地址所在建物，選餐前請先確認門市仍營業。",
+      "note": "2026-10-17 Puradak 官網列店，但 Kakao 未找到相符門市；座標僅為官網地址的建物位置，不代表已核實門市入口或現行營業。官網電話 064-749-9493；有其他店家共用同建物，請先致電核對。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "Puradak 官網濟州門市列表與 Kakao 地址查詢；不可將地址定位當成營業確認。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.4855067218809,
+        126.484693215429
+      ],
+      "address": "제주특별자치도 제주시 원노형로 36, 103, 104호 (노형동)",
+      "verificationUrl": "https://puradakchicken.com/startup/store.asp",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%9B%90%EB%85%B8%ED%98%95%EB%A1%9C%2036%2C%20103%2C%20104%ED%98%B8%20%28%EB%85%B8%ED%98%95%EB%8F%99%29",
+      "branchGroup": "puradak",
+      "locationConfidence": "address-only",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://map.kakao.com/?q=%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%9B%90%EB%85%B8%ED%98%95%EB%A1%9C%2036",
+          "label": "官網地址的建物位置 ↗"
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "name": "Puradak 炸雞・濟州客運站店（營業待確認）",
+      "original": "푸라닭 제주터미널점",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "官網仍列此分店；先標官網地址所在建物，選餐前請先確認門市仍營業。",
+      "note": "2026-10-17 Puradak 官網列店，但 Kakao 未找到相符門市；座標僅為官網地址的建物位置，不代表已核實門市入口或現行營業。官網電話 064-757-4388；有其他店家共用同建物，請先致電核對。",
+      "sourceId": "aunt-juner-list-20261014",
+      "evidence": "Puradak 官網濟州門市列表與 Kakao 地址查詢；不可將地址定位當成營業確認。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.5013893806364,
+        126.513749555612
+      ],
+      "address": "제주특별자치도 제주시 남성로2길 7, 1층 (용담일동)",
+      "verificationUrl": "https://puradakchicken.com/startup/store.asp",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EB%82%A8%EC%84%B1%EB%A1%9C2%EA%B8%B8%207%2C%201%EC%B8%B5%20%28%EC%9A%A9%EB%8B%B4%EC%9D%BC%EB%8F%99%29",
+      "branchGroup": "puradak",
+      "locationConfidence": "address-only",
+      "locationChecked": "2026-10-17",
+      "recommendationLinks": [
+        {
+          "url": "https://map.kakao.com/?q=%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EB%82%A8%EC%84%B1%EB%A1%9C2%EA%B8%B8%207",
+          "label": "官網地址的建物位置 ↗"
+        }
+      ]
     }
   ],
   "unlocated": [
@@ -1404,64 +3257,6 @@
       "confirmationPrompt": "加波島海鮮麵有指定店名或招牌截圖嗎？目前只有影片餐廳描述。"
     },
     {
-      "name": "姊妹麵條 자매국수（不指定分店，按路線選）",
-      "original": "姊妹麵條 자매국수",
-      "category": "food",
-      "area": "north",
-      "videoDay": null,
-      "timestamp": null,
-      "why": "鈞兒阿姨清單推薦；使用者不指定濟州島分店，之後依路線選，尚未排入行程。",
-      "note": "2026-10-17 使用者統一指定：不指定分店，列出濟州島分店後依路線選；不再要求先選定單一分店。既有資料僅供後續核對：2026-10-17 使用者確認：不指定分店，之後按路線選。尚未選定實際店點，不放固定地圖標點；選店時再核對現址、營業狀態與路線。品牌既有地址資料可能涉及遷址，避免沿用舊座標。",
-      "sourceId": "aunt-juner-list-20261014",
-      "evidence": "使用者提供的鈞兒阿姨行程截圖；名稱與地址按連結來源核對。",
-      "videoVisit": "personal",
-      "status": "unlocated",
-      "verificationUrl": "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_200000000012575",
-      "id": "aunt-jamae-guksu",
-      "branchPreference": "any-jeju-branch",
-      "branchCoverage": "pending-verification",
-      "branchNotice": "已確認不指定分店；濟州島完整分店名單、現址與座標尚待核實，尚未完成全部分店標點。以下為搜尋入口，不是已核實分店清單。",
-      "branchSearchLinks": [
-        {
-          "url": "https://www.google.com/maps/search/?api=1&query=%EC%A0%9C%EC%A3%BC%20%EC%9E%90%EB%A7%A4%EA%B5%AD%EC%88%98",
-          "label": "Google Maps 搜尋濟州分店 ↗"
-        },
-        {
-          "url": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%20%EC%9E%90%EB%A7%A4%EA%B5%AD%EC%88%98",
-          "label": "Naver Map 搜尋濟州分店 ↗"
-        }
-      ]
-    },
-    {
-      "name": "海女包飯 해녀김밥（不指定分店，按路線選）",
-      "original": "海女包飯 해녀김밥",
-      "category": "food",
-      "area": "north",
-      "videoDay": null,
-      "timestamp": null,
-      "why": "鈞兒阿姨清單推薦；使用者不指定濟州島分店，之後依路線選，尚未排入行程。",
-      "note": "2026-10-17 使用者統一指定：不指定分店，列出濟州島分店後依路線選；不再要求先選定單一分店。既有資料僅供後續核對：品牌已確認；截圖未指定分店，保持不定位。本店地址參考為 제주 제주시 조천읍 함덕로 40 3층, 302호。官方頁面座標疑似仍為舊位置，不採用；價格與休息日不可套用截圖。",
-      "sourceId": "aunt-juner-list-20261014",
-      "evidence": "使用者提供的鈞兒阿姨行程截圖；名稱與地址按連結來源核對。",
-      "videoVisit": "personal",
-      "status": "unlocated",
-      "verificationUrl": "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_200000000012606",
-      "id": "aunt-haenyeo-gimbap",
-      "branchPreference": "any-jeju-branch",
-      "branchCoverage": "pending-verification",
-      "branchNotice": "已確認不指定分店；濟州島完整分店名單、現址與座標尚待核實，尚未完成全部分店標點。以下為搜尋入口，不是已核實分店清單。",
-      "branchSearchLinks": [
-        {
-          "url": "https://www.google.com/maps/search/?api=1&query=%EC%A0%9C%EC%A3%BC%20%ED%95%B4%EB%85%80%EA%B9%80%EB%B0%A5",
-          "label": "Google Maps 搜尋濟州分店 ↗"
-        },
-        {
-          "url": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%20%ED%95%B4%EB%85%80%EA%B9%80%EB%B0%A5",
-          "label": "Naver Map 搜尋濟州分店 ↗"
-        }
-      ]
-    },
-    {
       "name": "Hugely Jeju 휴즐리 제주",
       "original": "hugely jeju 橘子冰淇淋",
       "category": "cafe",
@@ -1476,65 +3271,6 @@
       "status": "unlocated",
       "verificationUrl": "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_300000000016149",
       "id": "aunt-hugely-jeju"
-    },
-    {
-      "name": "城山春粥‧刀切麵 성산봄죽칼국수（不指定分店，按路線選）",
-      "original": "城山春粥刀切麵",
-      "category": "food",
-      "area": "east",
-      "videoDay": null,
-      "timestamp": null,
-      "why": "鈞兒阿姨清單推薦；使用者不指定濟州島分店，之後依路線選，尚未排入行程。",
-      "note": "2026-10-17 使用者統一指定：不指定分店，列出濟州島分店後依路線選；不再要求先選定單一分店。既有資料僅供後續核對：官方繁體中文名稱完全吻合截圖。VisitKorea 同一頁韓文地址為 제주특별자치도 서귀포시 성산읍 일주동로 5109，翻譯地址卻是 환해장성로 33 1층 2호；日文官方頁標題為 신산리 본점。公開資料另列城山與新山里分店，故保持地址待確認、不定位。招牌為海螺刀切麵與海螺粥。",
-      "sourceId": "aunt-juner-list-20261014",
-      "evidence": "使用者提供的鈞兒阿姨行程截圖；名稱與地址按連結來源核對。",
-      "videoVisit": "personal",
-      "status": "unlocated",
-      "verificationUrl": "https://big5chinese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=58201",
-      "id": "aunt-seongsan-bom-juk-kalguksu",
-      "branchPreference": "any-jeju-branch",
-      "branchCoverage": "pending-verification",
-      "branchNotice": "已確認不指定分店；濟州島完整分店名單、現址與座標尚待核實，尚未完成全部分店標點。以下為搜尋入口，不是已核實分店清單。",
-      "branchSearchLinks": [
-        {
-          "url": "https://www.google.com/maps/search/?api=1&query=%EC%A0%9C%EC%A3%BC%20%EC%84%B1%EC%82%B0%EB%B4%84%EC%A3%BD%EC%B9%BC%EA%B5%AD%EC%88%98",
-          "label": "Google Maps 搜尋濟州分店 ↗"
-        },
-        {
-          "url": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%20%EC%84%B1%EC%82%B0%EB%B4%84%EC%A3%BD%EC%B9%BC%EA%B5%AD%EC%88%98",
-          "label": "Naver Map 搜尋濟州分店 ↗"
-        }
-      ]
-    },
-    {
-      "name": "夢炭 Mongtan 몽탄（依名稱判斷；分店按路線選）",
-      "original": "꿈탄／夢炭 Jeju",
-      "category": "food",
-      "area": "north",
-      "videoDay": null,
-      "timestamp": null,
-      "why": "依中文「夢炭」及既有品牌來源，暫以 Mongtan 몽탄 收錄為候選；不指定濟州島分店，之後按路線選。",
-      "note": "中文「夢炭」與 Mongtan 品牌名稱相符，因此以此作為較合理的候選辨識；原截圖夢炭旁的 꿈탄 與品牌正字 몽탄 不同，可能是誤字，尚未獨立核實原推薦。這是資料判斷，不是使用者確認店家身份。既有資料列品牌官網 https://mongtan.co.kr/ 及 CATCHTABLE 濟州餐廳介紹 https://www.catchtable.net/discovery/koreas-10-famous-grilled-beef-restaurants-in-jeju.html ，其中列濟州店地址 제주 제주시 구좌읍 동복로 83；其他分店的現況及座標仍待重新核對，不先放地圖標點。",
-      "sourceId": "aunt-juner-list-20261014",
-      "evidence": "原推薦記錄為「꿈탄／夢炭 Jeju」；2026-10-17 使用者授權由助理判斷，依中文名稱與既有品牌來源暫對應 Mongtan，並保留原文供追查。",
-      "videoVisit": "personal",
-      "status": "unlocated",
-      "verificationUrl": "https://mongtan.co.kr/",
-      "id": "aunt-mongtan-jeju",
-      "branchPreference": "any-jeju-branch",
-      "identityStatus": "inferred-not-independently-verified",
-      "branchCoverage": "pending-verification",
-      "branchNotice": "不指定濟州島分店；完整分店名單、現址與座標仍待核實。搜尋入口不代表已完成全部分店標點。",
-      "branchSearchLinks": [
-        {
-          "url": "https://www.google.com/maps/search/?api=1&query=%EC%A0%9C%EC%A3%BC%20%EB%AA%BD%ED%83%84",
-          "label": "Google Maps 搜尋濟州分店 ↗"
-        },
-        {
-          "url": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%20%EB%AA%BD%ED%83%84",
-          "label": "Naver Map 搜尋濟州分店 ↗"
-        }
-      ]
     },
     {
       "name": "Audrant Bakery 오드랑베이커리",
@@ -1583,64 +3319,6 @@
       "status": "unlocated",
       "verificationUrl": "https://www.ofjeju.kr/bussiness/location/locationsearch.htm?act=view&id=211&page=10",
       "id": "aunt-jungang-underground"
-    },
-    {
-      "name": "Object 選物店 오브젝트（不指定分店，按路線選）",
-      "original": "Object選物店",
-      "category": "shopping",
-      "area": "north",
-      "videoDay": null,
-      "timestamp": null,
-      "why": "鈞兒阿姨清單推薦；使用者不指定濟州島分店，之後依路線選，尚未排入行程。",
-      "note": "2026-10-17 使用者統一指定：不指定分店，列出濟州島分店後依路線選；不再要求先選定單一分店。既有資料僅供後續核對：品牌有多間分店；截圖未指定，保持不定位。品牌舊 FAQ https://m.insideobject.com/article/이용안내-faq/3/10959/ 列 제주 선흘점 舊址 중산간동로 1175-1。近期品牌供貨商 Brightroom https://www.bright-room.kr/area 列 제주점 동복로 87，旅遊平台也說遷址；不能用舊址定位。",
-      "sourceId": "aunt-juner-list-20261014",
-      "evidence": "使用者提供的鈞兒阿姨行程截圖；名稱與地址按連結來源核對。",
-      "videoVisit": "personal",
-      "status": "unlocated",
-      "verificationUrl": "https://insideobject.com/",
-      "id": "aunt-object",
-      "branchPreference": "any-jeju-branch",
-      "branchCoverage": "pending-verification",
-      "branchNotice": "已確認不指定分店；濟州島完整分店名單、現址與座標尚待核實，尚未完成全部分店標點。以下為搜尋入口，不是已核實分店清單。",
-      "branchSearchLinks": [
-        {
-          "url": "https://www.google.com/maps/search/?api=1&query=%EC%A0%9C%EC%A3%BC%20%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8",
-          "label": "Google Maps 搜尋濟州分店 ↗"
-        },
-        {
-          "url": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%20%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8",
-          "label": "Naver Map 搜尋濟州分店 ↗"
-        }
-      ]
-    },
-    {
-      "name": "大創 다이소（不指定分店，按路線選）",
-      "original": "大創",
-      "category": "shopping",
-      "area": "north",
-      "videoDay": null,
-      "timestamp": null,
-      "why": "鈞兒阿姨清單推薦；使用者不指定濟州島分店，之後依路線選，尚未排入行程。",
-      "note": "2026-10-17 使用者統一指定：不指定分店，列出濟州島分店後依路線選；不再要求先選定單一分店。既有資料僅供後續核對：官方搜尋顯示濟州多店，截圖未指定分店，保持不定位。地址參考例：제주동문시장점 제주 제주시 관덕로 68 1~4층；제주노형점 제주 제주시 1100로 3325 1~4층；僅供分店選擇參考。",
-      "sourceId": "aunt-juner-list-20261014",
-      "evidence": "使用者提供的鈞兒阿姨行程截圖；名稱與地址按連結來源核對。",
-      "videoVisit": "personal",
-      "status": "unlocated",
-      "verificationUrl": "https://www.daiso.co.kr/cs/shop?name_address=%EC%A0%9C%EC%A3%BC",
-      "id": "aunt-daiso",
-      "branchPreference": "any-jeju-branch",
-      "branchCoverage": "pending-verification",
-      "branchNotice": "已確認不指定分店；濟州島完整分店名單、現址與座標尚待核實，尚未完成全部分店標點。以下為搜尋入口，不是已核實分店清單。",
-      "branchSearchLinks": [
-        {
-          "url": "https://www.google.com/maps/search/?api=1&query=%EC%A0%9C%EC%A3%BC%20%EB%8B%A4%EC%9D%B4%EC%86%8C",
-          "label": "Google Maps 搜尋濟州分店 ↗"
-        },
-        {
-          "url": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%20%EB%8B%A4%EC%9D%B4%EC%86%8C",
-          "label": "Naver Map 搜尋濟州分店 ↗"
-        }
-      ]
     },
     {
       "name": "濟州市五日民俗市場 제주시민속오일시장",
@@ -1791,64 +3469,6 @@
       "confirmationPrompt": "濟州橘子家是否指 제주귤집？請提供店家連結或截圖；不與 Cafe Tangerine 合併。"
     },
     {
-      "name": "明浩大蒜牛排骨（不指定分店，按路線選）",
-      "original": "명호마농갈비",
-      "category": "food",
-      "area": "south",
-      "videoDay": null,
-      "timestamp": null,
-      "why": "鈞兒阿姨清單推薦；使用者不指定濟州島分店，之後依路線選，尚未排入行程。",
-      "note": "2026-10-17 使用者統一指定：不指定分店，列出濟州島分店後依路線選；不再要求先選定單一分店。既有資料僅供後續核對：本店與中門店皆存在，截圖未指定分店。店家自行維護的當根頁確認濟州市本店為 신대로12길15；目前不任選分店，精確地址待確認。",
-      "sourceId": "aunt-juner-list-20261014",
-      "evidence": "使用者提供的鈞兒阿姨行程截圖；名稱與地址按連結來源核對。",
-      "videoVisit": "personal",
-      "status": "unlocated",
-      "verificationUrl": "https://www.daangn.com/kr/local-profile/187838/",
-      "id": "aunt-myungho-manong-galbi",
-      "branchPreference": "any-jeju-branch",
-      "branchCoverage": "pending-verification",
-      "branchNotice": "已確認不指定分店；濟州島完整分店名單、現址與座標尚待核實，尚未完成全部分店標點。以下為搜尋入口，不是已核實分店清單。",
-      "branchSearchLinks": [
-        {
-          "url": "https://www.google.com/maps/search/?api=1&query=%EC%A0%9C%EC%A3%BC%20%EB%AA%85%ED%98%B8%EB%A7%88%EB%86%8D%EA%B0%88%EB%B9%84",
-          "label": "Google Maps 搜尋濟州分店 ↗"
-        },
-        {
-          "url": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%20%EB%AA%85%ED%98%B8%EB%A7%88%EB%86%8D%EA%B0%88%EB%B9%84",
-          "label": "Naver Map 搜尋濟州分店 ↗"
-        }
-      ]
-    },
-    {
-      "name": "三姓穴海鮮湯（不指定分店，按路線選）",
-      "original": "삼성혈해물탕",
-      "category": "food",
-      "area": "south",
-      "videoDay": null,
-      "timestamp": null,
-      "why": "鈞兒阿姨清單推薦；使用者不指定濟州島分店，之後依路線選，尚未排入行程。",
-      "note": "2026-10-17 使用者統一指定：不指定分店，列出濟州島分店後依路線選；不再要求先選定單一分店。既有資料僅供後續核對：未指定分店；不任意採用本店或其他分店地址。",
-      "sourceId": "aunt-juner-list-20261014",
-      "evidence": "使用者提供的鈞兒阿姨行程截圖；名稱與地址按連結來源核對。",
-      "videoVisit": "personal",
-      "status": "unlocated",
-      "verificationUrl": "",
-      "id": "aunt-samseonghyeol-seafood",
-      "branchPreference": "any-jeju-branch",
-      "branchCoverage": "pending-verification",
-      "branchNotice": "已確認不指定分店；濟州島完整分店名單、現址與座標尚待核實，尚未完成全部分店標點。以下為搜尋入口，不是已核實分店清單。",
-      "branchSearchLinks": [
-        {
-          "url": "https://www.google.com/maps/search/?api=1&query=%EC%A0%9C%EC%A3%BC%20%EC%82%BC%EC%84%B1%ED%98%88%ED%95%B4%EB%AC%BC%ED%83%95",
-          "label": "Google Maps 搜尋濟州分店 ↗"
-        },
-        {
-          "url": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%20%EC%82%BC%EC%84%B1%ED%98%88%ED%95%B4%EB%AC%BC%ED%83%95",
-          "label": "Naver Map 搜尋濟州分店 ↗"
-        }
-      ]
-    },
-    {
       "name": "蓮洞夜市",
       "original": "蓮洞夜市？",
       "category": "shopping",
@@ -1898,41 +3518,6 @@
       "verificationUrl": "",
       "id": "aunt-chita-chicken",
       "confirmationPrompt": "Chita 炸雞的韓文店名或帳號是什麼？請提供連結或招牌截圖。"
-    },
-    {
-      "name": "Puradak Chicken（不指定分店，按路線選）",
-      "original": "푸라닭／Puradak Chicken",
-      "category": "food",
-      "area": "north",
-      "videoDay": null,
-      "timestamp": null,
-      "why": "鈞兒阿姨清單推薦；使用者不指定濟州島分店，之後依路線選，尚未排入行程。",
-      "note": "2026-10-17 使用者統一指定：不指定分店，列出濟州島分店後依路線選；不再要求先選定單一分店。既有資料僅供後續核對：連鎖品牌，分店未指定；不任選地址。 影片提及黑蒜口味與墨西哥辣椒蛋黃美乃滋；分店未確認。",
-      "sourceId": "aunt-juner-list-20261014",
-      "evidence": "使用者提供的鈞兒阿姨行程截圖；名稱與地址按連結來源核對。",
-      "videoVisit": "personal",
-      "status": "unlocated",
-      "verificationUrl": "",
-      "id": "aunt-puradak-chicken",
-      "recommendations": [
-        {
-          "sourceId": "illy-jeju-ByU3lfYMK4Y",
-          "timestamp": 1995
-        }
-      ],
-      "branchPreference": "any-jeju-branch",
-      "branchCoverage": "pending-verification",
-      "branchNotice": "已確認不指定分店；濟州島完整分店名單、現址與座標尚待核實，尚未完成全部分店標點。以下為搜尋入口，不是已核實分店清單。",
-      "branchSearchLinks": [
-        {
-          "url": "https://www.google.com/maps/search/?api=1&query=%EC%A0%9C%EC%A3%BC%20%ED%91%B8%EB%9D%BC%EB%8B%AD",
-          "label": "Google Maps 搜尋濟州分店 ↗"
-        },
-        {
-          "url": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%20%ED%91%B8%EB%9D%BC%EB%8B%AD",
-          "label": "Naver Map 搜尋濟州分店 ↗"
-        }
-      ]
     },
     {
       "id": "aunt-jeju-901",
@@ -2048,6 +3633,168 @@
       "extra": "只是原影片順序，未排入你們10/24–27行程；住宿與未定位餐廳另列待確認。"
     }
   ],
-  "day4": "影片口述最後一晚隨意吃、隔天中午搭機，沒有提供可辨識的第四天景點或店名。片尾提到漢拏山與海女體驗是其他／未來行程，不當成本片已造訪地點。"
+  "day4": "影片口述最後一晚隨意吃、隔天中午搭機，沒有提供可辨識的第四天景點或店名。片尾提到漢拏山與海女體驗是其他／未來行程，不當成本片已造訪地點。",
+  "branchGroups": [
+    {
+      "id": "jamae",
+      "label": "姊妹麵條",
+      "checked": "2026-10-17",
+      "preference": "不指定分店，依路線選；尚未排入行程",
+      "originalRecommendation": "姊妹麵條 자매국수",
+      "sourceUrl": "https://map.kakao.com/?q=%EC%A0%9C%EC%A3%BC%20%EC%9E%90%EB%A7%A4%EA%B5%AD%EC%88%98",
+      "coverageNote": "本次只核對到 1 間相符門市；官方頁現址為 항골남길 46，舊麵街／老衡店不重複標記。官方頁舊座標與現址不符，採 Kakao 現址店點。",
+      "placeIds": [
+        53
+      ]
+    },
+    {
+      "id": "haenyeo",
+      "label": "海女包飯",
+      "checked": "2026-10-17",
+      "preference": "不指定分店，依路線選；尚未排入行程",
+      "originalRecommendation": "海女包飯 해녀김밥",
+      "sourceUrl": "https://map.kakao.com/?q=%EC%A0%9C%EC%A3%BC%20%ED%95%B4%EB%85%80%EA%B9%80%EB%B0%A5",
+      "coverageNote": "本次只核對到咸德本店；排除 해녀할망국수 等不同店家。現址 함덕로 40 與 VisitJeju 相符，座標採 Kakao 店點，避免官方頁舊點。",
+      "placeIds": [
+        54
+      ]
+    },
+    {
+      "id": "seongsan",
+      "label": "城山春粥・刀切麵",
+      "checked": "2026-10-17",
+      "preference": "不指定分店，依路線選；尚未排入行程",
+      "originalRecommendation": "城山春粥刀切麵",
+      "sourceUrl": "https://map.kakao.com/?q=%EC%A0%9C%EC%A3%BC%20%EC%84%B1%EC%82%B0%EB%B4%84%EC%A3%BD%EC%B9%BC%EA%B5%AD%EC%88%98",
+      "coverageNote": "Kakao 現有店點為城山店、童話村店。VisitKorea 舊頁的新山里／環海長城路地址互相矛盾，未另當成第 3 間現行分店。",
+      "placeIds": [
+        55,
+        56
+      ]
+    },
+    {
+      "id": "mongtan",
+      "label": "夢炭 Mongtan",
+      "checked": "2026-10-17",
+      "preference": "不指定分店，依路線選；尚未排入行程",
+      "originalRecommendation": "꿈탄／夢炭 Jeju",
+      "sourceUrl": "https://map.kakao.com/?q=%EC%A0%9C%EC%A3%BC%20%EB%AA%BD%ED%83%84",
+      "coverageNote": "列舊左、涯月 2 店，排除獨立停車場。依中文「夢炭」推定為 Mongtan；原推薦的 꿈탄 拼字與品牌正字不同，推薦辨識仍保留此註記。",
+      "placeIds": [
+        57,
+        58
+      ]
+    },
+    {
+      "id": "object",
+      "label": "Object 選物店",
+      "checked": "2026-10-17",
+      "preference": "不指定分店，依路線選；尚未排入行程",
+      "originalRecommendation": "Object選物店",
+      "sourceUrl": "https://map.kakao.com/?q=%EC%A0%9C%EC%A3%BC%20%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8",
+      "coverageNote": "品牌官網 STORE 與供貨商均列東福里濟州店，Kakao 地址為 동복로 87；不再把舊先屹地址當第 2 間分店。",
+      "placeIds": [
+        59
+      ]
+    },
+    {
+      "id": "daiso",
+      "label": "大創 Daiso",
+      "checked": "2026-10-17",
+      "preference": "不指定分店，依路線選；尚未排入行程",
+      "originalRecommendation": "大創",
+      "sourceUrl": "https://map.kakao.com/?q=%EC%A0%9C%EC%A3%BC%20%EB%8B%A4%EC%9D%B4%EC%86%8C",
+      "coverageNote": "Kakao 地圖 3 頁共 38 筆結果，排除停車場、充電站與不同品牌後為 28 間門市；逐一核對大創官網店名及地址。",
+      "placeIds": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87
+      ]
+    },
+    {
+      "id": "myungho",
+      "label": "明浩大蒜牛排骨",
+      "checked": "2026-10-17",
+      "preference": "不指定分店，依路線選；尚未排入行程",
+      "originalRecommendation": "명호마농갈비",
+      "sourceUrl": "https://map.kakao.com/?q=%EC%A0%9C%EC%A3%BC%20%EB%AA%85%ED%98%B8%EB%A7%88%EB%86%8D%EA%B0%88%EB%B9%84",
+      "coverageNote": "依本次 Kakao 地圖查詢結果列出濟州本島店點，排除名稱相近的其他品牌及停車場；不是即時營業保證。",
+      "placeIds": [
+        88,
+        89
+      ]
+    },
+    {
+      "id": "samseong",
+      "label": "三姓穴海鮮湯",
+      "checked": "2026-10-17",
+      "preference": "不指定分店，依路線選；尚未排入行程",
+      "originalRecommendation": "삼성혈해물탕",
+      "sourceUrl": "https://map.kakao.com/?q=%EC%A0%9C%EC%A3%BC%20%EC%82%BC%EC%84%B1%ED%98%88%ED%95%B4%EB%AC%BC%ED%83%95",
+      "coverageNote": "依本次 Kakao 地圖查詢結果列出濟州本島店點，排除名稱相近的其他品牌及停車場；不是即時營業保證。",
+      "placeIds": [
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "id": "puradak",
+      "label": "Puradak 炸雞",
+      "checked": "2026-10-17",
+      "preference": "不指定分店，依路線選；尚未排入行程",
+      "originalRecommendation": "푸라닭／Puradak Chicken",
+      "sourceUrl": "https://map.kakao.com/?q=%EC%A0%9C%EC%A3%BC%20%ED%91%B8%EB%9D%BC%EB%8B%AD",
+      "coverageNote": "Puradak 官網濟州地區 2 頁共 21 店；19 店與 Kakao 店點相符，另 2 店僅標官網地址所在建物，營業與門市位置待確認。",
+      "placeIds": [
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113
+      ]
+    }
+  ]
 }
 
