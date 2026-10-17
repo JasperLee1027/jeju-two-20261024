@@ -1410,31 +1410,56 @@
       "area": "north",
       "videoDay": null,
       "timestamp": null,
-      "why": "鈞兒阿姨清單推薦；使用者不指定分店，之後依行車路線選擇，仍為候選。",
-      "note": "2026-10-17 使用者確認：不指定分店，之後按路線選。尚未選定實際店點，不放固定地圖標點；選店時再核對現址、營業狀態與路線。品牌既有地址資料可能涉及遷址，避免沿用舊座標。",
+      "why": "鈞兒阿姨清單推薦；使用者不指定濟州島分店，之後依路線選，尚未排入行程。",
+      "note": "2026-10-17 使用者統一指定：不指定分店，列出濟州島分店後依路線選；不再要求先選定單一分店。既有資料僅供後續核對：2026-10-17 使用者確認：不指定分店，之後按路線選。尚未選定實際店點，不放固定地圖標點；選店時再核對現址、營業狀態與路線。品牌既有地址資料可能涉及遷址，避免沿用舊座標。",
       "sourceId": "aunt-juner-list-20261014",
       "evidence": "使用者提供的鈞兒阿姨行程截圖；名稱與地址按連結來源核對。",
       "videoVisit": "personal",
       "status": "unlocated",
       "verificationUrl": "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_200000000012575",
-      "id": "aunt-jamae-guksu"
+      "id": "aunt-jamae-guksu",
+      "branchPreference": "any-jeju-branch",
+      "branchCoverage": "pending-verification",
+      "branchNotice": "已確認不指定分店；濟州島完整分店名單、現址與座標尚待核實，尚未完成全部分店標點。以下為搜尋入口，不是已核實分店清單。",
+      "branchSearchLinks": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=%EC%A0%9C%EC%A3%BC%20%EC%9E%90%EB%A7%A4%EA%B5%AD%EC%88%98",
+          "label": "Google Maps 搜尋濟州分店 ↗"
+        },
+        {
+          "url": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%20%EC%9E%90%EB%A7%A4%EA%B5%AD%EC%88%98",
+          "label": "Naver Map 搜尋濟州分店 ↗"
+        }
+      ]
     },
     {
-      "name": "海女包飯 해녀김밥（分店待確認）",
+      "name": "海女包飯 해녀김밥（不指定分店，按路線選）",
       "original": "海女包飯 해녀김밥",
       "category": "food",
       "area": "north",
       "videoDay": null,
       "timestamp": null,
-      "why": "鈞兒阿姨清單推薦；先收藏作為兩人行程的候選。",
-      "note": "品牌已確認；截圖未指定分店，保持不定位。本店地址參考為 제주 제주시 조천읍 함덕로 40 3층, 302호。官方頁面座標疑似仍為舊位置，不採用；價格與休息日不可套用截圖。",
+      "why": "鈞兒阿姨清單推薦；使用者不指定濟州島分店，之後依路線選，尚未排入行程。",
+      "note": "2026-10-17 使用者統一指定：不指定分店，列出濟州島分店後依路線選；不再要求先選定單一分店。既有資料僅供後續核對：品牌已確認；截圖未指定分店，保持不定位。本店地址參考為 제주 제주시 조천읍 함덕로 40 3층, 302호。官方頁面座標疑似仍為舊位置，不採用；價格與休息日不可套用截圖。",
       "sourceId": "aunt-juner-list-20261014",
       "evidence": "使用者提供的鈞兒阿姨行程截圖；名稱與地址按連結來源核對。",
       "videoVisit": "personal",
       "status": "unlocated",
       "verificationUrl": "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_200000000012606",
       "id": "aunt-haenyeo-gimbap",
-      "confirmationPrompt": "海女包飯想去的是哪個分店？請提供地圖連結或地址。"
+      "branchPreference": "any-jeju-branch",
+      "branchCoverage": "pending-verification",
+      "branchNotice": "已確認不指定分店；濟州島完整分店名單、現址與座標尚待核實，尚未完成全部分店標點。以下為搜尋入口，不是已核實分店清單。",
+      "branchSearchLinks": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=%EC%A0%9C%EC%A3%BC%20%ED%95%B4%EB%85%80%EA%B9%80%EB%B0%A5",
+          "label": "Google Maps 搜尋濟州分店 ↗"
+        },
+        {
+          "url": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%20%ED%95%B4%EB%85%80%EA%B9%80%EB%B0%A5",
+          "label": "Naver Map 搜尋濟州分店 ↗"
+        }
+      ]
     },
     {
       "name": "Hugely Jeju 휴즐리 제주",
@@ -1453,21 +1478,33 @@
       "id": "aunt-hugely-jeju"
     },
     {
-      "name": "城山春粥‧刀切麵 성산봄죽칼국수（分店待確認）",
+      "name": "城山春粥‧刀切麵 성산봄죽칼국수（不指定分店，按路線選）",
       "original": "城山春粥刀切麵",
       "category": "food",
       "area": "east",
       "videoDay": null,
       "timestamp": null,
-      "why": "鈞兒阿姨清單推薦；先收藏作為兩人行程的候選。",
-      "note": "官方繁體中文名稱完全吻合截圖。VisitKorea 同一頁韓文地址為 제주특별자치도 서귀포시 성산읍 일주동로 5109，翻譯地址卻是 환해장성로 33 1층 2호；日文官方頁標題為 신산리 본점。公開資料另列城山與新山里分店，故保持地址待確認、不定位。招牌為海螺刀切麵與海螺粥。",
+      "why": "鈞兒阿姨清單推薦；使用者不指定濟州島分店，之後依路線選，尚未排入行程。",
+      "note": "2026-10-17 使用者統一指定：不指定分店，列出濟州島分店後依路線選；不再要求先選定單一分店。既有資料僅供後續核對：官方繁體中文名稱完全吻合截圖。VisitKorea 同一頁韓文地址為 제주특별자치도 서귀포시 성산읍 일주동로 5109，翻譯地址卻是 환해장성로 33 1층 2호；日文官方頁標題為 신산리 본점。公開資料另列城山與新山里分店，故保持地址待確認、不定位。招牌為海螺刀切麵與海螺粥。",
       "sourceId": "aunt-juner-list-20261014",
       "evidence": "使用者提供的鈞兒阿姨行程截圖；名稱與地址按連結來源核對。",
       "videoVisit": "personal",
       "status": "unlocated",
       "verificationUrl": "https://big5chinese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=58201",
       "id": "aunt-seongsan-bom-juk-kalguksu",
-      "confirmationPrompt": "城山春粥刀切麵指城山店還是新山里本店？也可以提供地圖連結。"
+      "branchPreference": "any-jeju-branch",
+      "branchCoverage": "pending-verification",
+      "branchNotice": "已確認不指定分店；濟州島完整分店名單、現址與座標尚待核實，尚未完成全部分店標點。以下為搜尋入口，不是已核實分店清單。",
+      "branchSearchLinks": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=%EC%A0%9C%EC%A3%BC%20%EC%84%B1%EC%82%B0%EB%B4%84%EC%A3%BD%EC%B9%BC%EA%B5%AD%EC%88%98",
+          "label": "Google Maps 搜尋濟州分店 ↗"
+        },
+        {
+          "url": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%20%EC%84%B1%EC%82%B0%EB%B4%84%EC%A3%BD%EC%B9%BC%EA%B5%AD%EC%88%98",
+          "label": "Naver Map 搜尋濟州分店 ↗"
+        }
+      ]
     },
     {
       "name": "夢炭／몽탄（分店待確認）",
@@ -1484,7 +1521,8 @@
       "status": "unlocated",
       "verificationUrl": "https://mongtan.co.kr/",
       "id": "aunt-mongtan-jeju",
-      "confirmationPrompt": "這家是否確定是夢炭 몽탄？若是，指東福里濟州店、涯月店，還是其他分店？"
+      "confirmationPrompt": "原截圖的 꿈탄／夢炭是否確定是 몽탄 品牌？只需確認品牌，分店會依濟州島路線選。",
+      "branchPreference": "any-jeju-branch"
     },
     {
       "name": "Audrant Bakery 오드랑베이커리",
@@ -1535,38 +1573,62 @@
       "id": "aunt-jungang-underground"
     },
     {
-      "name": "Object 選物店 오브젝트（分店待確認）",
+      "name": "Object 選物店 오브젝트（不指定分店，按路線選）",
       "original": "Object選物店",
       "category": "shopping",
       "area": "north",
       "videoDay": null,
       "timestamp": null,
-      "why": "鈞兒阿姨清單推薦；先收藏作為兩人行程的候選。",
-      "note": "品牌有多間分店；截圖未指定，保持不定位。品牌舊 FAQ https://m.insideobject.com/article/이용안내-faq/3/10959/ 列 제주 선흘점 舊址 중산간동로 1175-1。近期品牌供貨商 Brightroom https://www.bright-room.kr/area 列 제주점 동복로 87，旅遊平台也說遷址；不能用舊址定位。",
+      "why": "鈞兒阿姨清單推薦；使用者不指定濟州島分店，之後依路線選，尚未排入行程。",
+      "note": "2026-10-17 使用者統一指定：不指定分店，列出濟州島分店後依路線選；不再要求先選定單一分店。既有資料僅供後續核對：品牌有多間分店；截圖未指定，保持不定位。品牌舊 FAQ https://m.insideobject.com/article/이용안내-faq/3/10959/ 列 제주 선흘점 舊址 중산간동로 1175-1。近期品牌供貨商 Brightroom https://www.bright-room.kr/area 列 제주점 동복로 87，旅遊平台也說遷址；不能用舊址定位。",
       "sourceId": "aunt-juner-list-20261014",
       "evidence": "使用者提供的鈞兒阿姨行程截圖；名稱與地址按連結來源核對。",
       "videoVisit": "personal",
       "status": "unlocated",
       "verificationUrl": "https://insideobject.com/",
       "id": "aunt-object",
-      "confirmationPrompt": "Object 指哪個分店？請提供最新地圖連結，避免使用舊先屹店地址。"
+      "branchPreference": "any-jeju-branch",
+      "branchCoverage": "pending-verification",
+      "branchNotice": "已確認不指定分店；濟州島完整分店名單、現址與座標尚待核實，尚未完成全部分店標點。以下為搜尋入口，不是已核實分店清單。",
+      "branchSearchLinks": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=%EC%A0%9C%EC%A3%BC%20%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8",
+          "label": "Google Maps 搜尋濟州分店 ↗"
+        },
+        {
+          "url": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%20%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8",
+          "label": "Naver Map 搜尋濟州分店 ↗"
+        }
+      ]
     },
     {
-      "name": "大創 다이소（分店待確認）",
+      "name": "大創 다이소（不指定分店，按路線選）",
       "original": "大創",
       "category": "shopping",
       "area": "north",
       "videoDay": null,
       "timestamp": null,
-      "why": "鈞兒阿姨清單推薦；先收藏作為兩人行程的候選。",
-      "note": "官方搜尋顯示濟州多店，截圖未指定分店，保持不定位。地址參考例：제주동문시장점 제주 제주시 관덕로 68 1~4층；제주노형점 제주 제주시 1100로 3325 1~4층；僅供分店選擇參考。",
+      "why": "鈞兒阿姨清單推薦；使用者不指定濟州島分店，之後依路線選，尚未排入行程。",
+      "note": "2026-10-17 使用者統一指定：不指定分店，列出濟州島分店後依路線選；不再要求先選定單一分店。既有資料僅供後續核對：官方搜尋顯示濟州多店，截圖未指定分店，保持不定位。地址參考例：제주동문시장점 제주 제주시 관덕로 68 1~4층；제주노형점 제주 제주시 1100로 3325 1~4층；僅供分店選擇參考。",
       "sourceId": "aunt-juner-list-20261014",
       "evidence": "使用者提供的鈞兒阿姨行程截圖；名稱與地址按連結來源核對。",
       "videoVisit": "personal",
       "status": "unlocated",
       "verificationUrl": "https://www.daiso.co.kr/cs/shop?name_address=%EC%A0%9C%EC%A3%BC",
       "id": "aunt-daiso",
-      "confirmationPrompt": "大創有指定分店嗎？若只是想逛，可回覆「不指定，之後按路線選」。"
+      "branchPreference": "any-jeju-branch",
+      "branchCoverage": "pending-verification",
+      "branchNotice": "已確認不指定分店；濟州島完整分店名單、現址與座標尚待核實，尚未完成全部分店標點。以下為搜尋入口，不是已核實分店清單。",
+      "branchSearchLinks": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=%EC%A0%9C%EC%A3%BC%20%EB%8B%A4%EC%9D%B4%EC%86%8C",
+          "label": "Google Maps 搜尋濟州分店 ↗"
+        },
+        {
+          "url": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%20%EB%8B%A4%EC%9D%B4%EC%86%8C",
+          "label": "Naver Map 搜尋濟州分店 ↗"
+        }
+      ]
     },
     {
       "name": "濟州市五日民俗市場 제주시민속오일시장",
@@ -1717,38 +1779,62 @@
       "confirmationPrompt": "濟州橘子家是否指 제주귤집？請提供店家連結或截圖；不與 Cafe Tangerine 合併。"
     },
     {
-      "name": "明浩大蒜牛排骨",
+      "name": "明浩大蒜牛排骨（不指定分店，按路線選）",
       "original": "명호마농갈비",
       "category": "food",
       "area": "south",
       "videoDay": null,
       "timestamp": null,
-      "why": "鈞兒阿姨清單推薦；先收藏作為兩人行程的候選。",
-      "note": "本店與中門店皆存在，截圖未指定分店。店家自行維護的當根頁確認濟州市本店為 신대로12길15；目前不任選分店，精確地址待確認。",
+      "why": "鈞兒阿姨清單推薦；使用者不指定濟州島分店，之後依路線選，尚未排入行程。",
+      "note": "2026-10-17 使用者統一指定：不指定分店，列出濟州島分店後依路線選；不再要求先選定單一分店。既有資料僅供後續核對：本店與中門店皆存在，截圖未指定分店。店家自行維護的當根頁確認濟州市本店為 신대로12길15；目前不任選分店，精確地址待確認。",
       "sourceId": "aunt-juner-list-20261014",
       "evidence": "使用者提供的鈞兒阿姨行程截圖；名稱與地址按連結來源核對。",
       "videoVisit": "personal",
       "status": "unlocated",
       "verificationUrl": "https://www.daangn.com/kr/local-profile/187838/",
       "id": "aunt-myungho-manong-galbi",
-      "confirmationPrompt": "明浩大蒜牛排骨指濟州市本店、中門店，還是其他分店？"
+      "branchPreference": "any-jeju-branch",
+      "branchCoverage": "pending-verification",
+      "branchNotice": "已確認不指定分店；濟州島完整分店名單、現址與座標尚待核實，尚未完成全部分店標點。以下為搜尋入口，不是已核實分店清單。",
+      "branchSearchLinks": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=%EC%A0%9C%EC%A3%BC%20%EB%AA%85%ED%98%B8%EB%A7%88%EB%86%8D%EA%B0%88%EB%B9%84",
+          "label": "Google Maps 搜尋濟州分店 ↗"
+        },
+        {
+          "url": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%20%EB%AA%85%ED%98%B8%EB%A7%88%EB%86%8D%EA%B0%88%EB%B9%84",
+          "label": "Naver Map 搜尋濟州分店 ↗"
+        }
+      ]
     },
     {
-      "name": "三姓穴海鮮湯",
+      "name": "三姓穴海鮮湯（不指定分店，按路線選）",
       "original": "삼성혈해물탕",
       "category": "food",
       "area": "south",
       "videoDay": null,
       "timestamp": null,
-      "why": "鈞兒阿姨清單推薦；先收藏作為兩人行程的候選。",
-      "note": "未指定分店；不任意採用本店或其他分店地址。",
+      "why": "鈞兒阿姨清單推薦；使用者不指定濟州島分店，之後依路線選，尚未排入行程。",
+      "note": "2026-10-17 使用者統一指定：不指定分店，列出濟州島分店後依路線選；不再要求先選定單一分店。既有資料僅供後續核對：未指定分店；不任意採用本店或其他分店地址。",
       "sourceId": "aunt-juner-list-20261014",
       "evidence": "使用者提供的鈞兒阿姨行程截圖；名稱與地址按連結來源核對。",
       "videoVisit": "personal",
       "status": "unlocated",
       "verificationUrl": "",
       "id": "aunt-samseonghyeol-seafood",
-      "confirmationPrompt": "三姓穴海鮮湯有指定哪個分店嗎？請提供店家地圖連結。"
+      "branchPreference": "any-jeju-branch",
+      "branchCoverage": "pending-verification",
+      "branchNotice": "已確認不指定分店；濟州島完整分店名單、現址與座標尚待核實，尚未完成全部分店標點。以下為搜尋入口，不是已核實分店清單。",
+      "branchSearchLinks": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=%EC%A0%9C%EC%A3%BC%20%EC%82%BC%EC%84%B1%ED%98%88%ED%95%B4%EB%AC%BC%ED%83%95",
+          "label": "Google Maps 搜尋濟州分店 ↗"
+        },
+        {
+          "url": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%20%EC%82%BC%EC%84%B1%ED%98%88%ED%95%B4%EB%AC%BC%ED%83%95",
+          "label": "Naver Map 搜尋濟州分店 ↗"
+        }
+      ]
     },
     {
       "name": "蓮洞夜市",
@@ -1802,14 +1888,14 @@
       "confirmationPrompt": "Chita 炸雞的韓文店名或帳號是什麼？請提供連結或招牌截圖。"
     },
     {
-      "name": "Puradak Chicken",
+      "name": "Puradak Chicken（不指定分店，按路線選）",
       "original": "푸라닭／Puradak Chicken",
       "category": "food",
       "area": "north",
       "videoDay": null,
       "timestamp": null,
-      "why": "鈞兒阿姨清單推薦；先收藏作為兩人行程的候選。",
-      "note": "連鎖品牌，分店未指定；不任選地址。 影片提及黑蒜口味與墨西哥辣椒蛋黃美乃滋；分店未確認。",
+      "why": "鈞兒阿姨清單推薦；使用者不指定濟州島分店，之後依路線選，尚未排入行程。",
+      "note": "2026-10-17 使用者統一指定：不指定分店，列出濟州島分店後依路線選；不再要求先選定單一分店。既有資料僅供後續核對：連鎖品牌，分店未指定；不任選地址。 影片提及黑蒜口味與墨西哥辣椒蛋黃美乃滋；分店未確認。",
       "sourceId": "aunt-juner-list-20261014",
       "evidence": "使用者提供的鈞兒阿姨行程截圖；名稱與地址按連結來源核對。",
       "videoVisit": "personal",
@@ -1822,7 +1908,19 @@
           "timestamp": 1995
         }
       ],
-      "confirmationPrompt": "Puradak 炸雞有指定分店嗎？若無，可回覆「不指定，之後按路線選」。"
+      "branchPreference": "any-jeju-branch",
+      "branchCoverage": "pending-verification",
+      "branchNotice": "已確認不指定分店；濟州島完整分店名單、現址與座標尚待核實，尚未完成全部分店標點。以下為搜尋入口，不是已核實分店清單。",
+      "branchSearchLinks": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=%EC%A0%9C%EC%A3%BC%20%ED%91%B8%EB%9D%BC%EB%8B%AD",
+          "label": "Google Maps 搜尋濟州分店 ↗"
+        },
+        {
+          "url": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%20%ED%91%B8%EB%9D%BC%EB%8B%AD",
+          "label": "Naver Map 搜尋濟州分店 ↗"
+        }
+      ]
     },
     {
       "id": "aunt-jeju-901",
