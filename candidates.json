@@ -1342,7 +1342,8 @@
       "why": "影片推薦濃花生風味冰淇淋、餅乾與伴手禮，附近可看海和拍照。",
       "note": "影片未口述店名，也未附專屬地圖連結；附近多家花生店名稱相似，待確認後才加店址標點。",
       "sourceId": "celine-jeju-rLSIg9TOWF8",
-      "status": "unlocated"
+      "status": "unlocated",
+      "confirmationPrompt": "牛島花生冰淇淋與餅乾有指定店家嗎？若只是想吃這類甜點，可回覆「不指定」。"
     },
     {
       "id": "aewol-icecream",
@@ -1353,7 +1354,8 @@
       "why": "影片在海鮮泡麵後吃清爽奶油風味冰淇淋。",
       "note": "未提供店名與地址，暫不把它套用到任何同名冰淇淋店。",
       "sourceId": "celine-jeju-rLSIg9TOWF8",
-      "status": "unlocated"
+      "status": "unlocated",
+      "confirmationPrompt": "涯月冰淇淋有指定店名或招牌截圖嗎？若無，可保留為料理候選。"
     },
     {
       "id": "hanok-stay",
@@ -1386,7 +1388,8 @@
       "why": "影片在島上吃海鮮麵，有海螺與海鮮配料。",
       "note": "店名及門牌尚未核對，不先儲存相似餐廳。",
       "sourceId": "illy-jeju-EmnNjCMowHA",
-      "status": "unlocated"
+      "status": "unlocated",
+      "confirmationPrompt": "加波島海鮮麵有指定店名或招牌截圖嗎？目前只有影片餐廳描述。"
     },
     {
       "name": "姊妹麵條 자매국수（分店待確認）",
@@ -1402,7 +1405,8 @@
       "videoVisit": "personal",
       "status": "unlocated",
       "verificationUrl": "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_200000000012575",
-      "id": "aunt-jamae-guksu"
+      "id": "aunt-jamae-guksu",
+      "confirmationPrompt": "姊妹麵條想去的是哪個分店？請提供地圖連結或地址；目前不預設為本店。"
     },
     {
       "name": "海女包飯 해녀김밥（分店待確認）",
@@ -1418,7 +1422,8 @@
       "videoVisit": "personal",
       "status": "unlocated",
       "verificationUrl": "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_200000000012606",
-      "id": "aunt-haenyeo-gimbap"
+      "id": "aunt-haenyeo-gimbap",
+      "confirmationPrompt": "海女包飯想去的是哪個分店？請提供地圖連結或地址。"
     },
     {
       "name": "Hugely Jeju 휴즐리 제주",
@@ -1450,7 +1455,8 @@
       "videoVisit": "personal",
       "status": "unlocated",
       "verificationUrl": "https://big5chinese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=58201",
-      "id": "aunt-seongsan-bom-juk-kalguksu"
+      "id": "aunt-seongsan-bom-juk-kalguksu",
+      "confirmationPrompt": "城山春粥刀切麵指城山店還是新山里本店？也可以提供地圖連結。"
     },
     {
       "name": "夢炭／몽탄（分店待確認）",
@@ -1466,7 +1472,8 @@
       "videoVisit": "personal",
       "status": "unlocated",
       "verificationUrl": "https://mongtan.co.kr/",
-      "id": "aunt-mongtan-jeju"
+      "id": "aunt-mongtan-jeju",
+      "confirmationPrompt": "這家是否確定是夢炭 몽탄？若是，指東福里濟州店、涯月店，還是其他分店？"
     },
     {
       "name": "Audrant Bakery 오드랑베이커리",
@@ -1530,7 +1537,8 @@
       "videoVisit": "personal",
       "status": "unlocated",
       "verificationUrl": "https://insideobject.com/",
-      "id": "aunt-object"
+      "id": "aunt-object",
+      "confirmationPrompt": "Object 指哪個分店？請提供最新地圖連結，避免使用舊先屹店地址。"
     },
     {
       "name": "大創 다이소（分店待確認）",
@@ -1546,7 +1554,8 @@
       "videoVisit": "personal",
       "status": "unlocated",
       "verificationUrl": "https://www.daiso.co.kr/cs/shop?name_address=%EC%A0%9C%EC%A3%BC",
-      "id": "aunt-daiso"
+      "id": "aunt-daiso",
+      "confirmationPrompt": "大創有指定分店嗎？若只是想逛，可回覆「不指定，之後按路線選」。"
     },
     {
       "name": "濟州市五日民俗市場 제주시민속오일시장",
@@ -1642,7 +1651,8 @@
       "videoVisit": "personal",
       "status": "unlocated",
       "verificationUrl": "",
-      "id": "aunt-aunt-kasukabe-curry-crab"
+      "id": "aunt-aunt-kasukabe-curry-crab",
+      "confirmationPrompt": "春日部咖哩螃蟹的正式店名是什麼？請提供韓文招牌、地圖連結或截圖。"
     },
     {
       "name": "老奶奶年糕",
@@ -1658,7 +1668,8 @@
       "videoVisit": "personal",
       "status": "unlocated",
       "verificationUrl": "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_200000000012732",
-      "id": "aunt-grandma-rice-cakes"
+      "id": "aunt-grandma-rice-cakes",
+      "confirmationPrompt": "老奶奶年糕是哪家店？請提供招牌或地圖連結，避免混淆不同市場店址。"
     },
     {
       "name": "血腸豬腳",
@@ -1674,7 +1685,8 @@
       "videoVisit": "personal",
       "status": "unlocated",
       "verificationUrl": "https://iacln.org/pdf/%EC%98%AC%EB%A0%88%EC%8B%9C%EC%9E%A5_%EC%98%81%EC%96%B4.pdf",
-      "id": "aunt-somunnan-sundae-jokbal"
+      "id": "aunt-somunnan-sundae-jokbal",
+      "confirmationPrompt": "血腸豬腳有指定偶來市場攤位嗎？請提供攤名或招牌照片；若無指定也請告知。"
     },
     {
       "name": "Jeju Tangerine Jib／濟州橘子家",
@@ -1690,7 +1702,8 @@
       "videoVisit": "personal",
       "status": "unlocated",
       "verificationUrl": "",
-      "id": "aunt-jeju-tangerine-jib"
+      "id": "aunt-jeju-tangerine-jib",
+      "confirmationPrompt": "濟州橘子家是否指 제주귤집？請提供店家連結或截圖；不與 Cafe Tangerine 合併。"
     },
     {
       "name": "明浩大蒜牛排骨",
@@ -1706,7 +1719,8 @@
       "videoVisit": "personal",
       "status": "unlocated",
       "verificationUrl": "https://www.daangn.com/kr/local-profile/187838/",
-      "id": "aunt-myungho-manong-galbi"
+      "id": "aunt-myungho-manong-galbi",
+      "confirmationPrompt": "明浩大蒜牛排骨指濟州市本店、中門店，還是其他分店？"
     },
     {
       "name": "三姓穴海鮮湯",
@@ -1722,7 +1736,8 @@
       "videoVisit": "personal",
       "status": "unlocated",
       "verificationUrl": "",
-      "id": "aunt-samseonghyeol-seafood"
+      "id": "aunt-samseonghyeol-seafood",
+      "confirmationPrompt": "三姓穴海鮮湯有指定哪個分店嗎？請提供店家地圖連結。"
     },
     {
       "name": "蓮洞夜市",
@@ -1738,7 +1753,8 @@
       "videoVisit": "personal",
       "status": "unlocated",
       "verificationUrl": "",
-      "id": "aunt-yeondong-night-market"
+      "id": "aunt-yeondong-night-market",
+      "confirmationPrompt": "蓮洞夜市指樹木園夜市、蓮洞商圈，還是其他市集？請提供原始連結或截圖。"
     },
     {
       "name": "馬鈴薯排骨湯",
@@ -1754,7 +1770,8 @@
       "videoVisit": "personal",
       "status": "unlocated",
       "verificationUrl": "",
-      "id": "aunt-gamjatang"
+      "id": "aunt-gamjatang",
+      "confirmationPrompt": "馬鈴薯排骨湯有指定店家嗎？若只有料理偏好，可回覆「料理偏好，尚未選店」。"
     },
     {
       "name": "Chita 炸雞",
@@ -1770,7 +1787,8 @@
       "videoVisit": "personal",
       "status": "unlocated",
       "verificationUrl": "",
-      "id": "aunt-chita-chicken"
+      "id": "aunt-chita-chicken",
+      "confirmationPrompt": "Chita 炸雞的韓文店名或帳號是什麼？請提供連結或招牌截圖。"
     },
     {
       "name": "Puradak Chicken",
@@ -1792,7 +1810,8 @@
           "sourceId": "illy-jeju-ByU3lfYMK4Y",
           "timestamp": 1995
         }
-      ]
+      ],
+      "confirmationPrompt": "Puradak 炸雞有指定分店嗎？若無，可回覆「不指定，之後按路線選」。"
     },
     {
       "id": "aunt-jeju-901",
@@ -1809,7 +1828,8 @@
       "videoVisit": "personal",
       "status": "unlocated",
       "verificationUrl": "https://jeju901.com/ko/cafe",
-      "address": "제주특별자치도 제주시 1100로 2977-10"
+      "address": "제주특별자치도 제주시 1100로 2977-10",
+      "confirmationPrompt": "Cafe in Jeju 901 是否就是官網 jeju901.com 的 Cafe 901？請確認或提供原始連結。"
     },
     {
       "id": "illy2-818",
@@ -1840,7 +1860,8 @@
           "url": "https://share.google/1w2vCwl6HHp5ZSN3i",
           "label": "查看原始推薦連結 ↗"
         }
-      ]
+      ],
+      "confirmationPrompt": "這個 Google 分享連結顯示的完整店名是什麼？請提供韓文店名、地址或地點截圖。"
     },
     {
       "id": "juner-reel-DWyhkqSidVl",
@@ -1854,7 +1875,8 @@
           "url": "https://www.instagram.com/reel/DWyhkqSidVl/",
           "label": "查看原始推薦連結 ↗"
         }
-      ]
+      ],
+      "confirmationPrompt": "這支 Reel 推薦哪一家店？若有多家，請逐一提供店名或影片截圖。"
     }
   ],
   "videoRoute": [
