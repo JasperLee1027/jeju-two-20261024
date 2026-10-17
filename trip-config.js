@@ -25,3 +25,18 @@ const confirmedStay={
   "addressNote": "地址由使用者提供，Kakao 交叉核對到同門牌；標點為門牌建物位置，入住入口與停車安排請依住宿回覆。未把同址的其他商家名稱當成這間住宿。",
   "originalName": "제주 성산 오션뷰 스테이"
 };
+
+const confirmedTravelInsurance={
+  "id": "fubon-20261024-1212-v1",
+  "insurer": "富邦產險",
+  "product": "旅平險",
+  "total": 1212,
+  "currency": "TWD",
+  "guests": 2,
+  "startsAt": "2026-10-24T01:00:00+08:00",
+  "endsAt": "2026-10-28T01:00:00+08:00",
+  "days": 4,
+  "periodLabel": "2026/10/24 01:00 → 10/28 01:00・4天",
+  "timeZoneNote": "暫按台灣時間記錄，保單時區仍待核對",
+  "confirmedOn": "2026-10-17"
+};
