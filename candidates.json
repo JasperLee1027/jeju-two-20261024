@@ -1084,10 +1084,10 @@
       "area": "east",
       "videoDay": null,
       "timestamp": null,
-      "why": "鈞兒阿姨清單推薦；先收藏作為兩人行程的候選。",
-      "note": "現行官方名稱 Yumin Art Nouveau Museum；園區個人車輛進入受限，停車与接駁須以園方最新公告確認。",
+      "why": "鈞兒阿姨清單推薦；使用者補充可看美術館並順遊涉地岬海岸，仍為行程候選。",
+      "note": "現行官方名稱 Yumin Art Nouveau Museum；園區個人車輛進入受限，停車与接駁須以園方最新公告確認。 2026-10-17 使用者確認新增 Google 分享連結指這組推薦；涉地岬海岸另見「涉地岬／涉地可支」卡片，不合併兩個實體地點或導航點。",
       "sourceId": "aunt-juner-list-20261014",
-      "evidence": "使用者提供的鈞兒阿姨行程截圖；名稱與地址按連結來源核對。",
+      "evidence": "使用者提供的鈞兒阿姨行程截圖；名稱與地址按連結來源核對。 2026-10-17 使用者說明：看維民美術館，順便看涉地岬海岸；分享頁內容尚未獨立讀取。",
       "videoVisit": "personal",
       "status": "candidate",
       "verificationUrl": "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_000000000022158",
@@ -1097,20 +1097,26 @@
       ],
       "address": "제주특별자치도 서귀포시 성산읍 섭지코지로 107",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%9C%A0%EB%AF%BC%20%EC%95%84%EB%A5%B4%EB%88%84%EB%B3%B4%20%EB%AE%A4%EC%A7%80%EC%97%84",
-      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%9C%A0%EB%AF%BC%20%EC%95%84%EB%A5%B4%EB%88%84%EB%B3%B4%20%EB%AE%A4%EC%A7%80%EC%97%84"
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%9C%A0%EB%AF%BC%20%EC%95%84%EB%A5%B4%EB%88%84%EB%B3%B4%20%EB%AE%A4%EC%A7%80%EC%97%84",
+      "recommendationLinks": [
+        {
+          "url": "https://share.google/1w2vCwl6HHp5ZSN3i",
+          "label": "使用者補充・美術館與涉地岬推薦 ↗"
+        }
+      ]
     },
     {
       "id": 43,
-      "name": "涉地可支",
+      "name": "涉地岬／涉地可支",
       "original": "섭지코지",
       "category": "spot",
       "area": "east",
       "videoDay": null,
       "timestamp": null,
-      "why": "鈞兒阿姨清單推薦；先收藏作為兩人行程的候選。",
+      "why": "鈞兒阿姨清單推薦；使用者補充可與維民美術館順遊，仍為行程候選。",
       "note": "與維民美術館同區但不同地址；不能以美術館門牌取代海岸景點入口。",
       "sourceId": "aunt-juner-list-20261014",
-      "evidence": "使用者提供的鈞兒阿姨行程截圖；名稱與地址按連結來源核對。",
+      "evidence": "使用者提供的鈞兒阿姨行程截圖；名稱與地址按連結來源核對。 2026-10-17 使用者補充涉地岬海岸，合併至本卡。",
       "videoVisit": "personal",
       "status": "candidate",
       "verificationUrl": "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500343",
@@ -1847,21 +1853,6 @@
       "status": "unlocated",
       "originalMapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJoWk17OpmDDURPIcdfOqfae0",
       "info": "拉麵₩13,000（約NT$312）"
-    },
-    {
-      "id": "juner-google-1w2vCwl6HHp5ZSN3i",
-      "name": "鈞兒新增・Google 分享地點（待辨識）",
-      "why": "2026-10-17 使用者補充至鈞兒阿姨清單，先收藏原始連結。",
-      "note": "目前無法讀取連結內容；店名、分店及座標待確認，尚無法判斷是否與既有候選重複。確認前不放地圖標點、不排入行程。",
-      "sourceId": "aunt-juner-list-20261014",
-      "status": "unlocated",
-      "recommendationLinks": [
-        {
-          "url": "https://share.google/1w2vCwl6HHp5ZSN3i",
-          "label": "查看原始推薦連結 ↗"
-        }
-      ],
-      "confirmationPrompt": "這個 Google 分享連結顯示的完整店名是什麼？請提供韓文店名、地址或地點截圖。"
     },
     {
       "id": "juner-reel-DWyhkqSidVl",
