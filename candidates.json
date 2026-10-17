@@ -1507,22 +1507,34 @@
       ]
     },
     {
-      "name": "夢炭／몽탄（分店待確認）",
+      "name": "夢炭 Mongtan 몽탄（依名稱判斷；分店按路線選）",
       "original": "꿈탄／夢炭 Jeju",
       "category": "food",
       "area": "north",
       "videoDay": null,
       "timestamp": null,
-      "why": "鈞兒阿姨清單推薦；先收藏作為兩人行程的候選。",
-      "note": "꿈탄 可能為 몽탄 的轉寫／誤字；不可宣稱截圖已確認分店。品牌官網確認 몽탄 與 몽탄제주 品牌關聯。官方預約服務 CATCHTABLE 公開頁 https://www.catchtable.net/discovery/koreas-10-famous-grilled-beef-restaurants-in-jeju.html 列 제주점 地址 제주 제주시 구좌읍 동복로 83；另有 애월 店公開紀錄，故不任選定位。",
+      "why": "依中文「夢炭」及既有品牌來源，暫以 Mongtan 몽탄 收錄為候選；不指定濟州島分店，之後按路線選。",
+      "note": "中文「夢炭」與 Mongtan 品牌名稱相符，因此以此作為較合理的候選辨識；原截圖夢炭旁的 꿈탄 與品牌正字 몽탄 不同，可能是誤字，尚未獨立核實原推薦。這是資料判斷，不是使用者確認店家身份。既有資料列品牌官網 https://mongtan.co.kr/ 及 CATCHTABLE 濟州餐廳介紹 https://www.catchtable.net/discovery/koreas-10-famous-grilled-beef-restaurants-in-jeju.html ，其中列濟州店地址 제주 제주시 구좌읍 동복로 83；其他分店的現況及座標仍待重新核對，不先放地圖標點。",
       "sourceId": "aunt-juner-list-20261014",
-      "evidence": "使用者提供的鈞兒阿姨行程截圖；名稱與地址按連結來源核對。",
+      "evidence": "原推薦記錄為「꿈탄／夢炭 Jeju」；2026-10-17 使用者授權由助理判斷，依中文名稱與既有品牌來源暫對應 Mongtan，並保留原文供追查。",
       "videoVisit": "personal",
       "status": "unlocated",
       "verificationUrl": "https://mongtan.co.kr/",
       "id": "aunt-mongtan-jeju",
-      "confirmationPrompt": "原截圖的 꿈탄／夢炭是否確定是 몽탄 品牌？只需確認品牌，分店會依濟州島路線選。",
-      "branchPreference": "any-jeju-branch"
+      "branchPreference": "any-jeju-branch",
+      "identityStatus": "inferred-not-independently-verified",
+      "branchCoverage": "pending-verification",
+      "branchNotice": "不指定濟州島分店；完整分店名單、現址與座標仍待核實。搜尋入口不代表已完成全部分店標點。",
+      "branchSearchLinks": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=%EC%A0%9C%EC%A3%BC%20%EB%AA%BD%ED%83%84",
+          "label": "Google Maps 搜尋濟州分店 ↗"
+        },
+        {
+          "url": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%20%EB%AA%BD%ED%83%84",
+          "label": "Naver Map 搜尋濟州分店 ↗"
+        }
+      ]
     },
     {
       "name": "Audrant Bakery 오드랑베이커리",
