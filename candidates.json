@@ -1404,21 +1404,20 @@
       "confirmationPrompt": "加波島海鮮麵有指定店名或招牌截圖嗎？目前只有影片餐廳描述。"
     },
     {
-      "name": "姊妹麵條 자매국수（分店待確認）",
+      "name": "姊妹麵條 자매국수（不指定分店，按路線選）",
       "original": "姊妹麵條 자매국수",
       "category": "food",
       "area": "north",
       "videoDay": null,
       "timestamp": null,
-      "why": "鈞兒阿姨清單推薦；先收藏作為兩人行程的候選。",
-      "note": "品牌已確認；截圖未指定分店，保持不定位。VisitJeju 目前本店地址參考為 제주특별자치도 제주시 항골남길 46；官方文字提及舊麵街店、老衡分店整合與遷址，頁面座標疑似沿用舊址，不採用。豬肉湯麵、拌麵、돔베고기 為官網列示菜色。",
+      "why": "鈞兒阿姨清單推薦；使用者不指定分店，之後依行車路線選擇，仍為候選。",
+      "note": "2026-10-17 使用者確認：不指定分店，之後按路線選。尚未選定實際店點，不放固定地圖標點；選店時再核對現址、營業狀態與路線。品牌既有地址資料可能涉及遷址，避免沿用舊座標。",
       "sourceId": "aunt-juner-list-20261014",
       "evidence": "使用者提供的鈞兒阿姨行程截圖；名稱與地址按連結來源核對。",
       "videoVisit": "personal",
       "status": "unlocated",
       "verificationUrl": "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_200000000012575",
-      "id": "aunt-jamae-guksu",
-      "confirmationPrompt": "姊妹麵條想去的是哪個分店？請提供地圖連結或地址；目前不預設為本店。"
+      "id": "aunt-jamae-guksu"
     },
     {
       "name": "海女包飯 해녀김밥（分店待確認）",
