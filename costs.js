@@ -1,12 +1,14 @@
 'use strict';
 (() => {
   const key='jeju-20261024-costs-v1',byId=id=>document.getElementById(id),fmt=n=>'NT$'+Math.round(n).toLocaleString('zh-TW'),esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const defaults=[{id:'meals',name:'餐飲・四天兩人',amount:''},{id:'activities',name:'景點／牛島活動・兩人',amount:''},{id:'travel-insurance',name:'旅平／不便險・兩人',amount:''},{id:'shopping',name:'購物與其他・兩人',amount:''},{id:'rest-cost',name:'紅眼補眠／提前入住',amount:''}];
+  const defaults=[{id:'meals',name:'餐飲・四天兩人',amount:''},{id:'activities',name:'景點／牛島活動・兩人',amount:''},{id:'travel-insurance',name:'旅平／不便險・兩人',amount:''},{id:'shopping',name:'購物與其他・兩人',amount:''},{id:'rest-cost',name:'額外補眠／入住加收（勿重複四晚房費）',amount:''}];
   let saved={};try{saved=JSON.parse(localStorage.getItem(key)||'{}')||{}}catch{}
   let extras=Array.isArray(saved.customExpenses)?saved.customExpenses.filter(x=>x&&typeof x.id==='string'&&typeof x.name==='string').map(x=>({id:x.id,name:x.name,amount:typeof x.amount==='string'?x.amount:''})):defaults;
   const fields=['cost-hotel','cost-hotel-custom','cost-esim','cost-esim-count','cost-esim-custom','cost-usd','cost-jpy'];
-  byId('cost-hotel').innerHTML+='<option value="custom">其他／分住住宿・填總額</option>'+stayHotels.map(h=>`<option value="${h.id}">${esc(h.name)}${h.total?'・三晚NT$'+h.total.toLocaleString('zh-TW'):'・價格待填'}</option>`).join('');
+  byId('cost-hotel').innerHTML+='<option value="custom">其他／分住住宿・填總額</option>'+budgetHotels.map(h=>`<option value="${h.id}">${esc(h.name)}${h.total?'・'+(h.nights||3)+'晚NT$'+h.total.toLocaleString('zh-TW')+(h.paid?'・已付款':'・舊比價'):'・價格待填'}</option>`).join('');
   for(const id of fields)if(typeof saved[id]==='string')byId(id).value=saved[id];
+  // Apply the confirmed stay once, preserving unrelated costs and later manual comparisons.
+  try{if(localStorage.getItem('jeju-20261024-paid-stay')!==confirmedStay.id){byId('cost-hotel').value=confirmedStay.id;byId('cost-hotel-custom').value='';localStorage.setItem('jeju-20261024-paid-stay',confirmedStay.id)}}catch{byId('cost-hotel').value=confirmedStay.id;byId('cost-hotel-custom').value=''}
   selected='booked';
   for(const id of ['car-model','days','rate','insurance','extras'])if(typeof saved[id]==='string')byId(id).value=saved[id];
   // Apply the couple's MINI decision once, while preserving any later manual budget changes.
@@ -16,7 +18,7 @@
   function input(id){const e=byId(id);return e.validity.valid?amount(e.value):null;}
   function save(){const s={fare:selected,customExpenses:extras};for(const id of [...fields,'car-model','days','rate','insurance','extras'])s[id]=byId(id).value;try{localStorage.setItem(key,JSON.stringify(s))}catch{}}
   function renderExtra(){byId('cost-extra-rows').innerHTML=extras.map((e,i)=>`<div class="cost-extra" data-extra-id="${esc(e.id)}"><div><label for="cost-name-${i}">費用項目${i+1}</label><input id="cost-name-${i}" data-extra-field="name" maxlength="80" value="${esc(e.name)}"></div><div><label for="cost-amount-${i}">兩人總額${i+1}（NT$）</label><input id="cost-amount-${i}" data-extra-field="amount" type="number" min="0" step="1" value="${esc(e.amount)}" placeholder="尚未估"></div><button data-remove-extra="${esc(e.id)}" aria-label="移除${esc(e.name||'自訂費用')}">移除</button></div>`).join('');}
-  function syncButtons(){document.querySelectorAll('[data-cost-hotel]').forEach(b=>{const active=b.dataset.costHotel===byId('cost-hotel').value;b.setAttribute('aria-pressed',String(active));b.textContent=active?'已加入預估花費':'加入預估花費'+(stayHotels.find(h=>h.id===b.dataset.costHotel)?.total?'・三晚':'・金額待填')});document.querySelectorAll('[data-cost-esim]').forEach(b=>{const active=b.dataset.costEsim===byId('cost-esim').value;b.setAttribute('aria-pressed',String(active));b.textContent=active?'已加入預估花費':'加入預估花費・兩張'});}
+  function syncButtons(){document.querySelectorAll('[data-cost-hotel]').forEach(b=>{const active=b.dataset.costHotel===byId('cost-hotel').value;b.setAttribute('aria-pressed',String(active));b.textContent=active?'已加入預估花費':'加入預估花費'+(budgetHotels.find(h=>h.id===b.dataset.costHotel)?.total?'・'+(budgetHotels.find(h=>h.id===b.dataset.costHotel)?.nights||3)+'晚':'・金額待填')});document.querySelectorAll('[data-cost-esim]').forEach(b=>{const active=b.dataset.costEsim===byId('cost-esim').value;b.setAttribute('aria-pressed',String(active));b.textContent=active?'已加入預估花費':'加入預估花費・兩張'});}
   let currentLines=[],currentMissing=[];
   function update(){
     const rows=[],missing=[],invalid=[];const add=(name,detail,n)=>{const value=n===null?null:Math.round(n);rows.push({name,detail,value});if(value===null)missing.push(name)};
@@ -25,8 +27,8 @@
     add('本島租車',byId('car-model').selectedOptions[0]?.textContent+' × '+byId('days').value+'日',validCar?car*days*krw:null);
     add('CDW租車保險','租車試算韓元總保費×匯率',input('insurance')!==null&&krw>0?input('insurance')*krw:null);
     add('油資／停車／機場交通','沿用交通試算的台幣總額',input('extras'));
-    const h=stayHotels.find(x=>x.id===byId('cost-hotel').value),hotelOverride=input('cost-hotel-custom'),hotelCustom=byId('cost-hotel-custom').value!==''||!byId('cost-hotel-custom').validity.valid;
-    add('住宿',hotelCustom?'自訂／覆蓋三晚住宿總額':h?h.name+'・一房兩人三晚':byId('cost-hotel').value==='custom'?'其他／分住住宿，金額待填':'尚未選',hotelCustom?hotelOverride:h?.total??null);
+    const h=budgetHotels.find(x=>x.id===byId('cost-hotel').value),hotelOverride=input('cost-hotel-custom'),hotelCustom=byId('cost-hotel-custom').value!==''||!byId('cost-hotel-custom').validity.valid;
+    add('住宿',hotelCustom?'自訂／覆蓋住宿預算（不更動已付款訂單）':h?h.name+'・一房兩人'+(h.nights||3)+'晚'+(h.paid?'・已付款':'・舊比價'):byId('cost-hotel').value==='custom'?'其他／分住住宿，金額待填':'尚未選',hotelCustom?hotelOverride:h?.total??null);
     const plans={airalo:{name:'Airalo 5GB／7天',price:10,rate:input('cost-usd')},lg4:{name:'LG U+ 4天',price:23000,rate:krw},lg5:{name:'LG U+ 5天',price:27500,rate:krw},nomad:{name:'Nomad 5GB／30天',price:1583,rate:input('cost-jpy')}};
     const plan=plans[byId('cost-esim').value],override=input('cost-esim-custom'),count=input('cost-esim-count'),netCustom=byId('cost-esim-custom').value!==''||!byId('cost-esim-custom').validity.valid;
     add('上網',netCustom?'自訂／覆蓋網路總額':plan?plan.name+' × '+count+'張':'尚未選定／金額待填',netCustom?override:plan&&plan.rate>0&&count>0?plan.price*plan.rate*count:null);
@@ -45,10 +47,10 @@
   }
   for(const id of fields)byId(id).addEventListener('input',update);
   document.addEventListener('jeju-cost-change',update);document.addEventListener('jeju-stays-rendered',syncButtons);
-  document.addEventListener('click',e=>{const hotel=e.target.closest('[data-cost-hotel]'),net=e.target.closest('[data-cost-esim]');if(hotel){byId('cost-hotel').value=hotel.dataset.costHotel;byId('cost-hotel-custom').value='';update();toast('住宿已加入預估花費；不是訂房。')}if(net){byId('cost-esim').value=net.dataset.costEsim;byId('cost-esim-count').value='2';byId('cost-esim-custom').value='';update();toast('兩張eSIM已加入預估花費；不是購買。')}});
+  document.addEventListener('click',e=>{const hotel=e.target.closest('[data-cost-hotel]'),net=e.target.closest('[data-cost-esim]');if(hotel){byId('cost-hotel').value=hotel.dataset.costHotel;byId('cost-hotel-custom').value='';update();toast(hotel.dataset.costHotel===confirmedStay.id?'已帶入四晚住宿實付總額':'已切換住宿預算比較；實際訂單未變。')}if(net){byId('cost-esim').value=net.dataset.costEsim;byId('cost-esim-count').value='2';byId('cost-esim-custom').value='';update();toast('兩張eSIM已加入預估花費；不是購買。')}});
   byId('cost-extra-rows').addEventListener('input',e=>{const row=e.target.closest('[data-extra-id]'),field=e.target.dataset.extraField;if(!row||!field)return;const item=extras.find(x=>x.id===row.dataset.extraId);item[field]=e.target.value;if(field==='name')row.querySelector('[data-remove-extra]').setAttribute('aria-label','移除'+(item.name||'自訂費用'));if(field==='amount'&&!e.target.validity.valid)item.amount='';update()});
   byId('cost-extra-rows').addEventListener('click',e=>{const b=e.target.closest('[data-remove-extra]');if(b){extras=extras.filter(x=>x.id!==b.dataset.removeExtra);renderExtra();update()}});
   byId('cost-add-extra').addEventListener('click',()=>{extras.push({id:'custom-'+Date.now()+'-'+Math.random().toString(36).slice(2,7),name:'自訂費用',amount:''});renderExtra();update();byId('cost-extra-rows').querySelector('.cost-extra:last-child input').focus()});
-  byId('copy-costs').addEventListener('click',async()=>{const text='濟州島預估花費・兩人\n'+currentLines.map(r=>`${r.name}｜${r.detail}：${r.value===null?'待估':fmt(r.value)}`).join('\n')+'\n兩人已選小計：'+byId('trip-cost-total').textContent+'\n平均每人：'+byId('trip-cost-per').textContent+'\n'+byId('trip-cost-missing').textContent+'\n機票已付款，其他費用依實際預訂狀態確認。';try{await navigator.clipboard.writeText(text);toast('花費明細已複製，可貼到共同Doc。')}catch{toast('無法複製，請選取明細手動複製。')}});
+  byId('copy-costs').addEventListener('click',async()=>{const text='濟州島預估花費・兩人\n'+currentLines.map(r=>`${r.name}｜${r.detail}：${r.value===null?'待估':fmt(r.value)}`).join('\n')+'\n兩人已選小計：'+byId('trip-cost-total').textContent+'\n平均每人：'+byId('trip-cost-per').textContent+'\n'+byId('trip-cost-missing').textContent+'\n實際已付款：機票NT$26,598＋住宿四晚NT$11,375＝兩人NT$37,973；其餘依實際預訂狀態確認。';try{await navigator.clipboard.writeText(text);toast('花費明細已複製，可貼到共同Doc。')}catch{toast('無法複製，請選取明細手動複製。')}});
   renderExtra();update();
 })();
