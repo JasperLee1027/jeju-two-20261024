@@ -194,7 +194,7 @@
       "why": "海景窗、甜點與麵包，影片也拍到不同風格的室內空間。",
       "note": "攝影空間需消費；影片到店11:00、12:30人潮變多，屬當次經驗。",
       "sourceId": "celine-jeju-rLSIg9TOWF8",
-      "evidence": "影片說明及原附地圖連結",
+      "evidence": "影片說明及原附地圖連結；2026-10-17 使用者確認補充 Reel 的店名為 Lazy Pump 레이지펌프，已合併推薦來源；影片內容尚未獨立核對。",
       "videoVisit": "visited",
       "status": "candidate",
       "coordinates": [
@@ -209,6 +209,12 @@
         {
           "sourceId": "aunt-juner-list-20261014",
           "note": "鈞兒阿姨清單也推薦此地點"
+        }
+      ],
+      "recommendationLinks": [
+        {
+          "url": "https://www.instagram.com/reel/DWyhkqSidVl/",
+          "label": "鈞兒補充・Lazy Pump Instagram Reel ↗"
         }
       ]
     },
@@ -1853,21 +1859,6 @@
       "status": "unlocated",
       "originalMapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJoWk17OpmDDURPIcdfOqfae0",
       "info": "拉麵₩13,000（約NT$312）"
-    },
-    {
-      "id": "juner-reel-DWyhkqSidVl",
-      "name": "鈞兒新增・Instagram Reel（待辨識）",
-      "why": "2026-10-17 使用者補充至鈞兒阿姨清單，先收藏原始連結。",
-      "note": "目前無法讀取連結內容；店名、分店及座標待確認，尚無法判斷是否與既有候選重複。確認前不放地圖標點、不排入行程。",
-      "sourceId": "aunt-juner-list-20261014",
-      "status": "unlocated",
-      "recommendationLinks": [
-        {
-          "url": "https://www.instagram.com/reel/DWyhkqSidVl/",
-          "label": "查看原始推薦連結 ↗"
-        }
-      ],
-      "confirmationPrompt": "這支 Reel 推薦哪一家店？若有多家，請逐一提供店名或影片截圖。"
     }
   ],
   "videoRoute": [
