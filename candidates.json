@@ -35,8 +35,8 @@
       "id": "aunt-juner-list-20261014",
       "type": "personal",
       "creator": "鈞兒阿姨清單",
-      "title": "鈞兒阿姨的濟州島行程截圖（使用者提供）",
-      "checked": "2026-10-14",
+      "title": "鈞兒阿姨的濟州島行程截圖與補充連結（使用者提供）",
+      "checked": "2026-10-17",
       "note": "原截圖日期10/14–18、航班及訂位屬阿姨行程，不沿用到兩人10/24–27。"
     },
     {
@@ -805,7 +805,7 @@
       "why": "鈞兒阿姨清單推薦；先收藏作為兩人行程的候選。",
       "note": "VisitJeju確認店名쉼표、359號、電話064-796-7790，NOL World同地址同電話連結Instagram @jejucomma，因此可交叉確認。非CAFE COMMA／카페꼼마連鎖。照片是該店食品近照；實際供應與价格不由照片推定。",
       "sourceId": "aunt-juner-list-20261014",
-      "evidence": "使用者提供的鈞兒阿姨行程截圖；名稱與地址按連結來源核對。",
+      "evidence": "使用者提供的鈞兒阿姨行程截圖；名稱與地址按連結來源核對。 2026-10-17 使用者補充同一 Instagram 帳號兩次，已合併至本卡，不重複新增地點。",
       "videoVisit": "personal",
       "status": "candidate",
       "verificationUrl": "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_000000000018370",
@@ -815,7 +815,13 @@
       ],
       "address": "제주특별자치도 제주시 한림읍 한림로 359",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=cafe%20jejucomma",
-      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=cafe%20jejucomma"
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=cafe%20jejucomma",
+      "recommendationLinks": [
+        {
+          "url": "https://www.instagram.com/jejucomma/",
+          "label": "店家 Instagram @jejucomma ↗"
+        }
+      ]
     },
     {
       "id": 31,
@@ -1821,6 +1827,34 @@
       "status": "unlocated",
       "originalMapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJoWk17OpmDDURPIcdfOqfae0",
       "info": "拉麵₩13,000（約NT$312）"
+    },
+    {
+      "id": "juner-google-1w2vCwl6HHp5ZSN3i",
+      "name": "鈞兒新增・Google 分享地點（待辨識）",
+      "why": "2026-10-17 使用者補充至鈞兒阿姨清單，先收藏原始連結。",
+      "note": "目前無法讀取連結內容；店名、分店及座標待確認，尚無法判斷是否與既有候選重複。確認前不放地圖標點、不排入行程。",
+      "sourceId": "aunt-juner-list-20261014",
+      "status": "unlocated",
+      "recommendationLinks": [
+        {
+          "url": "https://share.google/1w2vCwl6HHp5ZSN3i",
+          "label": "查看原始推薦連結 ↗"
+        }
+      ]
+    },
+    {
+      "id": "juner-reel-DWyhkqSidVl",
+      "name": "鈞兒新增・Instagram Reel（待辨識）",
+      "why": "2026-10-17 使用者補充至鈞兒阿姨清單，先收藏原始連結。",
+      "note": "目前無法讀取連結內容；店名、分店及座標待確認，尚無法判斷是否與既有候選重複。確認前不放地圖標點、不排入行程。",
+      "sourceId": "aunt-juner-list-20261014",
+      "status": "unlocated",
+      "recommendationLinks": [
+        {
+          "url": "https://www.instagram.com/reel/DWyhkqSidVl/",
+          "label": "查看原始推薦連結 ↗"
+        }
+      ]
     }
   ],
   "videoRoute": [
