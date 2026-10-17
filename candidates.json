@@ -47,6 +47,14 @@
       "published": "2025-05-03",
       "checked": "2026-10-14",
       "duration": "36:50"
+    },
+    {
+      "id": "user-confirmed-stay-20261017",
+      "type": "booking",
+      "creator": "使用者已付款住宿",
+      "title": "海景豪華套房・10/23–27四晚",
+      "url": "https://www.booking.com/hotel/kr/jeju-seongsan-ocean-view-stay.zh-tw.html",
+      "checked": "2026-10-17"
     }
   ],
   "places": [
@@ -3195,6 +3203,31 @@
           "label": "官網地址的建物位置 ↗"
         }
       ]
+    },
+    {
+      "id": 114,
+      "name": "已訂住宿・濟州城山海景住宿",
+      "original": "제주 성산 오션뷰 스테이",
+      "category": "stay",
+      "area": "east",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "兩人海景豪華套房，10/23–27四晚已付款NT$11,375；以這裡作住宿基地，景點與餐廳仍按路線選。",
+      "note": "地址由使用者提供，Kakao 交叉核對到同門牌；標點為門牌建物位置，入住入口與停車安排請依住宿回覆。未把同址的其他商家名稱當成這間住宿。 10/24韓國時間06:10才抵達濟州，須事先請住宿保留前晚房間並確認翌日上午到店。",
+      "sourceId": "user-confirmed-stay-20261017",
+      "evidence": "房型、日期、總額與付款由使用者確認；名稱依使用者分享的Booking分頁標題，地址由使用者貼上。Kakao門牌查詢核對座標與郵遞區號，未獨立讀取Booking頁。",
+      "videoVisit": "booked",
+      "status": "booked",
+      "isBookedStay": true,
+      "coordinates": [
+        33.5098206283585,
+        126.901334883283
+      ],
+      "address": "제주특별자치도 제주시 구좌읍 해맞이해안로 2040 (63364)",
+      "verificationUrl": "https://map.kakao.com/?q=%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EA%B5%AC%EC%A2%8C%EC%9D%8D%20%ED%95%B4%EB%A7%9E%EC%9D%B4%ED%95%B4%EC%95%88%EB%A1%9C%202040",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EA%B5%AC%EC%A2%8C%EC%9D%8D%20%ED%95%B4%EB%A7%9E%EC%9D%B4%ED%95%B4%EC%95%88%EB%A1%9C%202040",
+      "locationConfidence": "booking-address",
+      "locationChecked": "2026-10-17"
     }
   ],
   "unlocated": [
