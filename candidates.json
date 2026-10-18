@@ -63,6 +63,14 @@
       "title": "使用者確認的Doc紅字第25–34項（2026/10/18）",
       "checked": "2026-10-18",
       "note": "使用者已逐批確認全部收錄為候選；非已預訂或確定行程。個別位置核對見各店卡片；私人文件連結不公開。"
+    },
+    {
+      "id": "user-doc-restaurants-20261018",
+      "type": "personal",
+      "creator": "使用者Doc新增餐廳",
+      "title": "Doc紅字第35–56項與核對分店（2026/10/18）",
+      "checked": "2026-10-18",
+      "note": "使用者要求將Doc新更動同步到網站；均為候選，未訂位、未排入確定行程。私人文件連結不公開。"
     }
   ],
   "places": [
@@ -2506,7 +2514,7 @@
       "videoDay": null,
       "timestamp": null,
       "why": "鈞兒阿姨清單的品牌候選；依使用者要求展開濟州分店，方便依位置選順路店家。",
-      "note": "2026-10-17 核對。依本次 Kakao 地圖查詢結果列出濟州本島店點，排除名稱相近的其他品牌及停車場；不是即時營業保證。 出發前再確認營業時間、休息日與候位；分店未預訂。",
+      "note": "2026-10-17 核對。依本次 Kakao 地圖查詢結果列出濟州本島店點，排除名稱相近的其他品牌及停車場；不是即時營業保證。 出發前再確認營業時間、休息日與候位；分店未預訂。 2026/10/18合併Doc第40項（연동312-27），保留既有ID與原推薦。",
       "sourceId": "aunt-juner-list-20261014",
       "evidence": "店名、地址及座標依 Kakao 店點；來源見分店資料連結。",
       "videoVisit": "personal",
@@ -2521,7 +2529,22 @@
       "branchGroup": "samseong",
       "locationConfidence": "store-point",
       "locationChecked": "2026-10-17",
-      "recommendationLinks": []
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/G0pLzIWM",
+          "label": "Doc第40項Naver店家連結 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ],
+      "recommendations": [
+        {
+          "sourceId": "user-doc-restaurants-20261018",
+          "note": "Doc第40項與本店同址，合併保留既有ID與想去。"
+        }
+      ],
+      "docEntryNumber": 40,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1051028182",
+      "lotAddress": "제주특별자치도 제주시 연동 312-27"
     },
     {
       "id": 91,
@@ -3665,6 +3688,1107 @@
           "label": "Delmoondo品牌官網 ↗"
         }
       ]
+    },
+    {
+      "id": 127,
+      "name": "Wolgojip・月汀里店",
+      "original": "월고집",
+      "category": "food",
+      "area": "east",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者Doc新增第35項（原名：Wolgo家Gujwa Woljeongni总店）；之後依路線選順路店，仍為候選。",
+      "note": "2026/10/18核對Doc提供的Naver店家ID、分享座標與Kakao同址店點。營業時間、菜單、價格及停車須出發前再確認；未訂位、未排入確定行程。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "使用者提供Naver短連結；解析店家ID與分享座標，並以Kakao店名、地號及道路地址交叉核對（2026/10/18）。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.55330219,
+        126.79099911
+      ],
+      "address": "제주특별자치도 제주시 구좌읍 월정1길 16-1",
+      "lotAddress": "제주특별자치도 제주시 구좌읍 월정리 310-1 1층",
+      "docEntryNumber": 35,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1663960338",
+      "verificationUrl": "https://map.kakao.com/link/map/649376762",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%9B%94%EA%B3%A0%EC%A7%91%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EA%B5%AC%EC%A2%8C%EC%9D%8D%20%EC%9B%94%EC%A0%95%EB%A6%AC%20310-1%201%EC%B8%B5",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/F6QvyJFv",
+          "label": "Doc第35項Naver店家連結 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "name": "宇進醒酒湯 Ujin",
+      "original": "우진해장국",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者Doc新增第36項（原名：牛肉Jin醒酒汤）；之後依路線選順路店，仍為候選。",
+      "note": "2026/10/18核對Doc提供的Naver店家ID、分享座標與Kakao同址店點。營業時間、菜單、價格及停車須出發前再確認；未訂位、未排入確定行程。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "使用者提供Naver短連結；解析店家ID與分享座標，並以Kakao店名、地號及道路地址交叉核對（2026/10/18）。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.5115169,
+        126.52000128
+      ],
+      "address": "제주특별자치도 제주시 서사로 11",
+      "lotAddress": "제주특별자치도 제주시 삼도이동 831 1층",
+      "docEntryNumber": 36,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/13418405",
+      "verificationUrl": "https://map.kakao.com/link/map/11547525",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%9A%B0%EC%A7%84%ED%95%B4%EC%9E%A5%EA%B5%AD%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%82%BC%EB%8F%84%EC%9D%B4%EB%8F%99%20831%201%EC%B8%B5",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/xoGl7LLU",
+          "label": "Doc第36項Naver店家連結 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "name": "橡子廚房・總店",
+      "original": "도토리키친 본점",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者Doc新增第37項（原名：橡子厨房总店）；之後依路線選順路店，仍為候選。",
+      "note": "2026/10/18核對Doc提供的Naver店家ID、分享座標與Kakao同址店點。營業時間、菜單、價格及停車須出發前再確認；未訂位、未排入確定行程。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "使用者提供Naver短連結；解析店家ID與分享座標，並以Kakao店名、地號及道路地址交叉核對（2026/10/18）。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.51538651,
+        126.51860435
+      ],
+      "address": "제주특별자치도 제주시 북성로 59",
+      "lotAddress": "제주특별자치도 제주시 삼도이동 1158-1 1층",
+      "docEntryNumber": 37,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/223026237",
+      "verificationUrl": "https://map.kakao.com/link/map/158548436",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8F%84%ED%86%A0%EB%A6%AC%ED%82%A4%EC%B9%9C%20%EB%B3%B8%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%82%BC%EB%8F%84%EC%9D%B4%EB%8F%99%201158-1%201%EC%B8%B5",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/FdqfUElW",
+          "label": "Doc第37項Naver店家連結 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "name": "Noraba 海鮮拉麵",
+      "original": "노라바",
+      "category": "food",
+      "area": "west",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者Doc新增第38項（原名：Noraba）；之後依路線選順路店，仍為候選。",
+      "note": "2026/10/18核對Doc提供的Naver店家ID、分享座標與Kakao同址店點。營業時間、菜單、價格及停車須出發前再確認；未訂位、未排入確定行程。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "使用者提供Naver短連結；解析店家ID與分享座標，並以Kakao店名、地號及道路地址交叉核對（2026/10/18）。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.4777595,
+        126.36488356
+      ],
+      "address": "제주특별자치도 제주시 애월읍 애월해안로 570-1",
+      "lotAddress": "제주특별자치도 제주시 애월읍 신엄리 2723-5 1층",
+      "docEntryNumber": 38,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/37438036",
+      "verificationUrl": "https://map.kakao.com/link/map/26352466",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%85%B8%EB%9D%BC%EB%B0%94%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%95%A0%EC%9B%94%EC%9D%8D%20%EC%8B%A0%EC%97%84%EB%A6%AC%202723-5%201%EC%B8%B5",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/GB3rX0Kb",
+          "label": "Doc第38項Naver店家連結 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "name": "Ige 飯賊餐廳",
+      "original": "이게밥도둑",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者Doc新增第39項（原名：Ige米饭贼）；之後依路線選順路店，仍為候選。",
+      "note": "2026/10/18核對Doc提供的Naver店家ID、分享座標與Kakao同址店點。營業時間、菜單、價格及停車須出發前再確認；未訂位、未排入確定行程。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "使用者提供Naver短連結；解析店家ID與分享座標，並以Kakao店名、地號及道路地址交叉核對（2026/10/18）。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.49161444,
+        126.49354355
+      ],
+      "address": "제주특별자치도 제주시 삼무로7길 23",
+      "lotAddress": "제주특별자치도 제주시 연동 291-58 1층",
+      "docEntryNumber": 39,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/36379118",
+      "verificationUrl": "https://map.kakao.com/link/map/27339252",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%9D%B4%EA%B2%8C%EB%B0%A5%EB%8F%84%EB%91%91%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%97%B0%EB%8F%99%20291-58%201%EC%B8%B5",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/F05vlcFK",
+          "label": "Doc第39項Naver店家連結 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "name": "Hugely Jeju 橘子冰淇淋",
+      "original": "휴즐리 제주점",
+      "category": "cafe",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者Doc新增第41項（原名：Hyujeulli济州总店）；之後依路線選順路店，仍為候選。",
+      "note": "2026/10/18核對Doc提供的Naver店家ID、分享座標與Kakao同址店點。營業時間、菜單、價格及停車須出發前再確認；未訂位、未排入確定行程。 合併原待定位的Hugely Jeju（흥운길83），保留鈞兒推薦來源。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "使用者提供Naver短連結；解析店家ID與分享座標，並以Kakao店名、地號及道路地址交叉核對（2026/10/18）。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.51576701,
+        126.51399333
+      ],
+      "address": "제주특별자치도 제주시 흥운길 83",
+      "lotAddress": "제주특별자치도 제주시 용담이동 434 1층",
+      "docEntryNumber": 41,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1417283584",
+      "verificationUrl": "https://map.kakao.com/link/map/1191400948",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%9C%B4%EC%A6%90%EB%A6%AC%20%EC%A0%9C%EC%A3%BC%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%9A%A9%EB%8B%B4%EC%9D%B4%EB%8F%99%20434%201%EC%B8%B5",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/58qBZ5m4",
+          "label": "Doc第41項Naver店家連結 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ],
+      "recommendations": [
+        {
+          "sourceId": "aunt-juner-list-20261014",
+          "note": "原鈞兒清單Hugely，同品牌同址；Doc連結與Kakao完成定位後移出待確認清單。"
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "name": "Sanujeong 餐廳",
+      "original": "산우정",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者Doc新增第42項（原名：Sanujeong）；之後依路線選順路店，仍為候選。",
+      "note": "2026/10/18核對Doc提供的Naver店家ID、分享座標與Kakao同址店點。營業時間、菜單、價格及停車須出發前再確認；未訂位、未排入確定行程。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "使用者提供Naver短連結；解析店家ID與分享座標，並以Kakao店名、地號及道路地址交叉核對（2026/10/18）。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.48622269,
+        126.49260656
+      ],
+      "address": "제주특별자치도 제주시 은남4길 29",
+      "lotAddress": "제주특별자치도 제주시 연동 283-21 1층",
+      "docEntryNumber": 42,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/32163732",
+      "verificationUrl": "https://map.kakao.com/link/map/11800682",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%82%B0%EC%9A%B0%EC%A0%95%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%97%B0%EB%8F%99%20283-21%201%EC%B8%B5",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/xiLTP24P",
+          "label": "Doc第42項Naver店家連結 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "name": "Ireon Nal En 西式餐廳",
+      "original": "이런날엔 제주N스테이",
+      "category": "food",
+      "area": "east",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者Doc新增第43項（原名：Ireon Nal En）；之後依路線選順路店，仍為候選。",
+      "note": "2026/10/18核對Doc提供的Naver店家ID、分享座標與Kakao同址店點。營業時間、菜單、價格及停車須出發前再確認；未訂位、未排入確定行程。 Kakao列名「이런날엔 제주N스테이」，分類為西式餐廳；本次以餐廳候選收錄，不更動已訂住宿。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "使用者提供Naver短連結；解析店家ID與分享座標，並以Kakao店名、地號及道路地址交叉核對（2026/10/18）。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.54253281,
+        126.83065798
+      ],
+      "address": "제주특별자치도 제주시 구좌읍 해맞이해안로 1000",
+      "lotAddress": "제주특별자치도 제주시 구좌읍 한동리 1358-4 1-2층",
+      "docEntryNumber": 43,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/35575211",
+      "verificationUrl": "https://map.kakao.com/link/map/26452965",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%9D%B4%EB%9F%B0%EB%82%A0%EC%97%94%20%EC%A0%9C%EC%A3%BCN%EC%8A%A4%ED%85%8C%EC%9D%B4%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EA%B5%AC%EC%A2%8C%EC%9D%8D%20%ED%95%9C%EB%8F%99%EB%A6%AC%201358-4%201-2%EC%B8%B5",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/FCZtqLg3",
+          "label": "Doc第43項Naver店家連結 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "name": "Tramonto 濟州海景義大利麵",
+      "original": "트라몬토제주오션뷰파스타",
+      "category": "food",
+      "area": "west",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者Doc新增第44項（原名：Teuramonto济州海景意大利面）；之後依路線選順路店，仍為候選。",
+      "note": "2026/10/18核對Doc提供的Naver店家ID、分享座標與Kakao同址店點。營業時間、菜單、價格及停車須出發前再確認；未訂位、未排入確定行程。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "使用者提供Naver短連結；解析店家ID與分享座標，並以Kakao店名、地號及道路地址交叉核對（2026/10/18）。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.21745488,
+        126.24978842
+      ],
+      "address": "제주특별자치도 서귀포시 대정읍 하모항구로 38",
+      "lotAddress": "제주특별자치도 서귀포시 대정읍 하모리 770-59 하모항구로 38",
+      "docEntryNumber": 44,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1256156460",
+      "verificationUrl": "https://map.kakao.com/link/map/204842289",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%8A%B8%EB%9D%BC%EB%AA%AC%ED%86%A0%EC%A0%9C%EC%A3%BC%EC%98%A4%EC%85%98%EB%B7%B0%ED%8C%8C%EC%8A%A4%ED%83%80%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EB%8C%80%EC%A0%95%EC%9D%8D%20%ED%95%98%EB%AA%A8%EB%A6%AC%20770-59%20%ED%95%98%EB%AA%A8%ED%95%AD%EA%B5%AC%EB%A1%9C%2038",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/FmGzIOD0",
+          "label": "Doc第44項Naver店家連結 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "name": "Yolda・西歸浦中文店",
+      "original": "욜다 서귀포중문점",
+      "category": "food",
+      "area": "south",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者Doc新增第45項（原名：Yolda西归浦Jungmun店）；之後依路線選順路店，仍為候選。",
+      "note": "2026/10/18核對Doc提供的Naver店家ID、分享座標與Kakao同址店點。營業時間、菜單、價格及停車須出發前再確認；未訂位、未排入確定行程。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "使用者提供Naver短連結；解析店家ID與分享座標，並以Kakao店名、地號及道路地址交叉核對（2026/10/18）。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.2714974,
+        126.41442531
+      ],
+      "address": "제주특별자치도 서귀포시 색달중앙로 192",
+      "lotAddress": "제주특별자치도 서귀포시 색달동 1149-1 1층",
+      "docEntryNumber": 45,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/2025449776",
+      "verificationUrl": "https://map.kakao.com/link/map/273522019",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%9A%9C%EB%8B%A4%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%A4%91%EB%AC%B8%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%83%89%EB%8B%AC%EB%8F%99%201149-1%201%EC%B8%B5",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/GCJw3uPi",
+          "label": "Doc第45項Naver店家連結 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "name": "Unidam・咸德店",
+      "original": "함덕 우니담",
+      "category": "food",
+      "area": "east",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者Doc新增第46項（原名：牛肉Ni Dam济州Hamdeok店）；之後依路線選順路店，仍為候選。",
+      "note": "2026/10/18核對Doc提供的Naver店家ID、分享座標與Kakao同址店點。營業時間、菜單、價格及停車須出發前再確認；未訂位、未排入確定行程。 Doc原名「牛肉Ni Dam」為音譯；同址4樓店點為함덕 우니담，採相符門市，不把同棟其他餐廳當成這家。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "使用者提供Naver短連結；解析店家ID與分享座標，並以Kakao店名、地號及道路地址交叉核對（2026/10/18）。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.54249065,
+        126.66949951
+      ],
+      "address": "제주특별자치도 제주시 조천읍 조함해안로 530",
+      "lotAddress": "제주특별자치도 제주시 조천읍 함덕리 1004-30 4층",
+      "docEntryNumber": 46,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1701227821",
+      "verificationUrl": "https://map.kakao.com/link/map/638581736",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%95%A8%EB%8D%95%20%EC%9A%B0%EB%8B%88%EB%8B%B4%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%A1%B0%EC%B2%9C%EC%9D%8D%20%ED%95%A8%EB%8D%95%EB%A6%AC%201004-30%204%EC%B8%B5",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/x2YvFki8",
+          "label": "Doc第46項Naver店家連結 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ],
+      "branchGroup": "unidam"
+    },
+    {
+      "id": 138,
+      "name": "麥當勞・濟州外都 DT 店",
+      "original": "맥도날드 제주외도DT점",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者Doc新增第47項（原名：麦当劳济州Oedo DT店）；之後依路線選順路店，仍為候選。",
+      "note": "2026/10/18核對Doc提供的Naver店家ID、分享座標與Kakao同址店點。營業時間、菜單、價格及停車須出發前再確認；未訂位、未排入確定行程。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "使用者提供Naver短連結；解析店家ID與分享座標，並以Kakao店名、地號及道路地址交叉核對（2026/10/18）。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.49339044,
+        126.43117419
+      ],
+      "address": "제주특별자치도 제주시 일주서로 7339",
+      "lotAddress": "제주특별자치도 제주시 외도이동 345-1 1-2층",
+      "docEntryNumber": 47,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1047156856",
+      "verificationUrl": "https://map.kakao.com/link/map/868755337",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C%20%EC%A0%9C%EC%A3%BC%EC%99%B8%EB%8F%84DT%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%99%B8%EB%8F%84%EC%9D%B4%EB%8F%99%20345-1%201-2%EC%B8%B5",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/xfbu1RJn",
+          "label": "Doc第47項Naver店家連結 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ],
+      "branchGroup": "mcdonalds"
+    },
+    {
+      "id": 139,
+      "name": "順天美香・山房山總店",
+      "original": "순천미향 제주산방산본점",
+      "category": "food",
+      "area": "west",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者Doc新增第48項（原名：顺天Mihyang济州山房山总店）；之後依路線選順路店，仍為候選。",
+      "note": "2026/10/18核對Doc提供的Naver店家ID、分享座標與Kakao同址店點。營業時間、菜單、價格及停車須出發前再確認；未訂位、未排入確定行程。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "使用者提供Naver短連結；解析店家ID與分享座標，並以Kakao店名、地號及道路地址交叉核對（2026/10/18）。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.23566012,
+        126.31248238
+      ],
+      "address": "제주특별자치도 서귀포시 안덕면 사계남로216번길 24-73",
+      "lotAddress": "제주특별자치도 서귀포시 안덕면 사계리 163-6",
+      "docEntryNumber": 48,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/16958513",
+      "verificationUrl": "https://map.kakao.com/link/map/11996067",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%88%9C%EC%B2%9C%EB%AF%B8%ED%96%A5%20%EC%A0%9C%EC%A3%BC%EC%82%B0%EB%B0%A9%EC%82%B0%EB%B3%B8%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%95%88%EB%8D%95%EB%A9%B4%20%EC%82%AC%EA%B3%84%EB%A6%AC%20163-6",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/Fri6IlJt",
+          "label": "Doc第48項Naver店家連結 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "name": "山房山海鮮拉麵・哥哥家",
+      "original": "산방산해물라면오빠네",
+      "category": "food",
+      "area": "west",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者Doc新增第49項（原名：山房山海鲜拉面哥哥家）；之後依路線選順路店，仍為候選。",
+      "note": "2026/10/18核對Doc提供的Naver店家ID、分享座標與Kakao同址店點。營業時間、菜單、價格及停車須出發前再確認；未訂位、未排入確定行程。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "使用者提供Naver短連結；解析店家ID與分享座標，並以Kakao店名、地號及道路地址交叉核對（2026/10/18）。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.23522308,
+        126.3128538
+      ],
+      "address": "제주특별자치도 서귀포시 안덕면 사계남로216번길 24-68",
+      "lotAddress": "제주특별자치도 서귀포시 안덕면 사계리 171 1층 2호",
+      "docEntryNumber": 49,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1133619256",
+      "verificationUrl": "https://map.kakao.com/link/map/2085143112",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%82%B0%EB%B0%A9%EC%82%B0%ED%95%B4%EB%AC%BC%EB%9D%BC%EB%A9%B4%EC%98%A4%EB%B9%A0%EB%84%A4%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%95%88%EB%8D%95%EB%A9%B4%20%EC%82%AC%EA%B3%84%EB%A6%AC%20171%201%EC%B8%B5%202%ED%98%B8",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/5mv5sgqH",
+          "label": "Doc第49項Naver店家連結 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "name": "The Beach Crab・山房山店",
+      "original": "더비치크랩 제주산방산점",
+      "category": "food",
+      "area": "west",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者Doc新增第50項（原名：The海滨帝王蟹济州产Bangsan店）；之後依路線選順路店，仍為候選。",
+      "note": "2026/10/18核對Doc提供的Naver店家ID、分享座標與Kakao同址店點。營業時間、菜單、價格及停車須出發前再確認；未訂位、未排入確定行程。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "使用者提供Naver短連結；解析店家ID與分享座標，並以Kakao店名、地號及道路地址交叉核對（2026/10/18）。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.22822238,
+        126.30771301
+      ],
+      "address": "제주특별자치도 서귀포시 안덕면 사계남로 168",
+      "lotAddress": "제주특별자치도 서귀포시 안덕면 사계리 2071-1 1층",
+      "docEntryNumber": 50,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1262244487",
+      "verificationUrl": "https://map.kakao.com/link/map/236492368",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8D%94%EB%B9%84%EC%B9%98%ED%81%AC%EB%9E%A9%20%EC%A0%9C%EC%A3%BC%EC%82%B0%EB%B0%A9%EC%82%B0%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%95%88%EB%8D%95%EB%A9%B4%20%EC%82%AC%EA%B3%84%EB%A6%AC%202071-1%201%EC%B8%B5",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/xHEtWnBY",
+          "label": "Doc第50項Naver店家連結 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ],
+      "branchGroup": "beachcrab"
+    },
+    {
+      "id": 142,
+      "name": "三代海女之家・城山店",
+      "original": "3대해녀의집",
+      "category": "food",
+      "area": "east",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者Doc新增第51項（原名：三代海女之家Seongsan总店）；之後依路線選順路店，仍為候選。",
+      "note": "2026/10/18核對Doc提供的Naver店家ID、分享座標與Kakao同址店點。營業時間、菜單、價格及停車須出發前再確認；未訂位、未排入確定行程。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "使用者提供Naver短連結；解析店家ID與分享座標，並以Kakao店名、地號及道路地址交叉核對（2026/10/18）。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.40657166,
+        126.90667502
+      ],
+      "address": "제주특별자치도 서귀포시 성산읍 환해장성로 583-5",
+      "lotAddress": "제주특별자치도 서귀포시 성산읍 온평리 707-1 1층",
+      "docEntryNumber": 51,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/20125047",
+      "verificationUrl": "https://map.kakao.com/link/map/13563478",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=3%EB%8C%80%ED%95%B4%EB%85%80%EC%9D%98%EC%A7%91%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%84%B1%EC%82%B0%EC%9D%8D%20%EC%98%A8%ED%8F%89%EB%A6%AC%20707-1%201%EC%B8%B5",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/5K6GuOGr",
+          "label": "Doc第51項Naver店家連結 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "name": "Takuma 壽司・城山",
+      "original": "타쿠마",
+      "category": "food",
+      "area": "east",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者Doc新增第52項（原名：Seongsan Takuma寿司）；之後依路線選順路店，仍為候選。",
+      "note": "2026/10/18核對Doc提供的Naver店家ID、分享座標與Kakao同址店點。營業時間、菜單、價格及停車須出發前再確認；未訂位、未排入確定行程。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "使用者提供Naver短連結；解析店家ID與分享座標，並以Kakao店名、地號及道路地址交叉核對（2026/10/18）。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.43903093,
+        126.9184924
+      ],
+      "address": "제주특별자치도 서귀포시 성산읍 섭지코지로 15",
+      "lotAddress": "제주특별자치도 서귀포시 성산읍 고성리 489-4 1층",
+      "docEntryNumber": 52,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/307022508",
+      "verificationUrl": "https://map.kakao.com/link/map/1754127391",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%83%80%EC%BF%A0%EB%A7%88%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%84%B1%EC%82%B0%EC%9D%8D%20%EA%B3%A0%EC%84%B1%EB%A6%AC%20489-4%201%EC%B8%B5",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/5suoimyN",
+          "label": "Doc第52項Naver店家連結 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "name": "濟州魚店・城山",
+      "original": "제주어물전",
+      "category": "food",
+      "area": "east",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者Doc新增第53項（原名：济州鱼店Seongsan总店）；之後依路線選順路店，仍為候選。",
+      "note": "2026/10/18核對Doc提供的Naver店家ID、分享座標與Kakao同址店點。營業時間、菜單、價格及停車須出發前再確認；未訂位、未排入確定行程。 採고성리490-23的제주어물전；不採名稱相近、位於고성리1177的명태어장。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "使用者提供Naver短連結；解析店家ID與分享座標，並以Kakao店名、地號及道路地址交叉核對（2026/10/18）。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.43958189,
+        126.917253
+      ],
+      "address": "제주특별자치도 서귀포시 성산읍 신고로 42",
+      "lotAddress": "제주특별자치도 서귀포시 성산읍 고성리 490-23 1층",
+      "docEntryNumber": 53,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1000776229",
+      "verificationUrl": "https://map.kakao.com/link/map/285293706",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%A0%9C%EC%A3%BC%EC%96%B4%EB%AC%BC%EC%A0%84%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%84%B1%EC%82%B0%EC%9D%8D%20%EA%B3%A0%EC%84%B1%EB%A6%AC%20490-23%201%EC%B8%B5",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/FlB092tK",
+          "label": "Doc第53項Naver店家連結 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "name": "牛島海女食堂",
+      "original": "우도해녀식당",
+      "category": "food",
+      "area": "udo",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者Doc新增第54項（原名：牛岛海女饭店）；之後依路線選順路店，仍為候選。",
+      "note": "2026/10/18核對Doc提供的Naver店家ID、分享座標與Kakao同址店點。營業時間、菜單、價格及停車須出發前再確認；未訂位、未排入確定行程。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "使用者提供Naver短連結；解析店家ID與分享座標，並以Kakao店名、地號及道路地址交叉核對（2026/10/18）。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.51456587,
+        126.94898123
+      ],
+      "address": "제주특별자치도 제주시 우도면 우도해안길 440",
+      "lotAddress": "제주특별자치도 제주시 우도면 연평리 2308-3 1층",
+      "docEntryNumber": 54,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/37127116",
+      "verificationUrl": "https://map.kakao.com/link/map/27344111",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%9A%B0%EB%8F%84%ED%95%B4%EB%85%80%EC%8B%9D%EB%8B%B9%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%9A%B0%EB%8F%84%EB%A9%B4%20%EC%97%B0%ED%8F%89%EB%A6%AC%202308-3%201%EC%B8%B5",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/Gmpc0fMD",
+          "label": "Doc第54項Naver店家連結 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "name": "Mulkko 海女之家",
+      "original": "물꼬해녀의집",
+      "category": "food",
+      "area": "udo",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者Doc新增第55項（原名：Mulkko海女之家）；之後依路線選順路店，仍為候選。",
+      "note": "2026/10/18核對Doc提供的Naver店家ID、分享座標與Kakao同址店點。營業時間、菜單、價格及停車須出發前再確認；未訂位、未排入確定行程。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "使用者提供Naver短連結；解析店家ID與分享座標，並以Kakao店名、地號及道路地址交叉核對（2026/10/18）。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.51870277,
+        126.94983992
+      ],
+      "address": "제주특별자치도 제주시 우도면 우도해안길 496",
+      "lotAddress": "제주특별자치도 제주시 우도면 연평리 891 1층",
+      "docEntryNumber": 55,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/35862505",
+      "verificationUrl": "https://map.kakao.com/link/map/26557875",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%AC%BC%EA%BC%AC%ED%95%B4%EB%85%80%EC%9D%98%EC%A7%91%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%9A%B0%EB%8F%84%EB%A9%B4%20%EC%97%B0%ED%8F%89%EB%A6%AC%20891%201%EC%B8%B5",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/FKGdEO6R",
+          "label": "Doc第55項Naver店家連結 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "name": "Dodoreum 韓牛與黑豬肉",
+      "original": "도도름한우와흑돈",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者Doc新增第56項（原名：Dodoreum韩牛和黑猪）；之後依路線選順路店，仍為候選。",
+      "note": "2026/10/18核對Doc提供的Naver店家ID、分享座標與Kakao同址店點。營業時間、菜單、價格及停車須出發前再確認；未訂位、未排入確定行程。 採연동272-2／삼무로36的도도름한우와흑돈，不與과원북4길61的同音店點合併。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "使用者提供Naver短連結；解析店家ID與分享座標，並以Kakao店名、地號及道路地址交叉核對（2026/10/18）。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.48969058,
+        126.49049885
+      ],
+      "address": "제주특별자치도 제주시 삼무로 36",
+      "lotAddress": "제주특별자치도 제주시 연동 272-2 2,3층",
+      "docEntryNumber": 56,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1675391442",
+      "verificationUrl": "https://map.kakao.com/link/map/1992763064",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8F%84%EB%8F%84%EB%A6%84%ED%95%9C%EC%9A%B0%EC%99%80%ED%9D%91%EB%8F%88%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%97%B0%EB%8F%99%20272-2%202%2C3%EC%B8%B5",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/xF4M8L84",
+          "label": "Doc第56項Naver店家連結 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "name": "麥當勞・제주시청DT점",
+      "original": "맥도날드 제주시청DT점",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "由Doc第47項外都DT店延伸，依使用者「濟州分店都標出」偏好核對；方便按路線選店。",
+      "note": "2026/10/18核對Kakao店名、地址與相同麥當勞官方網域；排除停車場。現行營業時間、供應與得來速條件另確認；未預訂。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "Kakao店點及同品牌官網連結；非使用者逐店指定。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.49564757,
+        126.53310749
+      ],
+      "address": "제주특별자치도 제주시 중앙로 277",
+      "lotAddress": "제주특별자치도 제주시 이도이동 1057-2 1-3층",
+      "verificationUrl": "https://map.kakao.com/link/map/17593004",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%EC%B2%ADDT%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%A4%91%EC%95%99%EB%A1%9C%20277",
+      "branchGroup": "mcdonalds",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://www.mcdonalds.co.kr/",
+          "label": "麥當勞韓國官網 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "name": "麥當勞・제주노형DT점",
+      "original": "맥도날드 제주노형DT점",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "由Doc第47項外都DT店延伸，依使用者「濟州分店都標出」偏好核對；方便按路線選店。",
+      "note": "2026/10/18核對Kakao店名、地址與相同麥當勞官方網域；排除停車場。現行營業時間、供應與得來速條件另確認；未預訂。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "Kakao店點及同品牌官網連結；非使用者逐店指定。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.48633939,
+        126.48073137
+      ],
+      "address": "제주특별자치도 제주시 노연로 7",
+      "lotAddress": "제주특별자치도 제주시 노형동 903-5",
+      "verificationUrl": "https://map.kakao.com/link/map/11892780",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C%20%EC%A0%9C%EC%A3%BC%EB%85%B8%ED%98%95DT%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EB%85%B8%EC%97%B0%EB%A1%9C%207",
+      "branchGroup": "mcdonalds",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://www.mcdonalds.co.kr/",
+          "label": "麥當勞韓國官網 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "name": "麥當勞・제주일도DT점",
+      "original": "맥도날드 제주일도DT점",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "由Doc第47項外都DT店延伸，依使用者「濟州分店都標出」偏好核對；方便按路線選店。",
+      "note": "2026/10/18核對Kakao店名、地址與相同麥當勞官方網域；排除停車場。現行營業時間、供應與得來速條件另確認；未預訂。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "Kakao店點及同品牌官網連結；非使用者逐店指定。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.5075774,
+        126.54105931
+      ],
+      "address": "제주특별자치도 제주시 동광로 134",
+      "lotAddress": "제주특별자치도 제주시 일도이동 369-11 1-3층",
+      "verificationUrl": "https://map.kakao.com/link/map/25969934",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C%20%EC%A0%9C%EC%A3%BC%EC%9D%BC%EB%8F%84DT%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EB%8F%99%EA%B4%91%EB%A1%9C%20134",
+      "branchGroup": "mcdonalds",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://www.mcdonalds.co.kr/",
+          "label": "麥當勞韓國官網 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ]
+    },
+    {
+      "id": 151,
+      "name": "麥當勞・제주공항DT점",
+      "original": "맥도날드 제주공항DT점",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "由Doc第47項外都DT店延伸，依使用者「濟州分店都標出」偏好核對；方便按路線選店。",
+      "note": "2026/10/18核對Kakao店名、地址與相同麥當勞官方網域；排除停車場。現行營業時間、供應與得來速條件另確認；未預訂。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "Kakao店點及同品牌官網連結；非使用者逐店指定。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.49503923,
+        126.49257451
+      ],
+      "address": "제주특별자치도 제주시 도령로 159",
+      "lotAddress": "제주특별자치도 제주시 용담이동 1787 1-2층",
+      "verificationUrl": "https://map.kakao.com/link/map/26781633",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C%20%EC%A0%9C%EC%A3%BC%EA%B3%B5%ED%95%ADDT%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EB%8F%84%EB%A0%B9%EB%A1%9C%20159",
+      "branchGroup": "mcdonalds",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://www.mcdonalds.co.kr/",
+          "label": "麥當勞韓國官網 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "name": "麥當勞・제주중문DT점",
+      "original": "맥도날드 제주중문DT점",
+      "category": "food",
+      "area": "south",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "由Doc第47項外都DT店延伸，依使用者「濟州分店都標出」偏好核對；方便按路線選店。",
+      "note": "2026/10/18核對Kakao店名、地址與相同麥當勞官方網域；排除停車場。現行營業時間、供應與得來速條件另確認；未預訂。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "Kakao店點及同品牌官網連結；非使用者逐店指定。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.25482964,
+        126.41376387
+      ],
+      "address": "제주특별자치도 서귀포시 중문관광로 38",
+      "lotAddress": "제주특별자치도 서귀포시 색달동 2558-1 1층",
+      "verificationUrl": "https://map.kakao.com/link/map/772452159",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C%20%EC%A0%9C%EC%A3%BC%EC%A4%91%EB%AC%B8DT%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%A4%91%EB%AC%B8%EA%B4%80%EA%B4%91%EB%A1%9C%2038",
+      "branchGroup": "mcdonalds",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://www.mcdonalds.co.kr/",
+          "label": "麥當勞韓國官網 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "name": "麥當勞・탑동점",
+      "original": "맥도날드 탑동점",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "由Doc第47項外都DT店延伸，依使用者「濟州分店都標出」偏好核對；方便按路線選店。",
+      "note": "2026/10/18核對Kakao店名、地址與相同麥當勞官方網域；排除停車場。現行營業時間、供應與得來速條件另確認；未預訂。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "Kakao店點及同品牌官網連結；非使用者逐店指定。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.51669691,
+        126.52666116
+      ],
+      "address": "제주특별자치도 제주시 임항로 17",
+      "lotAddress": "제주특별자치도 제주시 건입동 1442 1-2층",
+      "verificationUrl": "https://map.kakao.com/link/map/10347171",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C%20%ED%83%91%EB%8F%99%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%9E%84%ED%95%AD%EB%A1%9C%2017",
+      "branchGroup": "mcdonalds",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://www.mcdonalds.co.kr/",
+          "label": "麥當勞韓國官網 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "name": "麥當勞・제주서귀포DT점",
+      "original": "맥도날드 제주서귀포DT점",
+      "category": "food",
+      "area": "south",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "由Doc第47項外都DT店延伸，依使用者「濟州分店都標出」偏好核對；方便按路線選店。",
+      "note": "2026/10/18核對Kakao店名、地址與相同麥當勞官方網域；排除停車場。現行營業時間、供應與得來速條件另確認；未預訂。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "Kakao店點及同品牌官網連結；非使用者逐店指定。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.25327138,
+        126.56268378
+      ],
+      "address": "제주특별자치도 서귀포시 일주동로 8665",
+      "lotAddress": "제주특별자치도 서귀포시 서귀동 284-29 1-2층",
+      "verificationUrl": "https://map.kakao.com/link/map/19762619",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C%20%EC%A0%9C%EC%A3%BC%EC%84%9C%EA%B7%80%ED%8F%ACDT%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%9D%BC%EC%A3%BC%EB%8F%99%EB%A1%9C%208665",
+      "branchGroup": "mcdonalds",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://www.mcdonalds.co.kr/",
+          "label": "麥當勞韓國官網 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "name": "麥當勞・제주월드컵스타디움DT점",
+      "original": "맥도날드 제주월드컵스타디움DT점",
+      "category": "food",
+      "area": "south",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "由Doc第47項外都DT店延伸，依使用者「濟州分店都標出」偏好核對；方便按路線選店。",
+      "note": "2026/10/18核對Kakao店名、地址與相同麥當勞官方網域；排除停車場。現行營業時間、供應與得來速條件另確認；未預訂。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "Kakao店點及同品牌官網連結；非使用者逐店指定。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.24937413,
+        126.50735001
+      ],
+      "address": "제주특별자치도 서귀포시 일주서로 7",
+      "lotAddress": "제주특별자치도 서귀포시 강정동 231-1",
+      "verificationUrl": "https://map.kakao.com/link/map/26785641",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C%20%EC%A0%9C%EC%A3%BC%EC%9B%94%EB%93%9C%EC%BB%B5%EC%8A%A4%ED%83%80%EB%94%94%EC%9B%80DT%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%9D%BC%EC%A3%BC%EC%84%9C%EB%A1%9C%207",
+      "branchGroup": "mcdonalds",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://www.mcdonalds.co.kr/",
+          "label": "麥當勞韓國官網 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ]
+    },
+    {
+      "id": 156,
+      "name": "麥當勞・제주도남DT점",
+      "original": "맥도날드 제주도남DT점",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "由Doc第47項外都DT店延伸，依使用者「濟州分店都標出」偏好核對；方便按路線選店。",
+      "note": "2026/10/18核對Kakao店名、地址與相同麥當勞官方網域；排除停車場。現行營業時間、供應與得來速條件另確認；未預訂。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "Kakao店點及同品牌官網連結；非使用者逐店指定。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.48020959,
+        126.52787535
+      ],
+      "address": "제주특별자치도 제주시 연북로 434",
+      "lotAddress": "제주특별자치도 제주시 도남동 419 1~2층",
+      "verificationUrl": "https://map.kakao.com/link/map/1367658824",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C%20%EC%A0%9C%EC%A3%BC%EB%8F%84%EB%82%A8DT%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%97%B0%EB%B6%81%EB%A1%9C%20434",
+      "branchGroup": "mcdonalds",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://www.mcdonalds.co.kr/",
+          "label": "麥當勞韓國官網 ↗",
+          "sourceId": "user-doc-restaurants-20261018"
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "name": "Unidam 우니담・애월 우니담",
+      "original": "애월 우니담",
+      "category": "food",
+      "area": "west",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "由Doc第46項延伸，依使用者濟州分店都標出的偏好收錄，之後按路線選。",
+      "note": "2026/10/18核對相同品牌名稱與店點地址；現行營業、菜單與分店關係仍請出發前確認，非已預訂。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "Kakao同品牌店點；Unidam兩店分別使用相同unidam_jeju識別，The Beach Crab機場及山房山店連結同品牌IG，協財店以相同品牌名列店。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.47249733,
+        126.34845578
+      ],
+      "address": "제주특별자치도 제주시 애월읍 고내로13길 107",
+      "lotAddress": "제주특별자치도 제주시 애월읍 고내리 350 2층",
+      "verificationUrl": "https://map.kakao.com/link/map/517851086",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%95%A0%EC%9B%94%20%EC%9A%B0%EB%8B%88%EB%8B%B4%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%95%A0%EC%9B%94%EC%9D%8D%20%EA%B3%A0%EB%82%B4%EB%A1%9C13%EA%B8%B8%20107",
+      "branchGroup": "unidam",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": []
+    },
+    {
+      "id": 158,
+      "name": "The Beach Crab・더비치크랩 제주협재점",
+      "original": "더비치크랩 제주협재점",
+      "category": "food",
+      "area": "west",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "由Doc第50項延伸，依使用者濟州分店都標出的偏好收錄，之後按路線選。",
+      "note": "2026/10/18核對相同品牌名稱與店點地址；現行營業、菜單與分店關係仍請出發前確認，非已預訂。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "Kakao同品牌店點；Unidam兩店分別使用相同unidam_jeju識別，The Beach Crab機場及山房山店連結同品牌IG，協財店以相同品牌名列店。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.39225418,
+        126.2410944
+      ],
+      "address": "제주특별자치도 제주시 한림읍 협재2길 10-1",
+      "lotAddress": "제주특별자치도 제주시 한림읍 협재리 2021-10 2층",
+      "verificationUrl": "https://map.kakao.com/link/map/1783500473",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8D%94%EB%B9%84%EC%B9%98%ED%81%AC%EB%9E%A9%20%EC%A0%9C%EC%A3%BC%ED%98%91%EC%9E%AC%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%ED%95%9C%EB%A6%BC%EC%9D%8D%20%ED%98%91%EC%9E%AC2%EA%B8%B8%2010-1",
+      "branchGroup": "beachcrab",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": []
+    },
+    {
+      "id": 159,
+      "name": "The Beach Crab・더비치크랩 제주공항점",
+      "original": "더비치크랩 제주공항점",
+      "category": "food",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "由Doc第50項延伸，依使用者濟州分店都標出的偏好收錄，之後按路線選。",
+      "note": "2026/10/18核對相同品牌名稱與店點地址；現行營業、菜單與分店關係仍請出發前確認，非已預訂。",
+      "sourceId": "user-doc-restaurants-20261018",
+      "evidence": "Kakao同品牌店點；Unidam兩店分別使用相同unidam_jeju識別，The Beach Crab機場及山房山店連結同品牌IG，協財店以相同品牌名列店。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.5167817,
+        126.515247
+      ],
+      "address": "제주특별자치도 제주시 동한두기길 31",
+      "lotAddress": "제주특별자치도 제주시 용담일동 432",
+      "verificationUrl": "https://map.kakao.com/link/map/950570694",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8D%94%EB%B9%84%EC%B9%98%ED%81%AC%EB%9E%A9%20%EC%A0%9C%EC%A3%BC%EA%B3%B5%ED%95%AD%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EB%8F%99%ED%95%9C%EB%91%90%EA%B8%B0%EA%B8%B8%2031",
+      "branchGroup": "beachcrab",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": []
     }
   ],
   "unlocated": [
@@ -3725,22 +4849,6 @@
       "sourceId": "illy-jeju-EmnNjCMowHA",
       "status": "unlocated",
       "confirmationPrompt": "加波島海鮮麵有指定店名或招牌截圖嗎？目前只有影片餐廳描述。"
-    },
-    {
-      "name": "Hugely Jeju 휴즐리 제주",
-      "original": "hugely jeju 橘子冰淇淋",
-      "category": "cafe",
-      "area": "north",
-      "videoDay": null,
-      "timestamp": null,
-      "why": "鈞兒阿姨清單推薦；先收藏作為兩人行程的候選。",
-      "note": "VisitJeju 官方文章確認地址與品牌 IG https://www.instagram.com/hugely_jeju/；招牌為漢拏峰柑橘造型 젤라봉 與玄武岩造型 IM 현무。文章是 2023 年資料，僅採用品牌、地址、菜色辨識，不當作 2026 年營業時間或价格證據。 已知地址：제주특별자치도 제주시 흥운길 83；地圖店點尚未核對。",
-      "sourceId": "aunt-juner-list-20261014",
-      "evidence": "使用者提供的鈞兒阿姨行程截圖；名稱與地址按連結來源核對。",
-      "videoVisit": "personal",
-      "status": "unlocated",
-      "verificationUrl": "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_300000000016149",
-      "id": "aunt-hugely-jeju"
     },
     {
       "name": "Audrant Bakery 오드랑베이커리",
@@ -4278,6 +5386,54 @@
         124,
         125,
         126
+      ]
+    },
+    {
+      "id": "mcdonalds",
+      "label": "麥當勞 McDonald’s",
+      "checked": "2026-10-18",
+      "preference": "不指定分店，按路線選；尚未排入行程",
+      "originalRecommendation": "Doc第47項：濟州外都DT店／외도이동345-1",
+      "sourceUrl": "https://map.kakao.com/?q=%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C%20%EC%A0%9C%EC%A3%BC",
+      "coverageNote": "本次核對濟州本島10間餐廳，均連至同品牌官網；排除停車場，營業與供應須出發前再查。",
+      "placeIds": [
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        138,
+        154,
+        155,
+        156
+      ]
+    },
+    {
+      "id": "unidam",
+      "label": "Unidam 우니담",
+      "checked": "2026-10-18",
+      "preference": "不指定分店，按路線選；尚未排入行程",
+      "originalRecommendation": "Doc第46項",
+      "sourceUrl": "https://map.kakao.com/?q=Unidam%20%EC%9A%B0%EB%8B%88%EB%8B%B4%20%EC%A0%9C%EC%A3%BC",
+      "coverageNote": "本次核對2間濟州門市，未將其他相似名稱餐廳當分店；現行營業出發前再查。",
+      "placeIds": [
+        157,
+        137
+      ]
+    },
+    {
+      "id": "beachcrab",
+      "label": "The Beach Crab",
+      "checked": "2026-10-18",
+      "preference": "不指定分店，按路線選；尚未排入行程",
+      "originalRecommendation": "Doc第50項",
+      "sourceUrl": "https://map.kakao.com/?q=The%20Beach%20Crab%20%EC%A0%9C%EC%A3%BC",
+      "coverageNote": "本次核對3間濟州門市，未將其他相似名稱餐廳當分店；現行營業出發前再查。",
+      "placeIds": [
+        158,
+        141,
+        159
       ]
     }
   ]
