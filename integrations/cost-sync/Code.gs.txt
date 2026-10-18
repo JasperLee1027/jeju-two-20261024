@@ -1,0 +1,313 @@
+/** 濟州島 Doc 同步。從目標 Google Doc 的「擴充功能 → Apps Script」建立。 */
+const SYNC_MARKER = '【濟州島網站同步區｜請在此框外補充或標紅字】';
+const SYNC_VERSION = '1.1.0';
+
+/** 第一次由你在 Apps Script 編輯器執行；只保存設定，不改文件內容。 */
+function setup() {
+  const doc = DocumentApp.getActiveDocument();
+  if (!doc) throw new Error('請從目標 Google Doc 的「擴充功能 → Apps Script」開啟後執行。');
+  const props = PropertiesService.getScriptProperties();
+  const previous = props.getProperty('DOC_ID');
+  if (previous && previous !== doc.getId()) throw new Error('本程式已綁定另一份文件，請勿改綁。');
+  const token = props.getProperty('SYNC_TOKEN') || (Utilities.getUuid() + Utilities.getUuid()).replace(/-/g, '');
+  const tab = doc.getActiveTab();
+  props.setProperties({DOC_ID: doc.getId(), TAB_ID: tab.getId(), SYNC_TOKEN: token});
+  console.log('設定成功，文件：' + doc.getName());
+  console.log('JEJU_DOC_SYNC_TOKEN（只填入 Codex 私密金鑰欄，勿貼聊天）：' + token);
+}
+
+/** 編輯器內的唯讀測試：不更動文件，也不輸出金鑰。 */
+function verifyConnection() {
+  const state = openTarget_();
+  console.log('文件可讀取：' + state.doc.getName());
+  console.log('文字長度：' + state.body.getText().length);
+  console.log('設定已完成；尚須部署網頁應用程式及由雲端測試寫入。');
+}
+
+/** 公開健康檢查只顯示程式狀態，無文件內容或金鑰。 */
+function doGet(e) {
+  if(e && e.parameter && e.parameter.action === 'costRead') return jejuCostsGet_(e);
+  const p = PropertiesService.getScriptProperties();
+  return json_({ok: true, service: 'jeju-doc-sync', version: SYNC_VERSION,
+    configured: !!(p.getProperty('DOC_ID') && p.getProperty('TAB_ID') && p.getProperty('SYNC_TOKEN'))});
+}
+
+function doPost(e) {
+  let lock;
+  try {
+    const raw = e && e.postData && e.postData.contents;
+    if (!raw || raw.length > 250000) throw new Error('INVALID_REQUEST');
+    let request;
+    try { request = JSON.parse(raw); } catch (_) { throw new Error('INVALID_JSON'); }
+    if (['costRead', 'costWrite'].includes(request.action)) return json_(jejuCostsRequest_(request));
+    const props = PropertiesService.getScriptProperties();
+    const expected = props.getProperty('SYNC_TOKEN');
+    if (!expected || !equal_(request.token, expected)) throw new Error('UNAUTHORIZED');
+    if (!['ping', 'read', 'sync', 'costSetup', 'costProbeCreate', 'costProbeRemove'].includes(request.action)) throw new Error('UNKNOWN_ACTION');
+    lock = LockService.getScriptLock();
+    lock.waitLock(15000);
+    if (request.action === 'costSetup' || request.action === 'costProbeCreate') return json_(jejuCostsSetup_(props, request.action === 'costProbeCreate'));
+    if (request.action === 'costProbeRemove') return json_(jejuCostsRemoveProbe_(props, request.room));
+    const target = openTarget_();
+    if (request.action === 'ping') return json_({ok: true, service: 'jeju-doc-sync',
+      version: SYNC_VERSION, documentTitle: target.doc.getName(), authorized: true});
+    if (request.action === 'read') {
+      const table = findTable_(target.body);
+      const checksum = table ? fingerprint_(table) : null;
+      return json_({ok: true, title: target.doc.getName(), text: target.body.getText(),
+        redRuns: redRuns_(target.body), sync: {exists: !!table, checksum: checksum,
+          manuallyEdited: !!table && checksum !== props.getProperty('LAST_CHECKSUM')}});
+    }
+    return json_(sync_(target, props, request));
+  } catch (error) {
+    const code = String(error && error.message || 'REQUEST_FAILED');
+    const safe = /^[A-Z_]+$/.test(code) ? code : 'REQUEST_FAILED';
+    return json_({ok: false, error: safe});
+  } finally {
+    if (lock && lock.hasLock()) lock.releaseLock();
+  }
+}
+
+function openTarget_() {
+  const p = PropertiesService.getScriptProperties();
+  const id = p.getProperty('DOC_ID'), tabId = p.getProperty('TAB_ID');
+  if (!id || !tabId) throw new Error('SETUP_REQUIRED');
+  const doc = DocumentApp.openById(id);
+  const tab = doc.getTab(tabId);
+  if (!tab) throw new Error('TARGET_TAB_MISSING');
+  return {doc: doc, body: tab.asDocumentTab().getBody()};
+}
+
+function sync_(target, props, request) {
+  const snapshot = validateSnapshot_(request.snapshot);
+  let table = findTable_(target.body);
+  if (!table && props.getProperty('LAST_CHECKSUM')) throw new Error('SYNC_SECTION_MISSING');
+  const actual = table ? fingerprint_(table) : null;
+  if (!Object.prototype.hasOwnProperty.call(request, 'expectedChecksum') || request.expectedChecksum !== actual)
+    throw new Error('DOCUMENT_CHANGED_READ_AGAIN');
+  if (table && (actual !== props.getProperty('LAST_CHECKSUM') || redRuns_(table).length))
+    throw new Error('MANUAL_EDIT_IN_SYNC_SECTION');
+  const contentHash = digest_(JSON.stringify(snapshot));
+  if (props.getProperty('LAST_UPDATE_ID') === snapshot.updateId) {
+    if (props.getProperty('LAST_CONTENT_HASH') !== contentHash) throw new Error('UPDATE_ID_REUSED');
+    return {ok: true, changed: false, updateId: snapshot.updateId, checksum: actual};
+  }
+  const lines = [SYNC_MARKER,
+    '同步時間（台灣）：' + Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy/MM/dd HH:mm'),
+    '網站版本：' + snapshot.updateId, ''];
+  snapshot.sections.forEach(section => {
+    lines.push('■ ' + section.title);
+    section.lines.forEach(line => lines.push(line));
+    lines.push('');
+  });
+  // 只更動程式自己的單格表格。其餘段落、表格、圖片、超連結與紅字均保留。
+  const content = lines.join('\n').trimEnd();
+  if (table) table.getCell(0, 0).setText(content);
+  else table = target.body.appendTable([[content]]);
+  const text = table.editAsText();
+  text.setForegroundColor('#000000');
+  const checksum = fingerprint_(table);
+  props.setProperties({LAST_CHECKSUM: checksum, LAST_UPDATE_ID: snapshot.updateId, LAST_CONTENT_HASH: contentHash});
+  target.doc.saveAndClose();
+  return {ok: true, changed: true, updateId: snapshot.updateId, checksum: checksum};
+}
+
+function findTable_(body) {
+  let found = null;
+  for (let i = 0; i < body.getNumChildren(); i++) {
+    const child = body.getChild(i);
+    if (child.getType() !== DocumentApp.ElementType.TABLE) continue;
+    const table = child.asTable();
+    if (table.getNumRows() !== 1 || table.getRow(0).getNumCells() !== 1) continue;
+    if (table.getCell(0, 0).getText().split('\n')[0] !== SYNC_MARKER) continue;
+    if (found) throw new Error('DUPLICATE_SYNC_SECTIONS');
+    found = table;
+  }
+  return found;
+}
+
+function validateSnapshot_(snapshot) {
+  if (!snapshot || typeof snapshot.updateId !== 'string' || !/^[a-zA-Z0-9._-]{1,100}$/.test(snapshot.updateId))
+    throw new Error('INVALID_SNAPSHOT');
+  if (!Array.isArray(snapshot.sections) || !snapshot.sections.length || snapshot.sections.length > 50)
+    throw new Error('INVALID_SNAPSHOT');
+  const clean = {updateId: snapshot.updateId, sections: snapshot.sections.map(section => {
+    if (!section || typeof section.title !== 'string' || !section.title.trim() || section.title.length > 200 ||
+        !Array.isArray(section.lines) || !section.lines.length || section.lines.length > 1000 ||
+        section.lines.some(line => typeof line !== 'string' || line.length > 5000)) throw new Error('INVALID_SNAPSHOT');
+    return {title: section.title, lines: section.lines.slice()};
+  })};
+  if (JSON.stringify(clean).length > 180000) throw new Error('SNAPSHOT_TOO_LARGE');
+  return clean;
+}
+
+function fingerprint_(element) {
+  const text = element.editAsText();
+  const runs = text.getTextAttributeIndices().map(start => {
+    const attributes = text.getAttributes(start);
+    return [start, Object.keys(attributes).sort().map(key => [key, attributes[key]])];
+  });
+  return digest_(JSON.stringify([text.getText(), runs]));
+}
+
+function redRuns_(element) {
+  const text = element.editAsText(), value = text.getText(), indices = text.getTextAttributeIndices(), result = [];
+  for (let i = 0; i < indices.length; i++) {
+    const start = indices[i], end = i + 1 < indices.length ? indices[i + 1] : value.length;
+    const color = text.getForegroundColor(start);
+    if (isRed_(color) && value.slice(start, end).trim()) result.push({start: start, end: end, color: color, text: value.slice(start, end)});
+  }
+  return result;
+}
+
+function isRed_(color) {
+  if (typeof color !== 'string' || !/^#[0-9a-f]{6}$/i.test(color)) return false;
+  const r = parseInt(color.slice(1, 3), 16), g = parseInt(color.slice(3, 5), 16), b = parseInt(color.slice(5, 7), 16);
+  return r >= 100 && r - g >= 45 && r - b >= 35 && Math.abs(g - b) <= 80;
+}
+function equal_(given, expected) {
+  if (typeof given !== 'string' || given.length !== expected.length) return false;
+  let different = 0;
+  for (let i = 0; i < expected.length; i++) different |= given.charCodeAt(i) ^ expected.charCodeAt(i);
+  return different === 0;
+}
+function digest_(value) {
+  return Utilities.base64EncodeWebSafe(Utilities.computeDigest(Utilities.DigestAlgorithm.SHA_256, value, Utilities.Charset.UTF_8));
+}
+function json_(value) {
+  return ContentService.createTextOutput(JSON.stringify(value)).setMimeType(ContentService.MimeType.JSON);
+}
+
+
+/* Shared budget schema and three-way merges; also bundled into Apps Script. */
+'use strict';
+var JejuCostModel=(()=>{
+  const fields=['fare','car-model','days','rate','insurance','extras','cost-hotel','cost-hotel-custom','cost-esim','cost-esim-count','cost-esim-custom','cost-usd','cost-jpy'];
+  const numberFields=new Set(['days','rate','insurance','extras','cost-hotel-custom','cost-esim-custom','cost-usd','cost-jpy']);
+  const copy=x=>x===undefined?undefined:JSON.parse(JSON.stringify(x));
+  const same=(a,b)=>JSON.stringify(a)===JSON.stringify(b);
+  function normalize(value){
+    if(!value||typeof value!=='object'||Array.isArray(value))throw new Error('INVALID_BUDGET');
+    const result={};
+    for(const field of fields){
+      const text=value[field];
+      if(typeof text!=='string'||text.length>120)throw new Error('INVALID_BUDGET');
+      if(numberFields.has(field)&&text!==''&&(!/^(?:\d+\.?\d*|\.\d+)(?:e[+-]?\d+)?$/i.test(text)||!Number.isFinite(Number(text))||Number(text)<0||Number(text)>1e9))throw new Error('INVALID_AMOUNT');
+      result[field]=text;
+    }
+    if(!Array.isArray(value.customExpenses)||value.customExpenses.length>200)throw new Error('TOO_MANY_EXPENSES');
+    const seen=new Set();
+    result.customExpenses=value.customExpenses.map(row=>{
+      if(!row||typeof row.id!=='string'||!/^[a-zA-Z0-9_-]{1,100}$/.test(row.id)||['__proto__','constructor','prototype'].includes(row.id)||seen.has(row.id)||typeof row.name!=='string'||row.name.length>80||typeof row.amount!=='string'||row.amount.length>32)throw new Error('INVALID_EXPENSE');
+      if(row.amount!==''&&(!/^(?:\d+\.?\d*|\.\d+)(?:e[+-]?\d+)?$/i.test(row.amount)||!Number.isFinite(Number(row.amount))||Number(row.amount)<0||Number(row.amount)>1e9))throw new Error('INVALID_AMOUNT');
+      seen.add(row.id);return {id:row.id,name:row.name,amount:row.amount};
+    });
+    if(JSON.stringify(result).length>45000)throw new Error('BUDGET_TOO_LARGE');
+    return result;
+  }
+  function merge(base,local,remote){
+    base=normalize(base);local=normalize(local);remote=normalize(remote);
+    const snapshot=copy(remote),conflicts=[];
+    function pick(b,l,r,conflict){
+      if(same(l,r))return copy(l);
+      if(same(l,b))return copy(r);
+      if(same(r,b))return copy(l);
+      conflicts.push({...conflict,local:copy(l),remote:copy(r)});return copy(r);
+    }
+    for(const field of fields)snapshot[field]=pick(base[field],local[field],remote[field],{kind:'field',field,label:field});
+    const toMap=rows=>new Map(rows.map(row=>[row.id,row]));
+    const b=toMap(base.customExpenses),l=toMap(local.customExpenses),r=toMap(remote.customExpenses);
+    const order=[...new Set([...r.keys(),...l.keys(),...b.keys()])],rows=[];
+    for(const id of order){
+      const before=b.get(id),mine=l.get(id),theirs=r.get(id);
+      if(!mine&&!theirs)continue;
+      const name=mine?.name||theirs?.name||before?.name||'未命名費用';
+      if(!mine||!theirs){
+        const row=pick(before,mine,theirs,{kind:'row-presence',id,label:name});if(row)rows.push(row);continue;
+      }
+      const row={id};
+      for(const field of ['name','amount'])row[field]=pick(before?.[field],mine[field],theirs[field],{kind:'row',id,field,label:name+(field==='name'?'・名稱':'・金額')});
+      rows.push(row);
+    }
+    snapshot.customExpenses=rows;return {snapshot:normalize(snapshot),conflicts};
+  }
+  function resolve(result,side){
+    if(!['local','remote'].includes(side))throw new Error('INVALID_RESOLUTION');
+    const snapshot=copy(result.snapshot);
+    for(const c of result.conflicts){
+      const value=copy(c[side]);
+      if(c.kind==='field')snapshot[c.field]=value;
+      else if(c.kind==='row-presence'){
+        const index=snapshot.customExpenses.findIndex(r=>r.id===c.id);
+        if(value){if(index>=0)snapshot.customExpenses[index]=value;else snapshot.customExpenses.push(value);}
+        else if(index>=0)snapshot.customExpenses.splice(index,1);
+      }else{const row=snapshot.customExpenses.find(r=>r.id===c.id);if(row)row[c.field]=value;}
+    }
+    return normalize(snapshot);
+  }
+  return {fields,normalize,merge,resolve,same,copy};
+})();
+if(typeof module!=='undefined'&&module.exports)module.exports=JejuCostModel;
+
+
+/** Shared budgets use their own keys; they never accept the Doc token in a browser. */
+const JEJU_COST_PREFIX='JEJU_COSTS_ROOM_';
+const JEJU_COST_DATA='JEJU_COSTS_DATA_';
+
+function jejuCostsSetup_(props,probe) {
+  let room=probe?null:props.getProperty('JEJU_COSTS_MAIN_ROOM');
+  if(room){const existing=jejuCostsMeta_(props,room);return {ok:true,service:'jeju-shared-costs',room:room,key:existing.key,existing:true};}
+  room=Utilities.getUuid().replace(/-/g,'');
+  const key=(Utilities.getUuid()+Utilities.getUuid()).replace(/-/g,'');
+  props.setProperty(JEJU_COST_PREFIX+room,JSON.stringify({key:key,probe:!!probe,revision:0,chunks:0,previousRevision:null,previousChunks:0,updatedAt:null,writes:[]}));
+  if(!probe)props.setProperty('JEJU_COSTS_MAIN_ROOM',room);
+  return {ok:true,service:'jeju-shared-costs',room:room,key:key,existing:false};
+}
+function jejuCostsMeta_(props,room){
+  if(typeof room!=='string'||!/^[a-f0-9]{32}$/.test(room))throw new Error('COSTS_UNAUTHORIZED');
+  const raw=props.getProperty(JEJU_COST_PREFIX+room);if(!raw)throw new Error('COSTS_UNAUTHORIZED');return JSON.parse(raw);
+}
+function jejuCostsAuthorized_(given,expected){
+  if(typeof given!=='string'||given.length!==expected.length)return false;
+  let diff=0;for(let i=0;i<expected.length;i++)diff|=given.charCodeAt(i)^expected.charCodeAt(i);return diff===0;
+}
+function jejuCostsState_(props,room,meta){
+  let data=null;
+  if(meta.chunks){let text='';for(let n=0;n<meta.chunks;n++){const chunk=props.getProperty(JEJU_COST_DATA+room+'_'+meta.revision+'_'+n);if(chunk===null)throw new Error('COSTS_STORAGE_INCOMPLETE');text+=chunk;}data=JejuCostModel.normalize(JSON.parse(text));}
+  return {ok:true,service:'jeju-shared-costs',version:1,revision:meta.revision,updatedAt:meta.updatedAt,data:data,writes:meta.writes};
+}
+function jejuCostsRequest_(request){
+  let lock;
+  try{
+    const props=PropertiesService.getScriptProperties();let meta=jejuCostsMeta_(props,request.room);
+    if(!jejuCostsAuthorized_(request.key,meta.key))throw new Error('COSTS_UNAUTHORIZED');
+    if(!['costRead','costWrite'].includes(request.action))throw new Error('COSTS_UNKNOWN_ACTION');
+    lock=LockService.getScriptLock();lock.waitLock(15000);meta=jejuCostsMeta_(props,request.room);
+    if(request.action==='costRead')return jejuCostsState_(props,request.room,meta);
+    if(typeof request.writeId!=='string'||!/^[a-zA-Z0-9_-]{16,100}$/.test(request.writeId))throw new Error('COSTS_INVALID_WRITE');
+    // An acknowledged retry never overwrites a later partner edit.
+    if(meta.writes.some(w=>w.id===request.writeId))return jejuCostsState_(props,request.room,meta);
+    if(!Number.isSafeInteger(request.expectedRevision)||request.expectedRevision!==meta.revision)return {ok:false,error:'COSTS_CONFLICT',revision:meta.revision};
+    const data=JejuCostModel.normalize(request.data),text=JSON.stringify(data);
+    if(Utilities.newBlob(text).getBytes().length>65000)throw new Error('COSTS_TOO_LARGE');
+    const revision=meta.revision+1,chunkSize=1200,characters=Array.from(text),chunks=Math.ceil(characters.length/chunkSize),values={};
+    for(let n=0;n<chunks;n++)values[JEJU_COST_DATA+request.room+'_'+revision+'_'+n]=characters.slice(n*chunkSize,(n+1)*chunkSize).join('');
+    // Commit a new generation first, then atomically move the small metadata pointer.
+    props.setProperties(values);
+    const next={key:meta.key,probe:meta.probe,revision:revision,chunks:chunks,previousRevision:meta.revision,previousChunks:meta.chunks,updatedAt:new Date().toISOString(),writes:meta.writes.concat([{id:request.writeId,revision:revision}]).slice(-16)};
+    props.setProperty(JEJU_COST_PREFIX+request.room,JSON.stringify(next));
+    // Keep one previous generation; cleanup failure must not invalidate a committed write.
+    try{if(meta.previousRevision!==null)for(let n=0;n<meta.previousChunks;n++)props.deleteProperty(JEJU_COST_DATA+request.room+'_'+meta.previousRevision+'_'+n);}catch(_){}
+    return jejuCostsState_(props,request.room,next);
+  }catch(error){const code=String(error&&error.message||'COSTS_REQUEST_FAILED');return {ok:false,error:/^[A-Z_]+$/.test(code)?code:'COSTS_REQUEST_FAILED'};}
+  finally{if(lock&&lock.hasLock())lock.releaseLock();}
+}
+function jejuCostsGet_(e){
+  const p=e&&e.parameter||{},result=jejuCostsRequest_({action:'costRead',room:p.room,key:p.key});
+  if(typeof p.callback==='string'&&/^__jejuCosts[a-zA-Z0-9_]{1,100}$/.test(p.callback))return ContentService.createTextOutput(p.callback+'('+JSON.stringify(result).replace(/\u2028/g,'\\u2028').replace(/\u2029/g,'\\u2029')+');').setMimeType(ContentService.MimeType.JAVASCRIPT);
+  return ContentService.createTextOutput(JSON.stringify(result)).setMimeType(ContentService.MimeType.JSON);
+}
+function jejuCostsRemoveProbe_(props,room){
+  const meta=jejuCostsMeta_(props,room);if(!meta.probe||props.getProperty('JEJU_COSTS_MAIN_ROOM')===room)throw new Error('COSTS_NOT_A_PROBE');
+  const prefix=JEJU_COST_DATA+room+'_';Object.keys(props.getProperties()).filter(k=>k.indexOf(prefix)===0).forEach(k=>props.deleteProperty(k));props.deleteProperty(JEJU_COST_PREFIX+room);return {ok:true,removed:true};
+}
