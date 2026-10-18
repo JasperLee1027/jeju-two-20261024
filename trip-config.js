@@ -44,3 +44,18 @@ const confirmedTravelInsurance={
   "timeZoneNote": "暫按台灣時間記錄，保單時區仍待核對",
   "confirmedOn": "2026-10-17"
 };
+
+const confirmedCar={
+  "id": "booked-orcar-mini-20261024-v1",
+  "company": "Orcar",
+  "model": "MINI Cooper 敞篷",
+  "pickup": "2026-10-24T08:20:00+09:00",
+  "returnAt": "2026-10-27T18:30:00+09:00",
+  "timeZone": "Asia/Seoul",
+  "durationMinutes": 4930,
+  "total": 12823,
+  "currency": "TWD",
+  "paid": true,
+  "insuranceIncluded": true,
+  "confirmedOn": "2026-10-18"
+};
