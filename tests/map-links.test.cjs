@@ -28,3 +28,12 @@ test('non-map Google links and malformed URLs do not become map links',()=>{
  for(const url of ['https://www.google.com/travel/flights/','https://docs.google.com/document/d/example','https://photos.google.com/example','invalid'])assert.equal(maps.isGoogleMaps(url),false);
  assert.equal(maps.naverSearch(''),'');
 });
+
+test('verified Naver place links open the specific store; other targets fall back to venue searches',()=>{
+ const merged=data.places.find(p=>p.id===11);
+ assert.equal(maps.placeNaverUrl(merged),'https://map.naver.com/p/entry/place/1422544447');
+ for(const target of ['javascript:alert(1)','https://example.com/p/entry/place/123','https://map.naver.com/p/entry/place/123?redirect=other','https://map.naver.com.evil.example/p/entry/place/123']){
+  const p={original:'카페',area:'east',naverMapUrl:target};
+  assert.equal(maps.placeNaverUrl(p),maps.naverSearch(maps.placeQuery(p)));
+ }
+});

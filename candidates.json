@@ -55,6 +55,14 @@
       "title": "海景豪華套房・10/23–27四晚",
       "url": "https://www.booking.com/hotel/kr/jeju-seongsan-ocean-view-stay.zh-tw.html",
       "checked": "2026-10-17"
+    },
+    {
+      "id": "user-doc-cafes-20261018",
+      "type": "personal",
+      "creator": "使用者Doc新增咖啡廳",
+      "title": "使用者確認的Doc紅字第25–34項（2026/10/18）",
+      "checked": "2026-10-18",
+      "note": "使用者已逐批確認全部收錄為候選；非已預訂或確定行程。個別位置核對見各店卡片；私人文件連結不公開。"
     }
   ],
   "places": [
@@ -344,9 +352,9 @@
       "videoDay": 3,
       "timestamp": 1530,
       "why": "去牛島前的貝果早餐，影片喜歡青蔥、火腿等口味。",
-      "note": "熱門店候位與到店時間要再確認；定位為東福里濟州店。",
+      "note": "熱門店候位與到店時間要再確認；定位為東福里濟州店。 2026/10/18核對Doc第33項：同為동복리 719-1／동복로 85的濟州店，與既有候選合併，保留原編號與想去紀錄。",
       "sourceId": "celine-jeju-rLSIg9TOWF8",
-      "evidence": "影片說明及原附地圖連結",
+      "evidence": "影片說明及原附地圖連結；Doc補充Naver連結並與Kakao同址店點（1660674336）交叉核對，未新增重複標點。",
       "videoVisit": "visited",
       "status": "candidate",
       "coordinates": [
@@ -356,11 +364,25 @@
       "plusCode": "8Q58HP38+C6Q",
       "mapUrl": "https://www.google.com/maps/place/London+Bagel+Museum+Jeju/data=!3m1!4b1!4m4!3m3!1s0x350d1970b7a01c3b:0x9522d57871ef1c43!16s%2Fg%2F11kjk4m45n!20s8Q58HP38%2BC6Q?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
       "originalMapUrl": "https://maps.app.goo.gl/4rq3rfSXZspG3ReP8",
-      "address": "85 Dongbok-ro, Gujwa-eup, 특별자치도, Jeju-si, Jeju-do, 南韓",
+      "address": "제주특별자치도 제주시 구좌읍 동복로 85",
       "recommendations": [
         {
           "sourceId": "aunt-juner-list-20261014",
           "note": "鈞兒阿姨清單也推薦此地點"
+        },
+        {
+          "sourceId": "user-doc-cafes-20261018",
+          "note": "Doc紅字第33項，已核對為東福里719-1／동복로85的同一家濟州店，合併不重複標點。"
+        }
+      ],
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1422544447",
+      "docEntryNumber": 33,
+      "lotAddress": "제주특별자치도 제주시 구좌읍 동복리 719-1 2동 1층",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/F7FK9asS",
+          "label": "Doc第33項Naver店家連結 ↗",
+          "sourceId": "user-doc-cafes-20261018"
         }
       ]
     },
@@ -3229,6 +3251,411 @@
       "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EA%B5%AC%EC%A2%8C%EC%9D%8D%20%ED%95%B4%EB%A7%9E%EC%9D%B4%ED%95%B4%EC%95%88%EB%A1%9C%202040",
       "locationConfidence": "booking-address",
       "locationChecked": "2026-10-17"
+    },
+    {
+      "id": 115,
+      "name": "Lucia 咖啡廳・總店",
+      "original": "카페루시아 본점",
+      "category": "cafe",
+      "area": "south",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者於2026/10/18確認Doc紅字第25項加入候選，之後依路線選擇；尚未排入四日行程。",
+      "note": "店名、地號與座標已用Kakao店點交叉核對；Naver原連結保留。營業時間、休息日、餐點與停車條件仍需出發前核對；未預訂、未排入確定行程。",
+      "sourceId": "user-doc-cafes-20261018",
+      "evidence": "來源為使用者Doc紅字及Naver分享連結，已確認收錄。2026/10/18解析Naver店家ID；詳細頁受限，座標依Kakao相符店點核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.23520544,
+        126.36307014
+      ],
+      "address": "제주특별자치도 서귀포시 안덕면 난드르로 49-17",
+      "lotAddress": "제주특별자치도 서귀포시 안덕면 창천리 840-1",
+      "docEntryNumber": 25,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/37153676",
+      "verificationUrl": "https://map.kakao.com/link/map/1666998566",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%B9%B4%ED%8E%98%EB%A3%A8%EC%8B%9C%EC%95%84%20%EB%B3%B8%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%95%88%EB%8D%95%EB%A9%B4%20%EB%82%9C%EB%93%9C%EB%A5%B4%EB%A1%9C%2049-17",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/5fdlHHIS",
+          "label": "使用者提供的Naver店家連結 ↗",
+          "sourceId": "user-doc-cafes-20261018"
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "name": "夢想 Deu Aewol・蒙想涯月（營業待核對）",
+      "original": "몽상드애월 · Monsant de Aewol",
+      "category": "cafe",
+      "area": "west",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者於2026/10/18確認Doc紅字第26項加入候選，之後依路線選擇；尚未排入四日行程。",
+      "note": "Doc寫「夢想Deu Aewol」、애월리 2546；該地號可定位，但本次Kakao未找到相符的몽상드애월咖啡廳，同址列有其他商家。此點僅為提供地址的地塊位置，不能視為現行營業或店家入口；保留使用者Naver原連結，出發前需確認是否仍為原咖啡廳。不將同址服飾店或餐廳當成這家咖啡廳。",
+      "sourceId": "user-doc-cafes-20261018",
+      "evidence": "來源為使用者Doc紅字及Naver分享連結，已確認收錄。2026/10/18解析Naver店家ID；詳細頁受限，座標依Kakao提供地址查詢，僅為地址定位。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.4631107559939,
+        126.309386865676
+      ],
+      "address": "제주특별자치도 제주시 애월읍 애월리 2546",
+      "lotAddress": "제주특별자치도 제주시 애월읍 애월리 2546",
+      "docEntryNumber": 26,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/37170797",
+      "verificationUrl": "https://map.kakao.com/?q=%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%95%A0%EC%9B%94%EC%9D%8D%20%EC%95%A0%EC%9B%94%EB%A6%AC%202546",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%AA%BD%EC%83%81%EB%93%9C%EC%95%A0%EC%9B%94%20%C2%B7%20Monsant%20de%20Aewol%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%95%A0%EC%9B%94%EC%9D%8D%20%EC%95%A0%EC%9B%94%EB%A6%AC%202546",
+      "locationConfidence": "address-only",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/FJOXggcx",
+          "label": "使用者提供的Naver店家連結 ↗",
+          "sourceId": "user-doc-cafes-20261018"
+        }
+      ],
+      "locationLabel": "提供地址標點・店名／營業待核對"
+    },
+    {
+      "id": 117,
+      "name": "Del Mundo・咸德店",
+      "original": "델문도",
+      "category": "cafe",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者於2026/10/18確認Doc紅字第27項加入候選，之後依路線選擇；尚未排入四日行程。",
+      "note": "店名、地號與座標已用Kakao店點交叉核對；Naver原連結保留。營業時間、休息日、餐點與停車條件仍需出發前核對；未預訂、未排入確定行程。",
+      "sourceId": "user-doc-cafes-20261018",
+      "evidence": "來源為使用者Doc紅字及Naver分享連結，已確認收錄。2026/10/18解析Naver店家ID；詳細頁受限，座標依Kakao相符店點核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.54370934,
+        126.66872396
+      ],
+      "address": "제주특별자치도 제주시 조천읍 조함해안로 519-10",
+      "lotAddress": "제주특별자치도 제주시 조천읍 함덕리 1008-1 1층",
+      "docEntryNumber": 27,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/36859834",
+      "verificationUrl": "https://map.kakao.com/link/map/26867476",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8D%B8%EB%AC%B8%EB%8F%84%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%A1%B0%EC%B2%9C%EC%9D%8D%20%EC%A1%B0%ED%95%A8%ED%95%B4%EC%95%88%EB%A1%9C%20519-10",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/FKGdEED6",
+          "label": "使用者提供的Naver店家連結 ↗",
+          "sourceId": "user-doc-cafes-20261018"
+        }
+      ],
+      "branchGroup": "delmoondo"
+    },
+    {
+      "id": 118,
+      "name": "Gyulkkot Darak 柑橘花閣樓咖啡廳",
+      "original": "귤꽃다락",
+      "category": "cafe",
+      "area": "south",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者於2026/10/18確認Doc紅字第28項加入候選，之後依路線選擇；尚未排入四日行程。",
+      "note": "店名、地號與座標已用Kakao店點交叉核對；Naver原連結保留。營業時間、休息日、餐點與停車條件仍需出發前核對；未預訂、未排入確定行程。",
+      "sourceId": "user-doc-cafes-20261018",
+      "evidence": "來源為使用者Doc紅字及Naver分享連結，已確認收錄。2026/10/18解析Naver店家ID；詳細頁受限，座標依Kakao相符店點核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.24640841,
+        126.52253931
+      ],
+      "address": "제주특별자치도 서귀포시 이어도로1027번길 34",
+      "lotAddress": "제주특별자치도 서귀포시 서호동 133",
+      "docEntryNumber": 28,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1939769414",
+      "verificationUrl": "https://map.kakao.com/link/map/1437167844",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EA%B7%A4%EA%BD%83%EB%8B%A4%EB%9D%BD%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%9D%B4%EC%96%B4%EB%8F%84%EB%A1%9C1027%EB%B2%88%EA%B8%B8%2034",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/Gjyl99zC",
+          "label": "使用者提供的Naver店家連結 ↗",
+          "sourceId": "user-doc-cafes-20261018"
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "name": "魔女丘陵海景咖啡廳",
+      "original": "마녀의언덕카페",
+      "category": "cafe",
+      "area": "south",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者於2026/10/18確認Doc紅字第29項加入候選，之後依路線選擇；尚未排入四日行程。",
+      "note": "店名、地號與座標已用Kakao店點交叉核對；Naver原連結保留。營業時間、休息日、餐點與停車條件仍需出發前核對；未預訂、未排入確定行程。 依Doc的하예동 702選咖啡廳（예래해안로 205），不誤用隔鄰702-4／209號的同名住宿。",
+      "sourceId": "user-doc-cafes-20261018",
+      "evidence": "來源為使用者Doc紅字及Naver分享連結，已確認收錄。2026/10/18解析Naver店家ID；詳細頁受限，座標依Kakao相符店點核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.23402832,
+        126.38446204
+      ],
+      "address": "제주특별자치도 서귀포시 예래해안로 205",
+      "lotAddress": "제주특별자치도 서귀포시 하예동 702 1층",
+      "docEntryNumber": 29,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1058746359",
+      "verificationUrl": "https://map.kakao.com/link/map/162617006",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%A7%88%EB%85%80%EC%9D%98%EC%96%B8%EB%8D%95%EC%B9%B4%ED%8E%98%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%98%88%EB%9E%98%ED%95%B4%EC%95%88%EB%A1%9C%20205",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/xwo3ttJj",
+          "label": "使用者提供的Naver店家連結 ↗",
+          "sourceId": "user-doc-cafes-20261018"
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "name": "VADADA 大海 Da 海景咖啡廳",
+      "original": "바다다",
+      "category": "cafe",
+      "area": "south",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者於2026/10/18確認Doc紅字第30項加入候選，之後依路線選擇；尚未排入四日行程。",
+      "note": "店名、地號與座標已用Kakao店點交叉核對；Naver原連結保留。營業時間、休息日、餐點與停車條件仍需出發前核對；未預訂、未排入確定行程。 Doc填대포동 2380，Kakao該地號有停車場與其他商家；VADADA店點列대포동 2384，與停車場同道路地址대포로 148-15。地圖採咖啡廳店點，不標成停車場；未將附近其他品牌當同店。",
+      "sourceId": "user-doc-cafes-20261018",
+      "evidence": "來源為使用者Doc紅字及Naver分享連結，已確認收錄。2026/10/18解析Naver店家ID；詳細頁受限，座標依Kakao相符店點核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.23690685,
+        126.43671502
+      ],
+      "address": "제주특별자치도 서귀포시 대포로 148-15",
+      "lotAddress": "제주특별자치도 서귀포시 대포동 2384",
+      "docEntryNumber": 30,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/38335352",
+      "verificationUrl": "https://map.kakao.com/link/map/1983315941",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%B0%94%EB%8B%A4%EB%8B%A4%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EB%8C%80%ED%8F%AC%EB%A1%9C%20148-15",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/5p0caapK",
+          "label": "使用者提供的Naver店家連結 ↗",
+          "sourceId": "user-doc-cafes-20261018"
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "name": "Colette Coffee・Kolleteu 咖啡",
+      "original": "콜레트커피",
+      "category": "cafe",
+      "area": "south",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者於2026/10/18確認Doc紅字第31項加入候選，之後依路線選擇；尚未排入四日行程。",
+      "note": "店名、地號與座標已用Kakao店點交叉核對；Naver原連結保留。營業時間、休息日、餐點與停車條件仍需出發前核對；未預訂、未排入確定行程。",
+      "sourceId": "user-doc-cafes-20261018",
+      "evidence": "來源為使用者Doc紅字及Naver分享連結，已確認收錄。2026/10/18解析Naver店家ID；詳細頁受限，座標依Kakao相符店點核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.2342617,
+        126.51324443
+      ],
+      "address": "제주특별자치도 서귀포시 막숙포로 83",
+      "lotAddress": "제주특별자치도 서귀포시 법환동 172-2 1층",
+      "docEntryNumber": 31,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1693437305",
+      "verificationUrl": "https://map.kakao.com/link/map/1386133201",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%BD%9C%EB%A0%88%ED%8A%B8%EC%BB%A4%ED%94%BC%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EB%A7%89%EC%88%99%ED%8F%AC%EB%A1%9C%2083",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/x6JSTBTT",
+          "label": "使用者提供的Naver店家連結 ↗",
+          "sourceId": "user-doc-cafes-20261018"
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "name": "Peullo 波浪（店名／位置待核對）",
+      "original": "Peullo 波浪（Doc原名）",
+      "category": "cafe",
+      "area": "west",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者於2026/10/18確認Doc紅字第32項加入候選，之後依路線選擇；尚未排入四日行程。",
+      "note": "Doc提供한림리 56-1，地圖僅標此門牌位置。附近Kakao有「플로웨이브／Flowave」，列한림리 56-3、장원길 63-10；因名稱與門牌未完全相符，未直接合併或把鄰店座標冒當本店。保留使用者Naver原連結；現行店名、入口與營業待核對。",
+      "sourceId": "user-doc-cafes-20261018",
+      "evidence": "來源為使用者Doc紅字及Naver分享連結，已確認收錄。2026/10/18解析Naver店家ID；詳細頁受限，座標依Kakao提供地址查詢，僅為地址定位。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.4134916434073,
+        126.282885076812
+      ],
+      "address": "제주특별자치도 제주시 한림읍 한림리 56-1",
+      "lotAddress": "제주특별자치도 제주시 한림읍 한림리 56-1",
+      "docEntryNumber": 32,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1893434747",
+      "verificationUrl": "https://map.kakao.com/?q=%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%ED%95%9C%EB%A6%BC%EC%9D%8D%20%ED%95%9C%EB%A6%BC%EB%A6%AC%2056-1",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=Peullo%20%E6%B3%A2%E6%B5%AA%EF%BC%88Doc%E5%8E%9F%E5%90%8D%EF%BC%89%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%ED%95%9C%EB%A6%BC%EC%9D%8D%20%ED%95%9C%EB%A6%BC%EB%A6%AC%2056-1",
+      "locationConfidence": "address-only",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/F1ayBbJi",
+          "label": "使用者提供的Naver店家連結 ↗",
+          "sourceId": "user-doc-cafes-20261018"
+        }
+      ],
+      "locationLabel": "提供地址標點・店名／營業待核對"
+    },
+    {
+      "id": 123,
+      "name": "Hawaiian 海濱咖啡廳",
+      "original": "하와이안비치카페",
+      "category": "cafe",
+      "area": "east",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者於2026/10/18確認Doc紅字第34項加入候選，之後依路線選擇；尚未排入四日行程。",
+      "note": "店名、地號與座標已用Kakao店點交叉核對；Naver原連結保留。營業時間、休息日、餐點與停車條件仍需出發前核對；未預訂、未排入確定行程。",
+      "sourceId": "user-doc-cafes-20261018",
+      "evidence": "來源為使用者Doc紅字及Naver分享連結，已確認收錄。2026/10/18解析Naver店家ID；詳細頁受限，座標依Kakao相符店點核對。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.43516684,
+        126.91747119
+      ],
+      "address": "제주특별자치도 서귀포시 성산읍 신양로122번길 57",
+      "lotAddress": "제주특별자치도 서귀포시 성산읍 고성리 559-17 2층",
+      "docEntryNumber": 34,
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1022918000",
+      "verificationUrl": "https://map.kakao.com/link/map/198860625",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%95%98%EC%99%80%EC%9D%B4%EC%95%88%EB%B9%84%EC%B9%98%EC%B9%B4%ED%8E%98%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%84%B1%EC%82%B0%EC%9D%8D%20%EC%8B%A0%EC%96%91%EB%A1%9C122%EB%B2%88%EA%B8%B8%2057",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://naver.me/5LQczNx3",
+          "label": "使用者提供的Naver店家連結 ↗",
+          "sourceId": "user-doc-cafes-20261018"
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "name": "Del Mundo Roasters・濟州市烘焙店",
+      "original": "델문도 로스터스",
+      "category": "cafe",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者要求有分店的品牌標出濟州各店，方便依路線選順路店；由Doc的Del Mundo咸德店展開，非使用者逐一指定或已預訂。",
+      "note": "2026/10/18 Kakao列此店，店家網址同指向Delmoondo官網；地址、店名與座標交叉核對。營業與菜單待出發前確認。",
+      "sourceId": "user-doc-cafes-20261018",
+      "evidence": "Kakao濟州Delmoondo店點，同官網https://www.delmoondo.com/；不把停車場或二樓Delmoondo Museum重複列為咖啡分店。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.49180902,
+        126.52633176
+      ],
+      "address": "제주특별자치도 제주시 연삼로 316",
+      "lotAddress": "제주특별자치도 제주시 도남동 61-4 MS빌딩 1층",
+      "verificationUrl": "https://map.kakao.com/link/map/1115019463",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8D%B8%EB%AC%B8%EB%8F%84%20%EB%A1%9C%EC%8A%A4%ED%84%B0%EC%8A%A4%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%97%B0%EC%82%BC%EB%A1%9C%20316",
+      "branchGroup": "delmoondo",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://www.delmoondo.com/",
+          "label": "Delmoondo品牌官網 ↗"
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "name": "Del Mundo・金寧店",
+      "original": "델문도 김녕점",
+      "category": "cafe",
+      "area": "east",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者要求有分店的品牌標出濟州各店，方便依路線選順路店；由Doc的Del Mundo咸德店展開，非使用者逐一指定或已預訂。",
+      "note": "2026/10/18 Kakao列此店，店家網址同指向Delmoondo官網；地址、店名與座標交叉核對。營業與菜單待出發前確認。",
+      "sourceId": "user-doc-cafes-20261018",
+      "evidence": "Kakao濟州Delmoondo店點，同官網https://www.delmoondo.com/；不把停車場或二樓Delmoondo Museum重複列為咖啡分店。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.56341122,
+        126.76840301
+      ],
+      "address": "제주특별자치도 제주시 구좌읍 해맞이해안로 140",
+      "lotAddress": "제주특별자치도 제주시 구좌읍 김녕리 462-15",
+      "verificationUrl": "https://map.kakao.com/link/map/178682435",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8D%B8%EB%AC%B8%EB%8F%84%20%EA%B9%80%EB%85%95%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EA%B5%AC%EC%A2%8C%EC%9D%8D%20%ED%95%B4%EB%A7%9E%EC%9D%B4%ED%95%B4%EC%95%88%EB%A1%9C%20140",
+      "branchGroup": "delmoondo",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://www.delmoondo.com/",
+          "label": "Delmoondo品牌官網 ↗"
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "name": "Del Mundo・濟州道立美術館店",
+      "original": "델문도 제주도립미술관점",
+      "category": "cafe",
+      "area": "north",
+      "videoDay": null,
+      "timestamp": null,
+      "why": "使用者要求有分店的品牌標出濟州各店，方便依路線選順路店；由Doc的Del Mundo咸德店展開，非使用者逐一指定或已預訂。",
+      "note": "2026/10/18 Kakao列此店，店家網址同指向Delmoondo官網；地址、店名與座標交叉核對。營業與菜單待出發前確認。 位於濟州道立美術館，入館規則、是否需展覽票及咖啡廳開放時間需另核對。",
+      "sourceId": "user-doc-cafes-20261018",
+      "evidence": "Kakao濟州Delmoondo店點，同官網https://www.delmoondo.com/；不把停車場或二樓Delmoondo Museum重複列為咖啡分店。",
+      "videoVisit": "personal",
+      "status": "candidate",
+      "coordinates": [
+        33.45254876,
+        126.48968793
+      ],
+      "address": "제주특별자치도 제주시 1100로 2894-78",
+      "lotAddress": "제주특별자치도 제주시 연동 680",
+      "verificationUrl": "https://map.kakao.com/link/map/2078031244",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8D%B8%EB%AC%B8%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EB%8F%84%EB%A6%BD%EB%AF%B8%EC%88%A0%EA%B4%80%EC%A0%90%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%201100%EB%A1%9C%202894-78",
+      "branchGroup": "delmoondo",
+      "locationConfidence": "store-point",
+      "locationChecked": "2026-10-18",
+      "recommendationLinks": [
+        {
+          "url": "https://www.delmoondo.com/",
+          "label": "Delmoondo品牌官網 ↗"
+        }
+      ]
     }
   ],
   "unlocated": [
@@ -3828,7 +4255,21 @@
         112,
         113
       ]
+    },
+    {
+      "id": "delmoondo",
+      "label": "Del Mundo 咖啡廳",
+      "checked": "2026-10-18",
+      "preference": "不指定分店，依路線選；尚未排入行程",
+      "originalRecommendation": "Doc紅字第27項：咸德店／함덕리1008-1",
+      "sourceUrl": "https://map.kakao.com/?q=%EB%8D%B8%EB%AC%B8%EB%8F%84%20%EC%A0%9C%EC%A3%BC",
+      "coverageNote": "本次核對到4間濟州咖啡門市：咸德、Roasters、金寧及濟州道立美術館；Kakao各店均連至同品牌官網。不把停車場及二樓Museum另列咖啡分店；可能新增或歇業，出發前再查，館內店需確認入館規則。",
+      "placeIds": [
+        117,
+        124,
+        125,
+        126
+      ]
     }
   ]
 }
-

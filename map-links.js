@@ -16,6 +16,13 @@
     const region=place.area==='udo'?'우도':place.area==='gapado'?'가파도':'제주';
     return clean(name+(name.includes(region)?'':' '+region));
   }
+  function placeNaverUrl(place){
+    try{
+      const url=new URL(place.naverMapUrl);
+      if(url.protocol==='https:'&&url.hostname==='map.naver.com'&&/^\/p\/entry\/place\/\d+$/.test(url.pathname)&&!url.username&&!url.password&&!url.port&&!url.search&&!url.hash)return url.href;
+    }catch{}
+    return naverSearch(placeQuery(place));
+  }
   function isGoogleMaps(value){
     try{
       const u=new URL(value);
@@ -33,7 +40,7 @@
       return match?clean(decodeURIComponent(match[1].replace(/\+/g,' '))):'';
     }catch{return '';}
   }
-  const api={naverSearch,placeQuery,isGoogleMaps,googleQuery};
+  const api={naverSearch,placeQuery,placeNaverUrl,isGoogleMaps,googleQuery};
   if(typeof module!=='undefined'&&module.exports)module.exports=api;
   else window.JejuMaps=api;
 })();
