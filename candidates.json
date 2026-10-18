@@ -3295,7 +3295,7 @@
       "videoDay": null,
       "timestamp": null,
       "why": "使用者於2026/10/18確認Doc紅字第26項加入候選，之後依路線選擇；尚未排入四日行程。",
-      "note": "Doc寫「夢想Deu Aewol」、애월리 2546；該地號可定位，但本次Kakao未找到相符的몽상드애월咖啡廳，同址列有其他商家。此點僅為提供地址的地塊位置，不能視為現行營業或店家入口；保留使用者Naver原連結，出發前需確認是否仍為原咖啡廳。不將同址服飾店或餐廳當成這家咖啡廳。",
+      "note": "Doc寫「夢想Deu Aewol」、애월리 2546；該地號可定位，但本次Kakao未找到相符的몽상드애월咖啡廳，同址列有其他商家。此點僅為提供地址的地塊位置，不能視為現行營業或店家入口；保留使用者Naver原連結，出發前需確認是否仍為原咖啡廳。不將同址服飾店或餐廳當成這家咖啡廳。 新增照片時另核對Trazy收錄的몽상咖啡廳：地址同為애월리2546；使用該頁舊店外觀照片作參考。旅遊頁與舊照不能確認現行營業，原地址定位提醒保留。",
       "sourceId": "user-doc-cafes-20261018",
       "evidence": "來源為使用者Doc紅字及Naver分享連結，已確認收錄。2026/10/18解析Naver店家ID；詳細頁受限，座標依Kakao提供地址查詢，僅為地址定位。",
       "videoVisit": "personal",
@@ -3316,6 +3316,11 @@
         {
           "url": "https://naver.me/FJOXggcx",
           "label": "使用者提供的Naver店家連結 ↗",
+          "sourceId": "user-doc-cafes-20261018"
+        },
+        {
+          "url": "https://www.trazy.com/spot/2845/cafe-aewol-monsant-%EC%B9%B4%ED%8E%98-%EC%95%A0%EC%9B%94-%EB%93%9C-%EB%AA%BD%EC%83%81-restaurant-cafe",
+          "label": "Trazy同址蒙想涯月舊店照片 ↗",
           "sourceId": "user-doc-cafes-20261018"
         }
       ],
@@ -3494,38 +3499,42 @@
     },
     {
       "id": 122,
-      "name": "Peullo 波浪（店名／位置待核對）",
-      "original": "Peullo 波浪（Doc原名）",
+      "name": "Flowave 波浪咖啡廳（Peullo）",
+      "original": "플로웨이브 · Flowave",
       "category": "cafe",
       "area": "west",
       "videoDay": null,
       "timestamp": null,
       "why": "使用者於2026/10/18確認Doc紅字第32項加入候選，之後依路線選擇；尚未排入四日行程。",
-      "note": "Doc提供한림리 56-1，地圖僅標此門牌位置。附近Kakao有「플로웨이브／Flowave」，列한림리 56-3、장원길 63-10；因名稱與門牌未完全相符，未直接合併或把鄰店座標冒當本店。保留使用者Naver原連結；現行店名、入口與營業待核對。",
+      "note": "2026/10/18新增照片時找到Visit Jeju官方Flowave頁，明列한림리 56-1／장원길 63-12及座標，與Doc第32項地址相符，據此將Peullo波浪辨識為플로웨이브／Flowave並採官方標點。Kakao另列56-3／63-10，與官方地址不同；導航與停車入口依店家最新資訊核對。照片為官方收錄內部空間；現行營業、菜單與夜間活動仍需出發前核對，未預訂。",
       "sourceId": "user-doc-cafes-20261018",
-      "evidence": "來源為使用者Doc紅字及Naver分享連結，已確認收錄。2026/10/18解析Naver店家ID；詳細頁受限，座標依Kakao提供地址查詢，僅為地址定位。",
+      "evidence": "使用者確認Doc第32項與Naver原連結；2026/10/18讀取Visit Jeju官方頁CNTS_300000000013069，核對Flowave名稱、한림리56-1／장원길63-12、座標及照片；不再僅依鄰店名稱推測。",
       "videoVisit": "personal",
       "status": "candidate",
       "coordinates": [
-        33.4134916434073,
-        126.282885076812
+        33.4135624,
+        126.2828649
       ],
-      "address": "제주특별자치도 제주시 한림읍 한림리 56-1",
+      "address": "제주특별자치도 제주시 한림읍 장원길 63-12",
       "lotAddress": "제주특별자치도 제주시 한림읍 한림리 56-1",
       "docEntryNumber": 32,
       "naverMapUrl": "https://map.naver.com/p/entry/place/1893434747",
-      "verificationUrl": "https://map.kakao.com/?q=%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%ED%95%9C%EB%A6%BC%EC%9D%8D%20%ED%95%9C%EB%A6%BC%EB%A6%AC%2056-1",
-      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=Peullo%20%E6%B3%A2%E6%B5%AA%EF%BC%88Doc%E5%8E%9F%E5%90%8D%EF%BC%89%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%ED%95%9C%EB%A6%BC%EC%9D%8D%20%ED%95%9C%EB%A6%BC%EB%A6%AC%2056-1",
-      "locationConfidence": "address-only",
+      "verificationUrl": "https://www.visitjeju.net/en/detail/view?contentsid=CNTS_300000000013069",
+      "originalMapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%94%8C%EB%A1%9C%EC%9B%A8%EC%9D%B4%EB%B8%8C%20%C2%B7%20Flowave%20%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%ED%95%9C%EB%A6%BC%EC%9D%8D%20%EC%9E%A5%EC%9B%90%EA%B8%B8%2063-12",
+      "locationConfidence": "official-point",
       "locationChecked": "2026-10-18",
       "recommendationLinks": [
         {
           "url": "https://naver.me/F1ayBbJi",
           "label": "使用者提供的Naver店家連結 ↗",
           "sourceId": "user-doc-cafes-20261018"
+        },
+        {
+          "url": "https://www.visitjeju.net/en/detail/view?contentsid=CNTS_300000000013069",
+          "label": "Visit Jeju核對Flowave名稱、地址與照片 ↗",
+          "sourceId": "user-doc-cafes-20261018"
         }
-      ],
-      "locationLabel": "提供地址標點・店名／營業待核對"
+      ]
     },
     {
       "id": 123,
