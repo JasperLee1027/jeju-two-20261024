@@ -23,3 +23,7 @@
 ## 想去清單驗證
 
 `node --test tests/wish-memory.test.cjs` 可驗證連結序列化、空白清單與無效輸入。網站仍不需安裝依賴或執行建置。
+
+## 地圖連結
+
+韓國地點保留Google地圖並提供Naver Map搜尋；有分店時帶入個別地址，照片出處不改成Naver來源。台灣監理站維持Google地圖。`node --test tests/map-links.test.cjs` 可檢查全部候選目標與分店查詢。
